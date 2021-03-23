@@ -83,13 +83,14 @@ for EPOCHS tims repeat:
 In fact, the value of $f$ is decreasing in each iteration. The proof is straight forward as it is illustrated in below:
 By *taylor exapansion* of a function $f$  we have:
 $$f(x+v) = f(x) + \nabla_x f(x)^Tv  + O(||v||_2^2)$$
-Now choose $v$ to be multiplication of gradient i.e. $
+Now choose $v$ to be multiplication of gradient i.e. $-\alpha\nabla_x f(x)$. By substituting in the above equation we have:
+$$f(x+$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjc0NjgzMjcxLC0xNjAyMjgxNzgsLTEzMD
-MyNDMwMDgsLTE0Nzg3Nzg1NjcsMTQ1ODQxMDUxNyw4NDY4MjYx
-NTEsLTk3NzUyMDM4OSwxODMyNjc5NTQ0LC0yMjUyNzk3NTIsMT
-U1MzgzNDAxNCwxNTcwNDMxNDU5LDI4NjA0NjQ0MSwtMTQ0ODg0
-MzU3NCwxNjE1MDE1MTQxLDQ3MjQwNTc1MywzNDUyNzAwMjEsMT
-M1ODU1NDI5OCwtMzI2MjUyNjEsNTczMTk2MDA1LDU3MzE5NjAw
-NV19
+eyJoaXN0b3J5IjpbLTE1MTEwMjkxMzYsLTE2MDIyODE3OCwtMT
+MwMzI0MzAwOCwtMTQ3ODc3ODU2NywxNDU4NDEwNTE3LDg0Njgy
+NjE1MSwtOTc3NTIwMzg5LDE4MzI2Nzk1NDQsLTIyNTI3OTc1Mi
+wxNTUzODM0MDE0LDE1NzA0MzE0NTksMjg2MDQ2NDQxLC0xNDQ4
+ODQzNTc0LDE2MTUwMTUxNDEsNDcyNDA1NzUzLDM0NTI3MDAyMS
+wxMzU4NTU0Mjk4LC0zMjYyNTI2MSw1NzMxOTYwMDUsNTczMTk2
+MDA1XX0=
 -->
