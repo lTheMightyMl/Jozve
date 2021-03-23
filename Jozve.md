@@ -31,7 +31,7 @@ $$\exists L\in\mathbb{R}:\forall x,y\in\mathbb{R}^n|f(x)-f(y)|\le L||x-y||$$
 
 It means that the difference between the value of the function at two points is never more than a constant multiple of the distance of the two points. This assumption restricts the growth of the function when moving from one point to another. As to know how this assumption can help us find a near optimal solution, consider the following case:
 
-Assume $S$ is a bounded subset of $\mathbb{R}$. We know that $\forall x,y\in\mathbb{R}^n|f(x)-f(y)|\le 5||x-y||$ and we want to find a fuvalue which is at most $0.1$ more than the real minimum or maximum,
+Assume $S$ is a bounded subset of $\mathbb{R}$. We know that $\forall x,y\in\mathbb{R}^n|f(x)-f(y)|\le 5||x-y||$ and we want to find a function value which is at most $0.1$ more than the real minimum or maximum. Consider points at most $\frac{0.1}{5}=0.02$ far from each other and the boundaries of $S$, then we can be sure that 
 
 # 3
 
@@ -41,10 +41,10 @@ Assume $S$ is a bounded subset of $\mathbb{R}$. We know that $\forall x,y\in\mat
 
 # 6
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTAxMzc2MjksLTIwOTExMzcxNTMsLT
-cxNDI3OTM4MiwtOTU2MTUxMDUyLC0xMTUwMDAwMTgzLC05MTE4
-MjE3NjcsMTk3NDA5NjU5OSwtMTM4NTcwMDQ4OCwxNzg5MzkxMz
-M1LC02MjUyNTAxNjQsMTY1OTAxNDY4MywtOTQ4NTQ2NjEsNTU5
-OTk4NDg0LC0xMTgxMTY4NDI4LDIwMDc5NTE5MDAsLTE3MzU5NT
-k1MjksLTE0MjEwODYwMjJdfQ==
+eyJoaXN0b3J5IjpbNDg5OTUyOTU5LC0yMDkxMTM3MTUzLC03MT
+QyNzkzODIsLTk1NjE1MTA1MiwtMTE1MDAwMDE4MywtOTExODIx
+NzY3LDE5NzQwOTY1OTksLTEzODU3MDA0ODgsMTc4OTM5MTMzNS
+wtNjI1MjUwMTY0LDE2NTkwMTQ2ODMsLTk0ODU0NjYxLDU1OTk5
+ODQ4NCwtMTE4MTE2ODQyOCwyMDA3OTUxOTAwLC0xNzM1OTU5NT
+I5LC0xNDIxMDg2MDIyXX0=
 -->
