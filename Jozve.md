@@ -20,7 +20,8 @@ $$\min_{x} \sum^{n}_{i=1}||x-y_i||_2$$
 
 ### Image deblurring and denoising
 `image`
-**Deblurring** is the process of removing blurring artifacts from images [input image say $Y$ which is blurred image which generally happens due to camera shake or some other phenomenon].
+**Deblurring** is(**Noise reduction** are the processes of removing blurring artifacts from images [input image say $Y$ which is blurred image which generally happens due to camera shake or some other phenomenon].
+  the process of removing noise from a signal.
 Given corrupted image $Y \in \mathbb R^{m\times n}$, reconstruct the image by solving the optimization problem below:
 ### Machine Learning
 
@@ -73,7 +74,7 @@ Now once we found out this useful property, a good idea can be model our problem
 
 # 6
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5NDg1MTQzOCw4NjE4OTAyMDgsLTIyNT
+eyJoaXN0b3J5IjpbLTc2MTcxNDMyLC0zOTQ4NTE0MzgsLTIyNT
 I3OTc1MiwxNTUzODM0MDE0LDE1NzA0MzE0NTksMjg2MDQ2NDQx
 LC0xNDQ4ODQzNTc0LDE2MTUwMTUxNDEsNDcyNDA1NzUzLDM0NT
 I3MDAyMSwxMzU4NTU0Mjk4LC0zMjYyNTI2MSw1NzMxOTYwMDUs
