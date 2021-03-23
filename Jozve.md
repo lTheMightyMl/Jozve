@@ -9,7 +9,9 @@ bluh bluh bluh
 
 ### Weber Point
 
+### Image deblurring and denoising
 
+### Machine Learning
 
 # 2
 
@@ -22,7 +24,7 @@ bluh bluh bluh
 # 6
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxOTQwOTI4OSwtNjI1MjUwMTY0LDE2NT
+eyJoaXN0b3J5IjpbLTM5OTcwNzg4MiwtNjI1MjUwMTY0LDE2NT
 kwMTQ2ODMsLTk0ODU0NjYxLDU1OTk5ODQ4NCwtMTE4MTE2ODQy
 OCwyMDA3OTUxOTAwLC0xNzM1OTU5NTI5LC0xNDIxMDg2MDIyXX
 0=
