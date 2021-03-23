@@ -43,7 +43,7 @@ Lipschitz continuity made it possible to find near-optimal solutions, but it can
 # 3
 
 ## Convex Optimization
-As you may know,  convex optimization problem is an optimization problem in which the objective function is a convex function and the feasible set is a convex set.
+As you may know,  convex optimization problem is an optimization problem in hich the objective function is a convex function and the feasible set is a convex set.
 Now let's examine some useful properties:
 
  - every local minimum is a  global minimum
@@ -53,7 +53,8 @@ Now let's examine some useful properties:
 In fact many of search algorithms find the local optima, and that's why the first property is the key point that enable us to tackle these types of problems to find the global optima solutions.
 Now let's go through its proof:
 
-Assume there exists $x_0$ such that $f(x_0)<f(x_∗)$ where $x_*$ is the local optima of the function. Then for any $t∈(0,1]$ we have:
+Assume there exists $x_0$ such that $f(x_0)<f(x_∗)$ where $x_*$ is the local optima of the function. 
+Then for any $t∈(0,1]t∈(0,1]$ we have:
 $f((1−t)x∗+tx0)≤(1−t)f(x∗)+tf(x0)<(1−t)f(x∗)+tf(x∗)=f(x∗)$
 
 
@@ -63,11 +64,11 @@ $f((1−t)x∗+tx0)≤(1−t)f(x∗)+tf(x0)<(1−t)f(x∗)+tf(x∗)=f(x∗)$
 
 # 6
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwMzk0ODQzOCwyODYwNDY0NDEsLTE0ND
-g4NDM1NzQsMTYxNTAxNTE0MSw0NzI0MDU3NTMsMzQ1MjcwMDIx
-LDEzNTg1NTQyOTgsLTMyNjI1MjYxLDU3MzE5NjAwNSw1NzMxOT
-YwMDUsLTE1NjUwNzQ2MzAsNjQ5MjkyMzk3LDE3MzAyNTE1NDYs
-LTEzOTUxMjk3MjAsLTIwOTExMzcxNTMsLTcxNDI3OTM4MiwtOT
-U2MTUxMDUyLC0xMTUwMDAwMTgzLC05MTE4MjE3NjcsMTk3NDA5
-NjU5OV19
+eyJoaXN0b3J5IjpbMTU3MDQzMTQ1OSwxNjAzOTQ4NDM4LDI4Nj
+A0NjQ0MSwtMTQ0ODg0MzU3NCwxNjE1MDE1MTQxLDQ3MjQwNTc1
+MywzNDUyNzAwMjEsMTM1ODU1NDI5OCwtMzI2MjUyNjEsNTczMT
+k2MDA1LDU3MzE5NjAwNSwtMTU2NTA3NDYzMCw2NDkyOTIzOTcs
+MTczMDI1MTU0NiwtMTM5NTEyOTcyMCwtMjA5MTEzNzE1MywtNz
+E0Mjc5MzgyLC05NTYxNTEwNTIsLTExNTAwMDAxODMsLTkxMTgy
+MTc2N119
 -->
