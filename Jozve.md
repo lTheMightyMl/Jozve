@@ -23,7 +23,7 @@ $$\min} \sum^{n_{i1}||x-y_i||_2$$
 
 ## How difficult is real-valued optimisation?
 
-
+If we do not make any assumptions about the function $f:\R^n\rightarrow$ 
 
 # 3
 
@@ -34,8 +34,9 @@ $$\min} \sum^{n_{i1}||x-y_i||_2$$
 # 6
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxMTgyMTc2NywxOTc0MDk2NTk5LC0xMz
-g1NzAwNDg4LDE3ODkzOTEzMzUsLTYyNTI1MDE2NCwxNjU5MDE0
-NjgzLC05NDg1NDY2MSw1NTk5OTg0ODQsLTExODExNjg0MjgsMj
-AwNzk1MTkwMCwtMTczNTk1OTUyOSwtMTQyMTA4NjAyMl19
+eyJoaXN0b3J5IjpbMTc0NDE1MzM4MSwtOTExODIxNzY3LDE5Nz
+QwOTY1OTksLTEzODU3MDA0ODgsMTc4OTM5MTMzNSwtNjI1MjUw
+MTY0LDE2NTkwMTQ2ODMsLTk0ODU0NjYxLDU1OTk5ODQ4NCwtMT
+E4MTE2ODQyOCwyMDA3OTUxOTAwLC0xNzM1OTU5NTI5LC0xNDIx
+MDg2MDIyXX0=
 -->
