@@ -83,9 +83,9 @@ for EPOCHS tims repeat:
 In fact, the value of $f$ is decreasing in each iteration. The proof is straight forward as it is illustrated in below:
 By *taylor exapansion* of a function $f$  we have:
 $$f(x+v) = f(x) + \nabla_x f(x)^Tv  + O(||v||_2^2)$$
-Now choose $v$ to be 
+Now choose $v$ to be multiplication of
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTkwMzkxMCwtMTYwMjI4MTc4LC0xMz
+eyJoaXN0b3J5IjpbLTQ1MjU1NjM3NSwtMTYwMjI4MTc4LC0xMz
 AzMjQzMDA4LC0xNDc4Nzc4NTY3LDE0NTg0MTA1MTcsODQ2ODI2
 MTUxLC05Nzc1MjAzODksMTgzMjY3OTU0NCwtMjI1Mjc5NzUyLD
 E1NTM4MzQwMTQsMTU3MDQzMTQ1OSwyODYwNDY0NDEsLTE0NDg4
