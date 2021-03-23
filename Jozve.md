@@ -68,17 +68,12 @@ which contradicts to the previous relation. Hence the hypothesis was wrong and t
 Now once we found out this useful property, a good idea can be model our problems to a convex optimization problem through which we can apply various iterative methods like `gradient descent` to solve the problems.
 
 
-# 4
-
-# 5
-
-# 6
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQ1NTI1NDEwLDU4NTY3NDUzNiwtMjI1Mj
-c5NzUyLDE1NTM4MzQwMTQsMTU3MDQzMTQ1OSwyODYwNDY0NDEs
-LTE0NDg4NDM1NzQsMTYxNTAxNTE0MSw0NzI0MDU3NTMsMzQ1Mj
-cwMDIxLDEzNTg1NTQyOTgsLTMyNjI1MjYxLDU3MzE5NjAwNSw1
-NzMxOTYwMDUsLTE1NjUwNzQ2MzAsNjQ5MjkyMzk3LDE3MzAyNT
-E1NDYsLTEzOTUxMjk3MjAsLTIwOTExMzcxNTMsLTcxNDI3OTM4
-Ml19
+eyJoaXN0b3J5IjpbLTgxNzk2MjIyOCw1ODU2NzQ1MzYsLTIyNT
+I3OTc1MiwxNTUzODM0MDE0LDE1NzA0MzE0NTksMjg2MDQ2NDQx
+LC0xNDQ4ODQzNTc0LDE2MTUwMTUxNDEsNDcyNDA1NzUzLDM0NT
+I3MDAyMSwxMzU4NTU0Mjk4LC0zMjYyNTI2MSw1NzMxOTYwMDUs
+NTczMTk2MDA1LC0xNTY1MDc0NjMwLDY0OTI5MjM5NywxNzMwMj
+UxNTQ2LC0xMzk1MTI5NzIwLC0yMDkxMTM3MTUzLC03MTQyNzkz
+ODJdfQ==
 -->
