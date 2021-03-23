@@ -30,7 +30,7 @@ where K * denotes convolution with a blurring filter.
 
 ## How difficult is real-valued optimization?
 
-If we do not make any assumptions about the function $f:S\rightarrow\mathbb{R}$ where $S\subseteq\mathbb{R}^n$ is an infinite set, then it is impossible to find a global minimiser or maximiser in finite time. This is due to the fact that the value of the function at any one point does not reveal information about the function's behaviour at other points. As a result, we must know the function value for every point in $S$, which takes infinite time because the set $S$ is simply not finite. Even if we try to find a point at which the function's value is at most  $\epsilon$ far from the real minimum or maximum, we still need to find out the value of the function at all points which was shown cannot be done in finite time.
+If we do not make any assumptions about the function $f:S\rightarrow\mathbb{R}$ where $S\subseteq\mathbb{R}^n$ is an infinite set, then it is impossible to find a global minimizer or maximiser in finite time. This is due to the fact that the value of the function at any one point does not reveal information about the function's behaviour at other points. As a result, we must know the function value for every point in $S$, which takes infinite time because the set $S$ is simply not finite. Even if we try to find a point at which the function's value is at most  $\epsilon$ far from the real minimum or maximum, we still need to find out the value of the function at all points which was shown cannot be done in finite time.
 
 However, if we make some reasonable assumptions about the function being examined, near-optimal solutions can be found in finite time. One such assumption is Lipschitz continuity. The mathematical definition is as follows:
 
@@ -78,7 +78,7 @@ The algorithm is really simple (and effective!!!). Isimple which its pseudocode 
 
 ```s
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4MjQ2NzcxMSwtMTY5NTQyODYzLC05Nz
+eyJoaXN0b3J5IjpbMTUxNTE4NDI2NCwtMTY5NTQyODYzLC05Nz
 c1MjAzODksMTgzMjY3OTU0NCwtMjI1Mjc5NzUyLDE1NTM4MzQw
 MTQsMTU3MDQzMTQ1OSwyODYwNDY0NDEsLTE0NDg4NDM1NzQsMT
 YxNTAxNTE0MSw0NzI0MDU3NTMsMzQ1MjcwMDIxLDEzNTg1NTQy
