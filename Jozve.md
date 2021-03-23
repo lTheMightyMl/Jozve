@@ -47,7 +47,7 @@ Lipschitz continuity made it possible to find near-optimal solutions, but it can
 # 3
 
 ## Convex Optimization
-As you may know,  convex optimization problem is an optimization problem in hich the objective function is a convex function and the feasible set is a convex set.
+As you may know,  convex optimization problem is an optimization problem in which the objective function is a convex function and the feasible set is a convex set.
 Now let's examine some useful properties:
 
  - every local minimum is a  global minimum
@@ -80,11 +80,11 @@ for EPOCHS tims repeat:
 	x = x - C*
 ```s
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDEwODkyNTIsMTUxNTE4NDI2NCwtOT
-c3NTIwMzg5LDE4MzI2Nzk1NDQsLTIyNTI3OTc1MiwxNTUzODM0
-MDE0LDE1NzA0MzE0NTksMjg2MDQ2NDQxLC0xNDQ4ODQzNTc0LD
-E2MTUwMTUxNDEsNDcyNDA1NzUzLDM0NTI3MDAyMSwxMzU4NTU0
-Mjk4LC0zMjYyNTI2MSw1NzMxOTYwMDUsNTczMTk2MDA1LC0xNT
-Y1MDc0NjMwLDY0OTI5MjM5NywxNzMwMjUxNTQ2LC0xMzk1MTI5
-NzIwXX0=
+eyJoaXN0b3J5IjpbODQ2ODI2MTUxLC0xNDQxMDg5MjUyLC05Nz
+c1MjAzODksMTgzMjY3OTU0NCwtMjI1Mjc5NzUyLDE1NTM4MzQw
+MTQsMTU3MDQzMTQ1OSwyODYwNDY0NDEsLTE0NDg4NDM1NzQsMT
+YxNTAxNTE0MSw0NzI0MDU3NTMsMzQ1MjcwMDIxLDEzNTg1NTQy
+OTgsLTMyNjI1MjYxLDU3MzE5NjAwNSw1NzMxOTYwMDUsLTE1Nj
+UwNzQ2MzAsNjQ5MjkyMzk3LDE3MzAyNTE1NDYsLTEzOTUxMjk3
+MjBdfQ==
 -->
