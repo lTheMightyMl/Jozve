@@ -33,6 +33,10 @@ It means that the difference between the value of the function at two points is 
 
 Assume $S$ is a bounded subset of $\mathbb{R}$. We know that $\forall x,y\in\mathbb{R}^n|f(x)-f(y)|\le 5||x-y||$ and we want to find a function value which is at most $0.1$ far from the actual minimum or maximum. ow, consider points in $S$ at most $\frac{0.1}{5}=0.02$ far from each other and from the boundaries of $S$ and call the set of these points $P$. Because of the restriction imposed on $f$ we can be sure that the value of the function at points not in $P$ is at most $0.02 \times 5 = 0.1$ far from the two nearest points in $P$. Consequentially, if we take the minimum or maximum value of $f$ among points in $P$, we can be sure that this value is at most $0.1$ far from the real minimum or maximum of $f$ in $S$.
 
+```image```
+
+This assumption 
+
 # 3
 
 
@@ -42,11 +46,11 @@ Assume $S$ is a bounded subset of $\mathbb{R}$. We know that $\forall x,y\in\mat
 
 # 6
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTczMTk2MDA1LDU3MzE5NjAwNSwtMTU2NT
-A3NDYzMCw2NDkyOTIzOTcsMTczMDI1MTU0NiwtMTM5NTEyOTcy
-MCwtMjA5MTEzNzE1MywtNzE0Mjc5MzgyLC05NTYxNTEwNTIsLT
-ExNTAwMDAxODMsLTkxMTgyMTc2NywxOTc0MDk2NTk5LC0xMzg1
-NzAwNDg4LDE3ODkzOTEzMzUsLTYyNTI1MDE2NCwxNjU5MDE0Nj
-gzLC05NDg1NDY2MSw1NTk5OTg0ODQsLTExODExNjg0MjgsMjAw
-Nzk1MTkwMF19
+eyJoaXN0b3J5IjpbMTY5NjUyNDU2Nyw1NzMxOTYwMDUsNTczMT
+k2MDA1LC0xNTY1MDc0NjMwLDY0OTI5MjM5NywxNzMwMjUxNTQ2
+LC0xMzk1MTI5NzIwLC0yMDkxMTM3MTUzLC03MTQyNzkzODIsLT
+k1NjE1MTA1MiwtMTE1MDAwMDE4MywtOTExODIxNzY3LDE5NzQw
+OTY1OTksLTEzODU3MDA0ODgsMTc4OTM5MTMzNSwtNjI1MjUwMT
+Y0LDE2NTkwMTQ2ODMsLTk0ODU0NjYxLDU1OTk5ODQ4NCwtMTE4
+MTE2ODQyOF19
 -->
