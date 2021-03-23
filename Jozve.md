@@ -59,7 +59,8 @@ Then for any $t∈(0,1]t∈(0,1]$ we have:
 $$f(Z) = f((1−t)x_∗+tx_0)≤(1−t)f(x_∗)+tf(x_0)$$$$<(1−t)f(x_∗)+tf(x_∗)$$$$=f(x_∗)$$
 $$\Longrightarrow $$$$f(Z) < f(x_*) $$
 Now note that $Z$  is lying on the line which connects $x_0$ and $x_*$. Therefore, if $Z$ is chosen very close to $x_*$, the $f(Z)it $ must be greater than $f(x_*)$ due to local optimality of $x_*$ which means:
-$
+$$f(Z) \ge f(x_*)$$
+which contradicts to the previous relation. Hence the hypothesis was wrong and the property 
 
 # 4
 
@@ -67,11 +68,11 @@ $
 
 # 6
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjA1MzAzNzgsMjE0MDcwNjgyMiwtOT
-gyOTA0OTQ2LDE1NTM4MzQwMTQsMTU3MDQzMTQ1OSwyODYwNDY0
-NDEsLTE0NDg4NDM1NzQsMTYxNTAxNTE0MSw0NzI0MDU3NTMsMz
-Q1MjcwMDIxLDEzNTg1NTQyOTgsLTMyNjI1MjYxLDU3MzE5NjAw
-NSw1NzMxOTYwMDUsLTE1NjUwNzQ2MzAsNjQ5MjkyMzk3LDE3Mz
-AyNTE1NDYsLTEzOTUxMjk3MjAsLTIwOTExMzcxNTMsLTcxNDI3
-OTM4Ml19
+eyJoaXN0b3J5IjpbMTQwMzQ5OTM4LC0xMDYwNTMwMzc4LDIxND
+A3MDY4MjIsMTU1MzgzNDAxNCwxNTcwNDMxNDU5LDI4NjA0NjQ0
+MSwtMTQ0ODg0MzU3NCwxNjE1MDE1MTQxLDQ3MjQwNTc1MywzND
+UyNzAwMjEsMTM1ODU1NDI5OCwtMzI2MjUyNjEsNTczMTk2MDA1
+LDU3MzE5NjAwNSwtMTU2NTA3NDYzMCw2NDkyOTIzOTcsMTczMD
+I1MTU0NiwtMTM5NTEyOTcyMCwtMjA5MTEzNzE1MywtNzE0Mjc5
+MzgyXX0=
 -->
