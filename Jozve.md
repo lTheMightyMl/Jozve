@@ -86,9 +86,11 @@ $$f(x+v) = f(x) + \nabla_x f(x)^Tv  + O(||v||_2^2)$$
 Now choose $v$ to be multiplication of gradient i.e. $-\alpha\nabla_x f(x)$. By substituting in the above equation we have:
 $$= f(x)  -\alpha||\nabla_x f(x)||_2^2 + C||\alpha\nabla_x f(x)||_2^2$$$$\le f(x) - (\alpha-\alpha^2C)||\nabla_x f(x)||_2^2 $$ $$< f(x)$$
 
-Note the second relation will only hold for small size of $||\nabla_x f(x)||_2^2$
+Note the second relation will only hold for small size of $||\alpha\nabla_x f(x)||_2^2$.
+$\blacksquare$
+by
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1NzE1MjExMywtMTYwMjI4MTc4LC0xMz
+eyJoaXN0b3J5IjpbMTcwMTkzMTMyNiwtMTYwMjI4MTc4LC0xMz
 AzMjQzMDA4LC0xNDc4Nzc4NTY3LDE0NTg0MTA1MTcsODQ2ODI2
 MTUxLC05Nzc1MjAzODksMTgzMjY3OTU0NCwtMjI1Mjc5NzUyLD
 E1NTM4MzQwMTQsMTU3MDQzMTQ1OSwyODYwNDY0NDEsLTE0NDg4
