@@ -3,7 +3,11 @@ import god
 ```
 Courtesy: Most content are adopted from 15-780 course at CMU.
 # Continuous Optimization
+bluh bluh bluh
+
 ## Examples
+
+### Weber Point
 
 
 
@@ -18,8 +22,8 @@ Courtesy: Most content are adopted from 15-780 course at CMU.
 # 6
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTQ3MzUwMjgsLTYyNTI1MDE2NCwxNj
-U5MDE0NjgzLC05NDg1NDY2MSw1NTk5OTg0ODQsLTExODExNjg0
-MjgsMjAwNzk1MTkwMCwtMTczNTk1OTUyOSwtMTQyMTA4NjAyMl
-19
+eyJoaXN0b3J5IjpbLTYxOTQwOTI4OSwtNjI1MjUwMTY0LDE2NT
+kwMTQ2ODMsLTk0ODU0NjYxLDU1OTk5ODQ4NCwtMTE4MTE2ODQy
+OCwyMDA3OTUxOTAwLC0xNzM1OTU5NTI5LC0xNDIxMDg2MDIyXX
+0=
 -->
