@@ -25,7 +25,7 @@ $$\min_{x} \sum^{n}_{i=1}||x-y_i||_2$$
 
 If we do not make any assumptions about the function $f:S\rightarrow\mathbb{R}$ where $S\subseteq\mathbb{R}^n$ is an infinite set, then it is impossible to find a global minimiser or maximiser in finite time. This is due to the fact that the value of the function at any one point does not reveal information about the function's behaviour at other points. As a result, we must know the function value for every point in $S$, which takes infinite time because the set $S$ is simply not finite. Even if we try to find a point at which the function's value is at most  $\epsilon$ far from the real minimum or maximum, we still need to find out the value of the function at all points which was shown cannot be done in finite time.
 
-However, if we make some reasonable assumptions about the function being examined, near optimal solutions can be found in finite time. One such assumption is Lipschitz continuity. The mathematical definition is as follows:
+However, if we make some reasonable assumptions about the function being examined, near-optimal solutions can be found in finite time. One such assumption is Lipschitz continuity. The mathematical definition is as follows:
 
 $$\exists L\in\mathbb{R}:\forall x,y\in\mathbb{R}^n|f(x)-f(y)|\le L||x-y||$$
 
@@ -42,10 +42,11 @@ Assume $S$ is a bounded subset of $\mathbb{R}$. We know that $\forall x,y\in\mat
 
 # 6
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczMDI1MTU0NiwtMTM5NTEyOTcyMCwtMj
-A5MTEzNzE1MywtNzE0Mjc5MzgyLC05NTYxNTEwNTIsLTExNTAw
-MDAxODMsLTkxMTgyMTc2NywxOTc0MDk2NTk5LC0xMzg1NzAwND
-g4LDE3ODkzOTEzMzUsLTYyNTI1MDE2NCwxNjU5MDE0NjgzLC05
-NDg1NDY2MSw1NTk5OTg0ODQsLTExODExNjg0MjgsMjAwNzk1MT
-kwMCwtMTczNTk1OTUyOSwtMTQyMTA4NjAyMl19
+eyJoaXN0b3J5IjpbNjQ5MjkyMzk3LDE3MzAyNTE1NDYsLTEzOT
+UxMjk3MjAsLTIwOTExMzcxNTMsLTcxNDI3OTM4MiwtOTU2MTUx
+MDUyLC0xMTUwMDAwMTgzLC05MTE4MjE3NjcsMTk3NDA5NjU5OS
+wtMTM4NTcwMDQ4OCwxNzg5MzkxMzM1LC02MjUyNTAxNjQsMTY1
+OTAxNDY4MywtOTQ4NTQ2NjEsNTU5OTk4NDg0LC0xMTgxMTY4ND
+I4LDIwMDc5NTE5MDAsLTE3MzU5NTk1MjksLTE0MjEwODYwMjJd
+fQ==
 -->
