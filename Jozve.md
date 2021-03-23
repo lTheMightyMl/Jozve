@@ -23,7 +23,7 @@ $$\min} \sum^{n_{i1}||x-y_i||_2$$
 
 ## How difficult is real-valued optimisation?
 
-If we do not make any assumptions about the function $f:\R^n\rightarrow$ 
+If we do not make any assumptions about the function $f:\R^n\rightarrow\R$ , then it is impossible to find a global minimiser or maximiser in finite time. This is due to the fact that the value of the function at any one point does not reveal information about the function's behaviour a
 
 # 3
 
@@ -34,9 +34,9 @@ If we do not make any assumptions about the function $f:\R^n\rightarrow$
 # 6
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0NDE1MzM4MSwtOTExODIxNzY3LDE5Nz
-QwOTY1OTksLTEzODU3MDA0ODgsMTc4OTM5MTMzNSwtNjI1MjUw
-MTY0LDE2NTkwMTQ2ODMsLTk0ODU0NjYxLDU1OTk5ODQ4NCwtMT
-E4MTE2ODQyOCwyMDA3OTUxOTAwLC0xNzM1OTU5NTI5LC0xNDIx
-MDg2MDIyXX0=
+eyJoaXN0b3J5IjpbMjIyMDEyMjkxLC05MTE4MjE3NjcsMTk3ND
+A5NjU5OSwtMTM4NTcwMDQ4OCwxNzg5MzkxMzM1LC02MjUyNTAx
+NjQsMTY1OTAxNDY4MywtOTQ4NTQ2NjEsNTU5OTk4NDg0LC0xMT
+gxMTY4NDI4LDIwMDc5NTE5MDAsLTE3MzU5NTk1MjksLTE0MjEw
+ODYwMjJdfQ==
 -->
