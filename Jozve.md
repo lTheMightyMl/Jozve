@@ -20,6 +20,7 @@ $$\min_{x} \sum^{n}_{i=1}||x-y_i||_2$$
 
 ### Image deblurring and denoising
 `image`
+**Deblurring** is the process of removing blurring artifacts from images [input image say $Y$ which is blurred image which generally happens due to camera shake or some other phenomenon].
 Given corrupted image $Y \in \mathbb R^{m\times n}$, reconstruct the image by solving the optimization problem below:
 ### Machine Learning
 
@@ -69,11 +70,11 @@ which contradicts to the previous relation. Hence the hypothesis was wrong and t
 
 # 6
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjYzMzU2MTAsLTIyNTI3OTc1MiwtMTA2MD
-UzMDM3OCwxNTUzODM0MDE0LDE1NzA0MzE0NTksMjg2MDQ2NDQx
-LC0xNDQ4ODQzNTc0LDE2MTUwMTUxNDEsNDcyNDA1NzUzLDM0NT
-I3MDAyMSwxMzU4NTU0Mjk4LC0zMjYyNTI2MSw1NzMxOTYwMDUs
-NTczMTk2MDA1LC0xNTY1MDc0NjMwLDY0OTI5MjM5NywxNzMwMj
-UxNTQ2LC0xMzk1MTI5NzIwLC0yMDkxMTM3MTUzLC03MTQyNzkz
-ODJdfQ==
+eyJoaXN0b3J5IjpbODYxODkwMjA4LDI2MzM1NjEwLC0yMjUyNz
+k3NTIsMTU1MzgzNDAxNCwxNTcwNDMxNDU5LDI4NjA0NjQ0MSwt
+MTQ0ODg0MzU3NCwxNjE1MDE1MTQxLDQ3MjQwNTc1MywzNDUyNz
+AwMjEsMTM1ODU1NDI5OCwtMzI2MjUyNjEsNTczMTk2MDA1LDU3
+MzE5NjAwNSwtMTU2NTA3NDYzMCw2NDkyOTIzOTcsMTczMDI1MT
+U0NiwtMTM5NTEyOTcyMCwtMjA5MTEzNzE1MywtNzE0Mjc5Mzgy
+XX0=
 -->
