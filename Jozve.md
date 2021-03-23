@@ -63,6 +63,9 @@ Now note that $Z$  is lying on the line which connects $x_0$ and $x_*$. Therefor
 $$f(Z) \ge f(x_*)$$
 which contradicts to the previous relation. Hence the hypothesis was wrong and the property is proved.
 
+---
+Now once we found out this useful property, a good idea can be model our problems to a 
+
 
 # 4
 
@@ -70,11 +73,11 @@ which contradicts to the previous relation. Hence the hypothesis was wrong and t
 
 # 6
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODYxODkwMjA4LDI2MzM1NjEwLC0yMjUyNz
-k3NTIsMTU1MzgzNDAxNCwxNTcwNDMxNDU5LDI4NjA0NjQ0MSwt
-MTQ0ODg0MzU3NCwxNjE1MDE1MTQxLDQ3MjQwNTc1MywzNDUyNz
-AwMjEsMTM1ODU1NDI5OCwtMzI2MjUyNjEsNTczMTk2MDA1LDU3
-MzE5NjAwNSwtMTU2NTA3NDYzMCw2NDkyOTIzOTcsMTczMDI1MT
-U0NiwtMTM5NTEyOTcyMCwtMjA5MTEzNzE1MywtNzE0Mjc5Mzgy
-XX0=
+eyJoaXN0b3J5IjpbLTM5NDg1MTQzOCw4NjE4OTAyMDgsLTIyNT
+I3OTc1MiwxNTUzODM0MDE0LDE1NzA0MzE0NTksMjg2MDQ2NDQx
+LC0xNDQ4ODQzNTc0LDE2MTUwMTUxNDEsNDcyNDA1NzUzLDM0NT
+I3MDAyMSwxMzU4NTU0Mjk4LC0zMjYyNTI2MSw1NzMxOTYwMDUs
+NTczMTk2MDA1LC0xNTY1MDc0NjMwLDY0OTI5MjM5NywxNzMwMj
+UxNTQ2LC0xMzk1MTI5NzIwLC0yMDkxMTM3MTUzLC03MTQyNzkz
+ODJdfQ==
 -->
