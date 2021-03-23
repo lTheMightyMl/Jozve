@@ -3,7 +3,7 @@ import god
 ```
 Courtesy: Most content are adopted from 15-780 course at CMU.
 # Continuous Optimization
-In real life, we face a lot of problems with continues space
+In real life, we face a lot of problems with continues variables
 
 ## Examples
 
@@ -52,7 +52,7 @@ Now let's examine some useful properties:
 
 # 6
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwODA3ODg1OSwxNTA2NTcxMjAyLC0zMj
+eyJoaXN0b3J5IjpbMTM1ODU1NDI5OCwxMzA4MDc4ODU5LC0zMj
 YyNTI2MSw1NzMxOTYwMDUsNTczMTk2MDA1LC0xNTY1MDc0NjMw
 LDY0OTI5MjM5NywxNzMwMjUxNTQ2LC0xMzk1MTI5NzIwLC0yMD
 kxMTM3MTUzLC03MTQyNzkzODIsLTk1NjE1MTA1MiwtMTE1MDAw
