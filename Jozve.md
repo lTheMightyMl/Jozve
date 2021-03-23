@@ -22,7 +22,7 @@ $$\min_{x} \sum^{n}_{i=1}||x-y_i||_2$$
 `image`
 Image **Deblurring** (**Noise reduction**) is the processes of removing blurring artifacts (noise) from images [input image say $Y$ which is blurred image which generally happens due to camera shake or some other phenomenon].
 Given corrupted image $Y \in \mathbb R^{m\times n}$, we reconstruct the image by solving the optimization problem below:
-$$\min_X$$
+$$\min_X \sum_{i, j}|Y_{ij}-(K*X)_{ij}| + \lambda \sum_{i, j}$$
 ### Machine Learning
 
 # 2
@@ -69,7 +69,7 @@ Now once we found out this useful property, a good idea can be model our problem
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0MTk4MDA3MSw1ODU2NzQ1MzYsLTIyNT
+eyJoaXN0b3J5IjpbNzY3NDEyNDQxLDE1NDE5ODAwNzEsLTIyNT
 I3OTc1MiwxNTUzODM0MDE0LDE1NzA0MzE0NTksMjg2MDQ2NDQx
 LC0xNDQ4ODQzNTc0LDE2MTUwMTUxNDEsNDcyNDA1NzUzLDM0NT
 I3MDAyMSwxMzU4NTU0Mjk4LC0zMjYyNTI2MSw1NzMxOTYwMDUs
