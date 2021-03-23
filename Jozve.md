@@ -9,7 +9,7 @@ Actually,
 2. the way time is handled
 3. the percepts and actions of the agent
 
-
+might be continuous (or discrete) in our problems, and in this section we 
 
 ## Examples
 
@@ -62,8 +62,8 @@ which the first property is the key point that enable us to tackle the problem
 
 # 6
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyNDQzOTI1LDIwNzQ3ODg1MDUsMTU4OD
-IwNDU5OCwxMzU4NTU0Mjk4LC0zMjYyNTI2MSw1NzMxOTYwMDUs
+eyJoaXN0b3J5IjpbMTkyMTAyNjk3OSwyMTI0NDM5MjUsMjA3ND
+c4ODUwNSwxMzU4NTU0Mjk4LC0zMjYyNTI2MSw1NzMxOTYwMDUs
 NTczMTk2MDA1LC0xNTY1MDc0NjMwLDY0OTI5MjM5NywxNzMwMj
 UxNTQ2LC0xMzk1MTI5NzIwLC0yMDkxMTM3MTUzLC03MTQyNzkz
 ODIsLTk1NjE1MTA1MiwtMTE1MDAwMDE4MywtOTExODIxNzY3LD
