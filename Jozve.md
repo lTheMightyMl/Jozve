@@ -88,13 +88,13 @@ $$= f(x)  -\alpha||\nabla_x f(x)||_2^2 + C||\alpha\nabla_x f(x)||_2^2$$$$\le f(x
 
 Note that the second relation will only hold for small size of $||\alpha\nabla_x f(x)||_2^2$.  Also every $v$ which its inner product with the gradient is less than zero cannot be a good choice because ,as we have seen above, the value of $v$ itself can be effective too. For example see the picture below:
 ![gradient descent learning rate](https://builtin.com/sites/default/files/styles/ckeditor_optimize/public/inline-images/gradient-descent-learning-rate.png)
-If the learning rate (the constant which multiplies to the gradient) is too large convergence might be failed. On the other hand choosing a very small learning rate 
+If the learning rate (the constant which multiplies to the gradient) is too large convergence might be failed. On the other hand choosing a very small learning rate can slow down the convergence significantly. Therefore, choosing the learning rate can be really critical.
 $\blacksquare$
 ![What is Stochastic Gradient Descent- A Super Easy Complete Guide!](https://www.mltut.com/wp-content/uploads/2020/04/Untitled-document-3.png)
 So by far we have seen that the gradient descent will converge toward the local minimum (see the figure above to see the importance of starting point in non-convex functions).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2Mjk3ODYyNzksLTE2MDIyODE3OCwtMT
+eyJoaXN0b3J5IjpbLTE2MTY1NDI1OTYsLTE2MDIyODE3OCwtMT
 MwMzI0MzAwOCwtMTQ3ODc3ODU2NywxNDU4NDEwNTE3LDg0Njgy
 NjE1MSwtOTc3NTIwMzg5LDE4MzI2Nzk1NDQsLTIyNTI3OTc1Mi
 wxNTUzODM0MDE0LDE1NzA0MzE0NTksMjg2MDQ2NDQxLC0xNDQ4
