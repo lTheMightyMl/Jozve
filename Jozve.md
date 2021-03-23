@@ -20,7 +20,7 @@ $$\min_{x} \sum^{n}_{i=1}||x-y_i||_2$$
 
 ### Image deblurring and denoising
 `image`
-Given corrupted image $Y \in \mathbb R^{m*n}$, reconstruct the image by solving the optimization:
+Given corrupted image $Y \in \mathbb R^{m\times n}$, reconstruct the image by solving the optimization problem below:
 ### Machine Learning
 
 # 2
@@ -67,11 +67,11 @@ $
 
 # 6
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0MDcwNjgyMiwtOTgyOTA0OTQ2LDk2Mz
-IwMTcyMCwxNTUzODM0MDE0LDE1NzA0MzE0NTksMjg2MDQ2NDQx
-LC0xNDQ4ODQzNTc0LDE2MTUwMTUxNDEsNDcyNDA1NzUzLDM0NT
-I3MDAyMSwxMzU4NTU0Mjk4LC0zMjYyNTI2MSw1NzMxOTYwMDUs
-NTczMTk2MDA1LC0xNTY1MDc0NjMwLDY0OTI5MjM5NywxNzMwMj
-UxNTQ2LC0xMzk1MTI5NzIwLC0yMDkxMTM3MTUzLC03MTQyNzkz
-ODJdfQ==
+eyJoaXN0b3J5IjpbLTEwNjA1MzAzNzgsMjE0MDcwNjgyMiwtOT
+gyOTA0OTQ2LDE1NTM4MzQwMTQsMTU3MDQzMTQ1OSwyODYwNDY0
+NDEsLTE0NDg4NDM1NzQsMTYxNTAxNTE0MSw0NzI0MDU3NTMsMz
+Q1MjcwMDIxLDEzNTg1NTQyOTgsLTMyNjI1MjYxLDU3MzE5NjAw
+NSw1NzMxOTYwMDUsLTE1NjUwNzQ2MzAsNjQ5MjkyMzk3LDE3Mz
+AyNTE1NDYsLTEzOTUxMjk3MjAsLTIwOTExMzcxNTMsLTcxNDI3
+OTM4Ml19
 -->
