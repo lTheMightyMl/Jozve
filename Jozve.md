@@ -58,7 +58,8 @@ Assume there exists $x_0$ such that $f(x_0)<f(x_∗)$ where $x_*$ is the local o
 Then for any $t∈(0,1]t∈(0,1]$ we have:
 $$f(Z) = f((1−t)x_∗+tx_0)≤(1−t)f(x_∗)+tf(x_0)$$$$<(1−t)f(x_∗)+tf(x_∗)$$$$=f(x_∗)$$
 $$\Longrightarrow $$$$f(Z) < f(x_*) $$
-Now note that $Z$  is lying on the line which connects $x_0$ and $x_*$. Therefore, if $Z$ is chosen very close to $x_*$, the $f(Z)it 
+Now note that $Z$  is lying on the line which connects $x_0$ and $x_*$. Therefore, if $Z$ is chosen very close to $x_*$, the $f(Z)it $ must be greater than $f(x_*)$ due to local optimality of $x_*$ which means:
+$
 
 # 4
 
@@ -66,8 +67,8 @@ Now note that $Z$  is lying on the line which connects $x_0$ and $x_*$. Therefor
 
 # 6
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTYzMjAxNzIwLDM5NzMzNzQyMywtODExOT
-Q4NDU2LDE1NTM4MzQwMTQsMTU3MDQzMTQ1OSwyODYwNDY0NDEs
+eyJoaXN0b3J5IjpbLTk4MjkwNDk0Niw5NjMyMDE3MjAsMzk3Mz
+M3NDIzLDE1NTM4MzQwMTQsMTU3MDQzMTQ1OSwyODYwNDY0NDEs
 LTE0NDg4NDM1NzQsMTYxNTAxNTE0MSw0NzI0MDU3NTMsMzQ1Mj
 cwMDIxLDEzNTg1NTQyOTgsLTMyNjI1MjYxLDU3MzE5NjAwNSw1
 NzMxOTYwMDUsLTE1NjUwNzQ2MzAsNjQ5MjkyMzk3LDE3MzAyNT
