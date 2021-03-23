@@ -20,7 +20,7 @@ $$\min_{x} \sum^{n}_{i=1}||x-y_i||_2$$
 
 ### Image deblurring and denoising
 `image`
-Given corrupted image $Y \in R^$, reconstruct the image by solving the optimization:
+Given corrupted image $Y \in \mathbb R^{m*n}$, reconstruct the image by solving the optimization:
 ### Machine Learning
 
 # 2
@@ -66,11 +66,11 @@ Now note that $Z$  is lying on the line which connects $x_0$ and $x_*$. Therefor
 
 # 6
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzk3MzM3NDIzLC04MTE5NDg0NTYsLTY4MD
-g0MDY2NywxNTUzODM0MDE0LDE1NzA0MzE0NTksMjg2MDQ2NDQx
-LC0xNDQ4ODQzNTc0LDE2MTUwMTUxNDEsNDcyNDA1NzUzLDM0NT
-I3MDAyMSwxMzU4NTU0Mjk4LC0zMjYyNTI2MSw1NzMxOTYwMDUs
-NTczMTk2MDA1LC0xNTY1MDc0NjMwLDY0OTI5MjM5NywxNzMwMj
-UxNTQ2LC0xMzk1MTI5NzIwLC0yMDkxMTM3MTUzLC03MTQyNzkz
-ODJdfQ==
+eyJoaXN0b3J5IjpbOTYzMjAxNzIwLDM5NzMzNzQyMywtODExOT
+Q4NDU2LDE1NTM4MzQwMTQsMTU3MDQzMTQ1OSwyODYwNDY0NDEs
+LTE0NDg4NDM1NzQsMTYxNTAxNTE0MSw0NzI0MDU3NTMsMzQ1Mj
+cwMDIxLDEzNTg1NTQyOTgsLTMyNjI1MjYxLDU3MzE5NjAwNSw1
+NzMxOTYwMDUsLTE1NjUwNzQ2MzAsNjQ5MjkyMzk3LDE3MzAyNT
+E1NDYsLTEzOTUxMjk3MjAsLTIwOTExMzcxNTMsLTcxNDI3OTM4
+Ml19
 -->
