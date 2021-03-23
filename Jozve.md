@@ -84,9 +84,9 @@ In fact, the value of $f$ is decreasing in each iteration. The proof is straight
 By *taylor exapansion* of a function $f$  we have:
 $$f(x+v) = f(x) + \nabla_x f(x)^Tv  + O(||v||_2^2)$$
 Now choose $v$ to be multiplication of gradient i.e. $-\alpha\nabla_x f(x)$. By substituting in the above equation we have:
-$$f(x+$$
+$$= f(x)  + -\alpha||\nabla_x f(x)||_2^2 + C||\alpha\nabla_x f(x)||_2^2$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTEwMjkxMzYsLTE2MDIyODE3OCwtMT
+eyJoaXN0b3J5IjpbLTE2MDUwMDIyNDUsLTE2MDIyODE3OCwtMT
 MwMzI0MzAwOCwtMTQ3ODc3ODU2NywxNDU4NDEwNTE3LDg0Njgy
 NjE1MSwtOTc3NTIwMzg5LDE4MzI2Nzk1NDQsLTIyNTI3OTc1Mi
 wxNTUzODM0MDE0LDE1NzA0MzE0NTksMjg2MDQ2NDQxLC0xNDQ4
