@@ -13,7 +13,7 @@ Given a collection of cities (assume on 2D plane) how can we find the location t
 
 Let's denote the location of cities as $y_1, y_2, ..., y_n$.
 Then we can find answer to our question by solving the optimization problem below.
-$$min_x \Sigma$$
+$$min_x \Sigma{}$$
 
 ### Image deblurring and denoising
 
@@ -30,7 +30,7 @@ $$min_x \Sigma$$
 # 6
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2MjA1MDc0NywtNjI1MjUwMTY0LDE2NT
+eyJoaXN0b3J5IjpbMTc4OTM5MTMzNSwtNjI1MjUwMTY0LDE2NT
 kwMTQ2ODMsLTk0ODU0NjYxLDU1OTk5ODQ4NCwtMTE4MTE2ODQy
 OCwyMDA3OTUxOTAwLC0xNzM1OTU5NTI5LC0xNDIxMDg2MDIyXX
 0=
