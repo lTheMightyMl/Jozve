@@ -77,7 +77,7 @@ The algorithm is really simple (and effective!!!). Isimple which its pseudocode 
 ```
 x  = initilize_point()
 for EPOCHS tims repeat:
-	x -=  contant * gradient(f(x))
+	x -=  learnn * gradient(f(x))
 ```
 
 In fact, the value of $f$ is decreasing in each iteration. The proof is straight forward as it is illustrated in below:
@@ -88,13 +88,13 @@ $$= f(x)  -\alpha||\nabla_x f(x)||_2^2 + C||\alpha\nabla_x f(x)||_2^2$$$$\le f(x
 
 Note that the second relation will only hold for small size of $||\alpha\nabla_x f(x)||_2^2$.  Also every $v$ which its inner product with the gradient is less than zero cannot be a good choice because ,as we have seen above, the value of $v$ itself can be effective too. For example see the picture below:
 ![gradient descent learning rate](https://builtin.com/sites/default/files/styles/ckeditor_optimize/public/inline-images/gradient-descent-learning-rate.png)
-If the learning rate is too large convergence can be failed. On the other hand choosing a 
+If the learning rate (the constant which multiplies to the gradient) is too large convergence might be failed. On the other hand choosing a very small learning rate 
 $\blacksquare$
 ![What is Stochastic Gradient Descent- A Super Easy Complete Guide!](https://www.mltut.com/wp-content/uploads/2020/04/Untitled-document-3.png)
 So by far we have seen that the gradient descent will converge toward the local minimum (see the figure above to see the importance of starting point in non-convex functions).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTk1OTM0MTcyLC0xNjAyMjgxNzgsLTEzMD
+eyJoaXN0b3J5IjpbMjQ5NDczMjA2LC0xNjAyMjgxNzgsLTEzMD
 MyNDMwMDgsLTE0Nzg3Nzg1NjcsMTQ1ODQxMDUxNyw4NDY4MjYx
 NTEsLTk3NzUyMDM4OSwxODMyNjc5NTQ0LC0yMjUyNzk3NTIsMT
 U1MzgzNDAxNCwxNTcwNDMxNDU5LDI4NjA0NjQ0MSwtMTQ0ODg0
