@@ -21,6 +21,8 @@ $$min_x \sum^{i}_{j}$$
 
 # 2
 
+## How difficult is real-valued optimisation?
+
 
 
 # 3
@@ -32,8 +34,8 @@ $$min_x \sum^{i}_{j}$$
 # 6
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2NDA4MTY1NywyMDc4MzgzMTcxLDE3OD
-kzOTEzMzUsLTYyNTI1MDE2NCwxNjU5MDE0NjgzLC05NDg1NDY2
-MSw1NTk5OTg0ODQsLTExODExNjg0MjgsMjAwNzk1MTkwMCwtMT
-czNTk1OTUyOSwtMTQyMTA4NjAyMl19
+eyJoaXN0b3J5IjpbLTEzODU3MDA0ODgsLTk2NDA4MTY1NywxNz
+g5MzkxMzM1LC02MjUyNTAxNjQsMTY1OTAxNDY4MywtOTQ4NTQ2
+NjEsNTU5OTk4NDg0LC0xMTgxMTY4NDI4LDIwMDc5NTE5MDAsLT
+E3MzU5NTk1MjksLTE0MjEwODYwMjJdfQ==
 -->
