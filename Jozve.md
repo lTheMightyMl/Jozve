@@ -77,7 +77,7 @@ The algorithm is really simple (and effective!!!). Isimple which its pseudocode 
 ```
 x  = initilize_point()
 for EPOCHS tims repeat:
-	x -=  learnn * gradient(f(x))
+	x -=  learning_rate * gradient(f(x))
 ```
 
 In fact, the value of $f$ is decreasing in each iteration. The proof is straight forward as it is illustrated in below:
@@ -94,11 +94,11 @@ $\blacksquare$
 So by far we have seen that the gradient descent will converge toward the local minimum (see the figure above to see the importance of starting point in non-convex functions).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQ5NDczMjA2LC0xNjAyMjgxNzgsLTEzMD
-MyNDMwMDgsLTE0Nzg3Nzg1NjcsMTQ1ODQxMDUxNyw4NDY4MjYx
-NTEsLTk3NzUyMDM4OSwxODMyNjc5NTQ0LC0yMjUyNzk3NTIsMT
-U1MzgzNDAxNCwxNTcwNDMxNDU5LDI4NjA0NjQ0MSwtMTQ0ODg0
-MzU3NCwxNjE1MDE1MTQxLDQ3MjQwNTc1MywzNDUyNzAwMjEsMT
-M1ODU1NDI5OCwtMzI2MjUyNjEsNTczMTk2MDA1LDU3MzE5NjAw
-NV19
+eyJoaXN0b3J5IjpbLTE2Mjk3ODYyNzksLTE2MDIyODE3OCwtMT
+MwMzI0MzAwOCwtMTQ3ODc3ODU2NywxNDU4NDEwNTE3LDg0Njgy
+NjE1MSwtOTc3NTIwMzg5LDE4MzI2Nzk1NDQsLTIyNTI3OTc1Mi
+wxNTUzODM0MDE0LDE1NzA0MzE0NTksMjg2MDQ2NDQxLC0xNDQ4
+ODQzNTc0LDE2MTUwMTUxNDEsNDcyNDA1NzUzLDM0NTI3MDAyMS
+wxMzU4NTU0Mjk4LC0zMjYyNTI2MSw1NzMxOTYwMDUsNTczMTk2
+MDA1XX0=
 -->
