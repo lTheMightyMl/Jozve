@@ -25,6 +25,7 @@ Image **Deblurring** (**Noise reduction**) is the processes of removing blurring
 Given corrupted image $Y \in \mathbb R^{m\times n}$, we reconstruct the image by solving the optimization problem below:
 $$\min_X \sum_{i, j}|Y_{ij}-(K*X)_{ij}| + \lambda \sum_{i, j}\big((X_{ij}-X_{i, j+1})^2+(X_{i+1, j}-X_{ij})^2\big)^\frac{1}{2}$$
 where $K*$ denotes convolution with a blurring filter.
+![Image Denoising](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2gCwhdGdOTVWExz0qvZFiWws1NVGLsO5uqA&usqp=CAU)
 ### Machine Learning
 
 # 2
@@ -100,11 +101,11 @@ and obviously $x_{new} = (x_{new_1}, x_{new_2})$.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2NDI3NTMxNywtMjA3ODM3NjAyMSwxNz
-A0Njc2MzgsMTAzODgwNTY3MSwtMjY0MTUxNzA5LDE5OTk5NjM0
-ODQsMTk1MTM2NTQ2LC02NzU0NTczMDEsLTE2MDIyODE3OCwtMT
-MwMzI0MzAwOCwtMTQ3ODc3ODU2NywxNDU4NDEwNTE3LDg0Njgy
-NjE1MSwtOTc3NTIwMzg5LDE4MzI2Nzk1NDQsLTIyNTI3OTc1Mi
-wxNTUzODM0MDE0LDE1NzA0MzE0NTksMjg2MDQ2NDQxLC0xNDQ4
-ODQzNTc0XX0=
+eyJoaXN0b3J5IjpbLTE0OTM0MTc5OTYsLTIwNzgzNzYwMjEsMT
+cwNDY3NjM4LDEwMzg4MDU2NzEsLTI2NDE1MTcwOSwxOTk5OTYz
+NDg0LDE5NTEzNjU0NiwtNjc1NDU3MzAxLC0xNjAyMjgxNzgsLT
+EzMDMyNDMwMDgsLTE0Nzg3Nzg1NjcsMTQ1ODQxMDUxNyw4NDY4
+MjYxNTEsLTk3NzUyMDM4OSwxODMyNjc5NTQ0LC0yMjUyNzk3NT
+IsMTU1MzgzNDAxNCwxNTcwNDMxNDU5LDI4NjA0NjQ0MSwtMTQ0
+ODg0MzU3NF19
 -->
