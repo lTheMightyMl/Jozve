@@ -94,13 +94,17 @@ If the learning rate (the constant which multiplies to the gradient) is too larg
 ![What is Stochastic Gradient Descent- A Super Easy Complete Guide!](https://www.mltut.com/wp-content/uploads/2020/04/Untitled-document-3.png)
 So by far we have seen that the gradient descent will converge toward the local minimum (see the figure above to see the importance of starting point in non-convex functions). Now let's go through some examples:
 consider the function $f = x_1^2+x_2^2 + 2x_1 + x_1x_2$. we have:
-$$\na$$
+$$\nabla_{x_1}f = 2x_1 +2  + x_2$$$$\nabla_{x_2}f = 2x_2 + x_1$$
+
+
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNDQzODE4MDksLTY3NTQ1NzMwMSwtMT
-YwMjI4MTc4LC0xMzAzMjQzMDA4LC0xNDc4Nzc4NTY3LDE0NTg0
-MTA1MTcsODQ2ODI2MTUxLC05Nzc1MjAzODksMTgzMjY3OTU0NC
-wtMjI1Mjc5NzUyLDE1NTM4MzQwMTQsMTU3MDQzMTQ1OSwyODYw
-NDY0NDEsLTE0NDg4NDM1NzQsMTYxNTAxNTE0MSw0NzI0MDU3NT
-MsMzQ1MjcwMDIxLDEzNTg1NTQyOTgsLTMyNjI1MjYxLDU3MzE5
-NjAwNV19
+eyJoaXN0b3J5IjpbLTIwMDU3MTUwMCwtNjc1NDU3MzAxLC0xNj
+AyMjgxNzgsLTEzMDMyNDMwMDgsLTE0Nzg3Nzg1NjcsMTQ1ODQx
+MDUxNyw4NDY4MjYxNTEsLTk3NzUyMDM4OSwxODMyNjc5NTQ0LC
+0yMjUyNzk3NTIsMTU1MzgzNDAxNCwxNTcwNDMxNDU5LDI4NjA0
+NjQ0MSwtMTQ0ODg0MzU3NCwxNjE1MDE1MTQxLDQ3MjQwNTc1My
+wzNDUyNzAwMjEsMTM1ODU1NDI5OCwtMzI2MjUyNjEsNTczMTk2
+MDA1XX0=
 -->
