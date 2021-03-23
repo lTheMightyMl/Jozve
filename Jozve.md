@@ -28,7 +28,8 @@ $$\min_X \sum_{i, j}|Y_{ij}-(K*X)_{ij}| + \lambda \sum_{i, j}\big((X_{ij}-X_{i, 
 where $K*$ denotes convolution with a blurring filter.
 
 ### Machine Learning
-
+Virtually all (supervised) machine learning algorithms boil down to solving the optimization problem:
+$$\min_\theta \sum_{i=1}^m \$$
 
 # 2
 
@@ -103,11 +104,11 @@ and obviously $x_{new} = (x_{new_1}, x_{new_2})$.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjczNjU5NjgsNDcxMjQ4NjEwLC0xND
-kzNDE3OTk2LC0yMDc4Mzc2MDIxLDE3MDQ2NzYzOCwxMDM4ODA1
-NjcxLC0yNjQxNTE3MDksMTk5OTk2MzQ4NCwxOTUxMzY1NDYsLT
-Y3NTQ1NzMwMSwtMTYwMjI4MTc4LC0xMzAzMjQzMDA4LC0xNDc4
-Nzc4NTY3LDE0NTg0MTA1MTcsODQ2ODI2MTUxLC05Nzc1MjAzOD
-ksMTgzMjY3OTU0NCwtMjI1Mjc5NzUyLDE1NTM4MzQwMTQsMTU3
-MDQzMTQ1OV19
+eyJoaXN0b3J5IjpbMTEwNDU4Mzc4OCwtMTAyNzM2NTk2OCw0Nz
+EyNDg2MTAsLTE0OTM0MTc5OTYsLTIwNzgzNzYwMjEsMTcwNDY3
+NjM4LDEwMzg4MDU2NzEsLTI2NDE1MTcwOSwxOTk5OTYzNDg0LD
+E5NTEzNjU0NiwtNjc1NDU3MzAxLC0xNjAyMjgxNzgsLTEzMDMy
+NDMwMDgsLTE0Nzg3Nzg1NjcsMTQ1ODQxMDUxNyw4NDY4MjYxNT
+EsLTk3NzUyMDM4OSwxODMyNjc5NTQ0LC0yMjUyNzk3NTIsMTU1
+MzgzNDAxNF19
 -->
