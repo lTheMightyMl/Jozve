@@ -9,7 +9,7 @@ Actually,
 2. the way time is handled
 3. the percepts and actions of the agent
 
-might be continuous (or discrete) in our problems, and in this section we 
+might be continuous (or discrete) in our problems, and this section provides a very brief introduction to some local search techniques for finding optimal solutions in continuous spaces
 
 ## Examples
 
@@ -61,8 +61,8 @@ which the first property is the key point that enable us to tackle
 
 # 6
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyNjg5MTUzMiwxMjg5NzM3Mjc0LDE5Mj
-EwMjY5NzksMTM1ODU1NDI5OCwtMzI2MjUyNjEsNTczMTk2MDA1
+eyJoaXN0b3J5IjpbMjExNDAwNjEzOSwtNDI2ODkxNTMyLDEyOD
+k3MzcyNzQsMTM1ODU1NDI5OCwtMzI2MjUyNjEsNTczMTk2MDA1
 LDU3MzE5NjAwNSwtMTU2NTA3NDYzMCw2NDkyOTIzOTcsMTczMD
 I1MTU0NiwtMTM5NTEyOTcyMCwtMjA5MTEzNzE1MywtNzE0Mjc5
 MzgyLC05NTYxNTEwNTIsLTExNTAwMDAxODMsLTkxMTgyMTc2Ny
