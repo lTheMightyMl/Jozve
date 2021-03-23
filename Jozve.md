@@ -1,4 +1,4 @@
-```
+```python
 import god
 ```
 Courtesy: Most content are adopted from 15-780 course at CMU.
@@ -15,7 +15,7 @@ Courtesy: Most content are adopted from 15-780 course at CMU.
 # 6
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0MTg0MDQ4OCwxNjU5MDE0NjgzLC05ND
+eyJoaXN0b3J5IjpbLTYyNTI1MDE2NCwxNjU5MDE0NjgzLC05ND
 g1NDY2MSw1NTk5OTg0ODQsLTExODExNjg0MjgsMjAwNzk1MTkw
 MCwtMTczNTk1OTUyOSwtMTQyMTA4NjAyMl19
 -->
