@@ -68,15 +68,15 @@ which contradicts to the previous relation. Hence the hypothesis was wrong and t
 Now once we found out this useful property, a good idea can be model our problems to a convex optimization problem through which we can apply various iterative methods like `gradient descent` to solve the problems.
 
 ### gradient descent
-
+The idea is to take repeated steps in the opposite direction of the gradient (or approximate gradient) of the function at the current point, because this is the direction of steepest descent. Conversely, stepping in the direction of the gradient will lead to a local maximum of that function; the procedure is then known as **gradient ascent**.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTc0MzM4NDcsMTE5NjgzODMzMywtMj
-I1Mjc5NzUyLDE1NTM4MzQwMTQsMTU3MDQzMTQ1OSwyODYwNDY0
-NDEsLTE0NDg4NDM1NzQsMTYxNTAxNTE0MSw0NzI0MDU3NTMsMz
-Q1MjcwMDIxLDEzNTg1NTQyOTgsLTMyNjI1MjYxLDU3MzE5NjAw
-NSw1NzMxOTYwMDUsLTE1NjUwNzQ2MzAsNjQ5MjkyMzk3LDE3Mz
-AyNTE1NDYsLTEzOTUxMjk3MjAsLTIwOTExMzcxNTMsLTcxNDI3
-OTM4Ml19
+eyJoaXN0b3J5IjpbLTExNjQ0OTc3NjYsLTE5OTc0MzM4NDcsLT
+IyNTI3OTc1MiwxNTUzODM0MDE0LDE1NzA0MzE0NTksMjg2MDQ2
+NDQxLC0xNDQ4ODQzNTc0LDE2MTUwMTUxNDEsNDcyNDA1NzUzLD
+M0NTI3MDAyMSwxMzU4NTU0Mjk4LC0zMjYyNTI2MSw1NzMxOTYw
+MDUsNTczMTk2MDA1LC0xNTY1MDc0NjMwLDY0OTI5MjM5NywxNz
+MwMjUxNTQ2LC0xMzk1MTI5NzIwLC0yMDkxMTM3MTUzLC03MTQy
+NzkzODJdfQ==
 -->
