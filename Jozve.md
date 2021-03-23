@@ -56,9 +56,8 @@ Now let's go through its proof:
 
 Assume there exists $x_0$ such that $f(x_0)<f(x_∗)$ where $x_*$ is the local optima of the function. 
 Then for any $t∈(0,1]t∈(0,1]$ we have:
-$$f(Z) = f((1−t)x_∗+tx_0)≤(1−t)f(x_∗)+tf(x_0)$$$$<(1−t)f(x_∗)+tf(x_∗)$$$$=f(x_∗)$$
-$$ $$
-Now note that $Z$  is lying on the line which connects $x_0$ and $x_*$. Therefore, if $Z$ is chosen very close to $x_*$, it 
+$$f(Z) = f((1−t)x_∗+tx_0)≤(1−t)f(x_∗)+tf(x_0)$$$$<(1−t)f(x_∗)+tf(x_∗)$$$$=f(x_∗)$$$$\Longrightarrow $$$$f(Z) < f(x_*)$$
+Now note that $Z$  is lying on the line which connects $x_0$ and $x_*$. Therefore, if $Z$ is chosen very close to $x_*$, the $f(Z)
 
 # 4
 
@@ -66,7 +65,7 @@ Now note that $Z$  is lying on the line which connects $x_0$ and $x_*$. Therefor
 
 # 6
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4MDg0MDY2NywxNTg2Mjc3ODcxLDE1NT
+eyJoaXN0b3J5IjpbLTgxMTk0ODQ1NiwtNjgwODQwNjY3LDE1NT
 M4MzQwMTQsMTU3MDQzMTQ1OSwyODYwNDY0NDEsLTE0NDg4NDM1
 NzQsMTYxNTAxNTE0MSw0NzI0MDU3NTMsMzQ1MjcwMDIxLDEzNT
 g1NTQyOTgsLTMyNjI1MjYxLDU3MzE5NjAwNSw1NzMxOTYwMDUs
