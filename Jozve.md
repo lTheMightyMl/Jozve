@@ -55,8 +55,8 @@ Now let's go through its proof:
 
 Assume there exists $x_0$ such that $f(x_0)<f(x_∗)$ where $x_*$ is the local optima of the function. 
 Then for any $t∈(0,1]t∈(0,1]$ we have:
-$$f((1−t)x_∗+tx_0)≤(1−t)f(x_∗)+tf(x_0)$$$$<(1−t)f(x_∗)+tf(x_∗)$$$$=f(x_∗)$$
-
+$$f(Z) = f((1−t)x_∗+tx_0)≤(1−t)f(x_∗)+tf(x_0)$$$$<(1−t)f(x_∗)+tf(x_∗)$$$$=f(x_∗)$$
+Now note that $Z$  is lying on the line which connects $x_0
 
 # 4
 
@@ -64,11 +64,11 @@ $$f((1−t)x_∗+tx_0)≤(1−t)f(x_∗)+tf(x_0)$$$$<(1−t)f(x_∗)+tf(x_∗)$$
 
 # 6
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1MzgzNDAxNCwxNTcwNDMxNDU5LDI4Nj
-A0NjQ0MSwtMTQ0ODg0MzU3NCwxNjE1MDE1MTQxLDQ3MjQwNTc1
-MywzNDUyNzAwMjEsMTM1ODU1NDI5OCwtMzI2MjUyNjEsNTczMT
-k2MDA1LDU3MzE5NjAwNSwtMTU2NTA3NDYzMCw2NDkyOTIzOTcs
-MTczMDI1MTU0NiwtMTM5NTEyOTcyMCwtMjA5MTEzNzE1MywtNz
-E0Mjc5MzgyLC05NTYxNTEwNTIsLTExNTAwMDAxODMsLTkxMTgy
-MTc2N119
+eyJoaXN0b3J5IjpbNDUzMzkxNjkzLDE1NTM4MzQwMTQsMTU3MD
+QzMTQ1OSwyODYwNDY0NDEsLTE0NDg4NDM1NzQsMTYxNTAxNTE0
+MSw0NzI0MDU3NTMsMzQ1MjcwMDIxLDEzNTg1NTQyOTgsLTMyNj
+I1MjYxLDU3MzE5NjAwNSw1NzMxOTYwMDUsLTE1NjUwNzQ2MzAs
+NjQ5MjkyMzk3LDE3MzAyNTE1NDYsLTEzOTUxMjk3MjAsLTIwOT
+ExMzcxNTMsLTcxNDI3OTM4MiwtOTU2MTUxMDUyLC0xMTUwMDAw
+MTgzXX0=
 -->
