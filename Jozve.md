@@ -20,8 +20,9 @@ $$\min_{x} \sum^{n}_{i=1}||x-y_i||_2$$
 
 ### Image deblurring and denoising
 `image`
-**Deblurring** (**Noise reduction**) is the processes of removing blurring artifacts (noise) from images [input image say $Y$ which is blurred image which generally happens due to camera shake or some other phenomenon].
-Given corrupted image $Y \in \mathbb R^{m\times n}$, reconstruct the image by solving the optimization problem below:
+Image **Deblurring** (**Noise reduction**) is the processes of removing blurring artifacts (noise) from images [input image say $Y$ which is blurred image which generally happens due to camera shake or some other phenomenon].
+Given corrupted image $Y \in \mathbb R^{m\times n}$, we reconstruct the image by solving the optimization problem below:
+$$\min_X$$
 ### Machine Learning
 
 # 2
@@ -73,11 +74,11 @@ Now once we found out this useful property, a good idea can be model our problem
 
 # 6
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3NDk0NDc3NiwxNTU1NzEzODYxLC0yMj
-UyNzk3NTIsMTU1MzgzNDAxNCwxNTcwNDMxNDU5LDI4NjA0NjQ0
-MSwtMTQ0ODg0MzU3NCwxNjE1MDE1MTQxLDQ3MjQwNTc1MywzND
-UyNzAwMjEsMTM1ODU1NDI5OCwtMzI2MjUyNjEsNTczMTk2MDA1
-LDU3MzE5NjAwNSwtMTU2NTA3NDYzMCw2NDkyOTIzOTcsMTczMD
-I1MTU0NiwtMTM5NTEyOTcyMCwtMjA5MTEzNzE1MywtNzE0Mjc5
-MzgyXX0=
+eyJoaXN0b3J5IjpbNTg1Njc0NTM2LDEwNzQ5NDQ3NzYsLTIyNT
+I3OTc1MiwxNTUzODM0MDE0LDE1NzA0MzE0NTksMjg2MDQ2NDQx
+LC0xNDQ4ODQzNTc0LDE2MTUwMTUxNDEsNDcyNDA1NzUzLDM0NT
+I3MDAyMSwxMzU4NTU0Mjk4LC0zMjYyNTI2MSw1NzMxOTYwMDUs
+NTczMTk2MDA1LC0xNTY1MDc0NjMwLDY0OTI5MjM5NywxNzMwMj
+UxNTQ2LC0xMzk1MTI5NzIwLC0yMDkxMTM3MTUzLC03MTQyNzkz
+ODJdfQ==
 -->
