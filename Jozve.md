@@ -41,7 +41,7 @@ Assume $S$ is a bounded subset of $\mathbb{R}$. We know that $\forall x,y\in\mat
 
 ```image```
 
-Lipschitz continuity made it possible to find near-optimal solutions, but it can be proved that any algorithm to find a near-optimal minimum or maximum for a Lipschitz continuous function 
+Lipschitz continuity made it possible to find near-optimal solutions, but it can be proved that any algorithm to find a near-optimal minimum or maximum for a Lipschitz continuous function has $\Omega(\frac{1}{t})$ error
 
 # 3
 
@@ -62,8 +62,8 @@ which the first property is the key point that enable us to tackle the problem
 
 # 6
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyMTAyNjk3OSwyMTI0NDM5MjUsMjA3ND
-c4ODUwNSwxMzU4NTU0Mjk4LC0zMjYyNTI2MSw1NzMxOTYwMDUs
+eyJoaXN0b3J5IjpbMTI4OTczNzI3NCwxOTIxMDI2OTc5LDIxMj
+Q0MzkyNSwxMzU4NTU0Mjk4LC0zMjYyNTI2MSw1NzMxOTYwMDUs
 NTczMTk2MDA1LC0xNTY1MDc0NjMwLDY0OTI5MjM5NywxNzMwMj
 UxNTQ2LC0xMzk1MTI5NzIwLC0yMDkxMTM3MTUzLC03MTQyNzkz
 ODIsLTk1NjE1MTA1MiwtMTE1MDAwMDE4MywtOTExODIxNzY3LD
