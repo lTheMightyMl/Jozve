@@ -41,7 +41,7 @@ Assume $S$ is a bounded subset of $\mathbb{R}$. We know that $\forall x,y\in\mat
 
 ```image```
 
-Lipschitz continuity made it possible to find near-optimal solutions, but it can be proved that any algorithm to find a near-optimal minimum or maximum 
+Lipschitz continuity made it possible to find near-optimal solutions, but it can be proved that any algorithm to find a near-optimal minimum or maximum for a Lipschitz continuous function 
 
 # 3
 
@@ -63,11 +63,11 @@ which the first property is the key point that enable us to tackle the these typ
 
 # 6
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4ODIwNDU5OCwxNjQ4MjIxNDQxLDY0OT
-Y4NzI1NSwxMzU4NTU0Mjk4LC0zMjYyNTI2MSw1NzMxOTYwMDUs
-NTczMTk2MDA1LC0xNTY1MDc0NjMwLDY0OTI5MjM5NywxNzMwMj
-UxNTQ2LC0xMzk1MTI5NzIwLC0yMDkxMTM3MTUzLC03MTQyNzkz
-ODIsLTk1NjE1MTA1MiwtMTE1MDAwMDE4MywtOTExODIxNzY3LD
-E5NzQwOTY1OTksLTEzODU3MDA0ODgsMTc4OTM5MTMzNSwtNjI1
-MjUwMTY0XX0=
+eyJoaXN0b3J5IjpbMjA3NDc4ODUwNSwxNTg4MjA0NTk4LDE2ND
+gyMjE0NDEsMTM1ODU1NDI5OCwtMzI2MjUyNjEsNTczMTk2MDA1
+LDU3MzE5NjAwNSwtMTU2NTA3NDYzMCw2NDkyOTIzOTcsMTczMD
+I1MTU0NiwtMTM5NTEyOTcyMCwtMjA5MTEzNzE1MywtNzE0Mjc5
+MzgyLC05NTYxNTEwNTIsLTExNTAwMDAxODMsLTkxMTgyMTc2Ny
+wxOTc0MDk2NTk5LC0xMzg1NzAwNDg4LDE3ODkzOTEzMzUsLTYy
+NTI1MDE2NF19
 -->
