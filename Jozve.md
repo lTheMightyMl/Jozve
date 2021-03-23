@@ -23,8 +23,9 @@ $$\min_{x} \sum^{n}_{i=1}||x-y_i||_2$$
 
 ## How difficult is real-valued optimisation?
 
-If we do not make any assumptions about the function $f:S\rightarrow\mathbb{R}$ where $S\sube\mathbb{R}^n$ is a , then it is impossible to find a global minimiser or maximiser in finite time. This is due to the fact that the value of the function at any one point does not reveal information about the function's behaviour at other points. As a result, we must know the function value for every point in $\mathbb{R}$, which simply takes infinite time because the set $\mathbb{R}$ is not finite. Even if we try to find a point at which the function's value is at most  $\epsilon$ far from the real minimum or maximum, we still need to find out the value of the function at all points which was shown cannot be done in finite time.
-However, if we make some reasonable assumptions about the function being examined,  
+If we do not make any assumptions about the function $f:S\rightarrow\mathbb{R}$ where $S\subseteq\mathbb{R}^n$ is a continuous space, then it is impossible to find a global minimiser or maximiser in finite time. This is due to the fact that the value of the function at any one point does not reveal information about the function's behaviour at other points. As a result, we must know the function value for every point in $S$, which takes infinite time because the set $S$ is simply not finite. Even if we try to find a point at which the function's value is at most  $\epsilon$ far from the real minimum or maximum, we still need to find out the value of the function at all points which was shown cannot be done in finite time.
+
+However, if we make some reasonable assumptions about the function being examined, 
 
 # 3
 
@@ -33,12 +34,11 @@ However, if we make some reasonable assumptions about the function being examine
 # 5
 
 # 6
-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzk1MzAzNTEsLTcxNDI3OTM4MiwtOT
-U2MTUxMDUyLC0xMTUwMDAwMTgzLC05MTE4MjE3NjcsMTk3NDA5
-NjU5OSwtMTM4NTcwMDQ4OCwxNzg5MzkxMzM1LC02MjUyNTAxNj
-QsMTY1OTAxNDY4MywtOTQ4NTQ2NjEsNTU5OTk4NDg0LC0xMTgx
-MTY4NDI4LDIwMDc5NTE5MDAsLTE3MzU5NTk1MjksLTE0MjEwOD
-YwMjJdfQ==
+eyJoaXN0b3J5IjpbLTUxNzU3NTYxMSwtNzE0Mjc5MzgyLC05NT
+YxNTEwNTIsLTExNTAwMDAxODMsLTkxMTgyMTc2NywxOTc0MDk2
+NTk5LC0xMzg1NzAwNDg4LDE3ODkzOTEzMzUsLTYyNTI1MDE2NC
+wxNjU5MDE0NjgzLC05NDg1NDY2MSw1NTk5OTg0ODQsLTExODEx
+Njg0MjgsMjAwNzk1MTkwMCwtMTczNTk1OTUyOSwtMTQyMTA4Nj
+AyMl19
 -->
