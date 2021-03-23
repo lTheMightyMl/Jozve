@@ -53,8 +53,8 @@ Now let's examine some useful properties:
 In fact many of search algorithms find the local optima, and that's why the first property is the key point that enable us to tackle these types of problems to find the global optima solutions.
 Now let's go through its proof:
 
-Assume there exists $x_0$ such that $f(x_0)<f(x_∗)$
-Then for any t∈(0,1]t∈(0,1] we have:
+Assume there exists $x_0$ such that $f(x_0)<f(x_∗)$ where $x_*$ is the local optima of the function. Then for any $t∈(0,1]$ we have:
+$f((1−t)x∗+tx0)≤(1−t)f(x∗)+tf(x0)<(1−t)f(x∗)+tf(x∗)=f(x∗)$
 
 
 # 4
@@ -63,7 +63,7 @@ Then for any t∈(0,1]t∈(0,1] we have:
 
 # 6
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwOTkwMDI0NywyODYwNDY0NDEsLTE0ND
+eyJoaXN0b3J5IjpbMTYwMzk0ODQzOCwyODYwNDY0NDEsLTE0ND
 g4NDM1NzQsMTYxNTAxNTE0MSw0NzI0MDU3NTMsMzQ1MjcwMDIx
 LDEzNTg1NTQyOTgsLTMyNjI1MjYxLDU3MzE5NjAwNSw1NzMxOT
 YwMDUsLTE1NjUwNzQ2MzAsNjQ5MjkyMzk3LDE3MzAyNTE1NDYs
