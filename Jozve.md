@@ -50,7 +50,9 @@ Now let's examine some useful properties:
  - the optimal set is convex
  - if the objective function is _strictly_ convex, then the problem has at most one optimal point
 
-which the first property is the key point that enable us to tackle these types of problems.
+In fact many of search algorithms find the local optima, and that's why the first property is the key point that enable us to tackle these types of problems to find the global optima solutions.
+Now let's go through its proof:
+
 
 
 # 4
@@ -59,11 +61,11 @@ which the first property is the key point that enable us to tackle these types o
 
 # 6
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDg4NDM1NzQsMTYxNTAxNTE0MSw0Nz
-I0MDU3NTMsMzQ1MjcwMDIxLDEzNTg1NTQyOTgsLTMyNjI1MjYx
-LDU3MzE5NjAwNSw1NzMxOTYwMDUsLTE1NjUwNzQ2MzAsNjQ5Mj
-kyMzk3LDE3MzAyNTE1NDYsLTEzOTUxMjk3MjAsLTIwOTExMzcx
-NTMsLTcxNDI3OTM4MiwtOTU2MTUxMDUyLC0xMTUwMDAwMTgzLC
-05MTE4MjE3NjcsMTk3NDA5NjU5OSwtMTM4NTcwMDQ4OCwxNzg5
-MzkxMzM1XX0=
+eyJoaXN0b3J5IjpbMjg2MDQ2NDQxLC0xNDQ4ODQzNTc0LDE2MT
+UwMTUxNDEsNDcyNDA1NzUzLDM0NTI3MDAyMSwxMzU4NTU0Mjk4
+LC0zMjYyNTI2MSw1NzMxOTYwMDUsNTczMTk2MDA1LC0xNTY1MD
+c0NjMwLDY0OTI5MjM5NywxNzMwMjUxNTQ2LC0xMzk1MTI5NzIw
+LC0yMDkxMTM3MTUzLC03MTQyNzkzODIsLTk1NjE1MTA1MiwtMT
+E1MDAwMDE4MywtOTExODIxNzY3LDE5NzQwOTY1OTksLTEzODU3
+MDA0ODhdfQ==
 -->
