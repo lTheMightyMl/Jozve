@@ -64,7 +64,7 @@ $$f(Z) \ge f(x_*)$$
 which contradicts to the previous relation. Hence the hypothesis was wrong and the property is proved.
 
 ---
-Now once we found out this useful property, a good idea can be model our problems to a 
+Now once we found out this useful property, a good idea can be model our problems to a convex optimization problem through which we can apply iterative methods like `gradient descent 
 
 
 # 4
@@ -73,7 +73,7 @@ Now once we found out this useful property, a good idea can be model our problem
 
 # 6
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1NTcxMzg2MSwtMzk0ODUxNDM4LC0yMj
+eyJoaXN0b3J5IjpbMTA3NDk0NDc3NiwxNTU1NzEzODYxLC0yMj
 UyNzk3NTIsMTU1MzgzNDAxNCwxNTcwNDMxNDU5LDI4NjA0NjQ0
 MSwtMTQ0ODg0MzU3NCwxNjE1MDE1MTQxLDQ3MjQwNTc1MywzND
 UyNzAwMjEsMTM1ODU1NDI5OCwtMzI2MjUyNjEsNTczMTk2MDA1
