@@ -73,9 +73,12 @@ The idea is to take repeated steps in the opposite direction of the gradient (or
 
 ![](https://miro.medium.com/max/2976/1*70f9PB-RwFaakqD6lfp4iw.png)
 
-The algorithm is simple which its pseudocode can be s
+The algorithm is really simple (and effective!!!). Its pseudocode can be in below:
+```
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4NDUxNDQ1NiwtOTc3NTIwMzg5LDE4Mz
+eyJoaXN0b3J5IjpbLTE2OTU0Mjg2MywtOTc3NTIwMzg5LDE4Mz
 I2Nzk1NDQsLTIyNTI3OTc1MiwxNTUzODM0MDE0LDE1NzA0MzE0
 NTksMjg2MDQ2NDQxLC0xNDQ4ODQzNTc0LDE2MTUwMTUxNDEsND
 cyNDA1NzUzLDM0NTI3MDAyMSwxMzU4NTU0Mjk4LC0zMjYyNTI2
