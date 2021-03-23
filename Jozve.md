@@ -88,13 +88,14 @@ $$= f(x)  -\alpha||\nabla_x f(x)||_2^2 + C||\alpha\nabla_x f(x)||_2^2$$$$\le f(x
 
 Note the second relation will only hold for small size of $||\alpha\nabla_x f(x)||_2^2$.
 $\blacksquare$
-by
+![4: 3 steps of a Gradient Descent with learning decay rate α starting... |  Download Scientific Diagram](https://www.researchgate.net/profile/Victor-Suarez-Paniagua/publication/334643403/figure/fig2/AS:783985458282496@1563928107803/3-steps-of-a-Gradient-Descent-with-learning-decay-rate-a-starting-from-the-initial.png)
+So by far we have seen that 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwMTkzMTMyNiwtMTYwMjI4MTc4LC0xMz
-AzMjQzMDA4LC0xNDc4Nzc4NTY3LDE0NTg0MTA1MTcsODQ2ODI2
-MTUxLC05Nzc1MjAzODksMTgzMjY3OTU0NCwtMjI1Mjc5NzUyLD
-E1NTM4MzQwMTQsMTU3MDQzMTQ1OSwyODYwNDY0NDEsLTE0NDg4
-NDM1NzQsMTYxNTAxNTE0MSw0NzI0MDU3NTMsMzQ1MjcwMDIxLD
-EzNTg1NTQyOTgsLTMyNjI1MjYxLDU3MzE5NjAwNSw1NzMxOTYw
-MDVdfQ==
+eyJoaXN0b3J5IjpbMzExNDcwNTYxLC0xNjAyMjgxNzgsLTEzMD
+MyNDMwMDgsLTE0Nzg3Nzg1NjcsMTQ1ODQxMDUxNyw4NDY4MjYx
+NTEsLTk3NzUyMDM4OSwxODMyNjc5NTQ0LC0yMjUyNzk3NTIsMT
+U1MzgzNDAxNCwxNTcwNDMxNDU5LDI4NjA0NjQ0MSwtMTQ0ODg0
+MzU3NCwxNjE1MDE1MTQxLDQ3MjQwNTc1MywzNDUyNzAwMjEsMT
+M1ODU1NDI5OCwtMzI2MjUyNjEsNTczMTk2MDA1LDU3MzE5NjAw
+NV19
 -->
