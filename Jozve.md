@@ -78,10 +78,11 @@ The algorithm is really simple (and effective!!!). Isimple which its pseudocode 
 x  = initilize_point()
 for EPOCHS tims repeat:
 	x -=  contant * gradient(f(x))
-```s
+```
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0OTE5MTIwNywxNDU4NDEwNTE3LDg0Nj
+eyJoaXN0b3J5IjpbMjAzMzY2MDI2MCwxNDU4NDEwNTE3LDg0Nj
 gyNjE1MSwtOTc3NTIwMzg5LDE4MzI2Nzk1NDQsLTIyNTI3OTc1
 MiwxNTUzODM0MDE0LDE1NzA0MzE0NTksMjg2MDQ2NDQxLC0xND
 Q4ODQzNTc0LDE2MTUwMTUxNDEsNDcyNDA1NzUzLDM0NTI3MDAy
