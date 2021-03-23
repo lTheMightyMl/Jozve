@@ -95,10 +95,11 @@ If the learning rate (the constant which multiplies to the gradient) is too larg
 So by far we have seen that the gradient descent will converge toward the local minimum (see the figure above to see the importance of starting point in non-convex functions). Now let's go through some examples:
 consider the function $f = x_1^2+x_2^2 + 2x_1 + x_1x_2$. we have:
 $$\nabla_{x_1}f = 2x_1 +2  + x_2 = A(x)$$$$\nabla_{x_2}f = 2x_2 + x_1 = B(x)$$$$x_{new_1} = x_1 -\alpha A(x) $$$$x_{new_2} = x_2 -\alpha B(x)$$
-and obviously $x_{new} = (x_{new_1})$
+and obviously $x_{new} = (x_{new_1}, x_{new_2})$.
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3MTM2MjE4MywtMjY0MTUxNzA5LDE5OT
+eyJoaXN0b3J5IjpbMTAzODgwNTY3MSwtMjY0MTUxNzA5LDE5OT
 k5NjM0ODQsMTk1MTM2NTQ2LC02NzU0NTczMDEsLTE2MDIyODE3
 OCwtMTMwMzI0MzAwOCwtMTQ3ODc3ODU2NywxNDU4NDEwNTE3LD
 g0NjgyNjE1MSwtOTc3NTIwMzg5LDE4MzI2Nzk1NDQsLTIyNTI3
