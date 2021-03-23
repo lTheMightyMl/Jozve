@@ -53,8 +53,7 @@ Now let's examine some useful properties:
  - the optimal set is convex
  - if the objective function is _strictly_ convex, then the problem has at most one optimal point
 
-which the first property is the key point that enable us to tackle the problem
-
+which the first property is the key point that enable us to tackle 
 
 # 4
 
@@ -62,11 +61,11 @@ which the first property is the key point that enable us to tackle the problem
 
 # 6
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4OTczNzI3NCwxOTIxMDI2OTc5LDIxMj
-Q0MzkyNSwxMzU4NTU0Mjk4LC0zMjYyNTI2MSw1NzMxOTYwMDUs
-NTczMTk2MDA1LC0xNTY1MDc0NjMwLDY0OTI5MjM5NywxNzMwMj
-UxNTQ2LC0xMzk1MTI5NzIwLC0yMDkxMTM3MTUzLC03MTQyNzkz
-ODIsLTk1NjE1MTA1MiwtMTE1MDAwMDE4MywtOTExODIxNzY3LD
-E5NzQwOTY1OTksLTEzODU3MDA0ODgsMTc4OTM5MTMzNSwtNjI1
-MjUwMTY0XX0=
+eyJoaXN0b3J5IjpbLTQyNjg5MTUzMiwxMjg5NzM3Mjc0LDE5Mj
+EwMjY5NzksMTM1ODU1NDI5OCwtMzI2MjUyNjEsNTczMTk2MDA1
+LDU3MzE5NjAwNSwtMTU2NTA3NDYzMCw2NDkyOTIzOTcsMTczMD
+I1MTU0NiwtMTM5NTEyOTcyMCwtMjA5MTEzNzE1MywtNzE0Mjc5
+MzgyLC05NTYxNTEwNTIsLTExNTAwMDAxODMsLTkxMTgyMTc2Ny
+wxOTc0MDk2NTk5LC0xMzg1NzAwNDg4LDE3ODkzOTEzMzUsLTYy
+NTI1MDE2NF19
 -->
