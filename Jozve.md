@@ -89,13 +89,14 @@ $$= f(x)  -\alpha||\nabla_x f(x)||_2^2 + C||\alpha\nabla_x f(x)||_2^2$$$$\le f(x
 Note the second relation will only hold for small size of $||\alpha\nabla_x f(x)||_2^2$.
 $\blacksquare$
 ![What is Stochastic Gradient Descent- A Super Easy Complete Guide!](https://www.mltut.com/wp-content/uploads/2020/04/Untitled-document-3.png)
-So by far we have seen that the gradient descent will converge toward the local minimum (see the figure above to see the impor.
+So by far we have seen that the gradient descent will converge toward the local minimum (see the figure above to see the importance of starting point in non-convex functions).
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwODMxNjI3NCwtMTYwMjI4MTc4LC0xMz
-AzMjQzMDA4LC0xNDc4Nzc4NTY3LDE0NTg0MTA1MTcsODQ2ODI2
-MTUxLC05Nzc1MjAzODksMTgzMjY3OTU0NCwtMjI1Mjc5NzUyLD
-E1NTM4MzQwMTQsMTU3MDQzMTQ1OSwyODYwNDY0NDEsLTE0NDg4
-NDM1NzQsMTYxNTAxNTE0MSw0NzI0MDU3NTMsMzQ1MjcwMDIxLD
-EzNTg1NTQyOTgsLTMyNjI1MjYxLDU3MzE5NjAwNSw1NzMxOTYw
-MDVdfQ==
+eyJoaXN0b3J5IjpbMzgwNzM4MjU2LC0xNjAyMjgxNzgsLTEzMD
+MyNDMwMDgsLTE0Nzg3Nzg1NjcsMTQ1ODQxMDUxNyw4NDY4MjYx
+NTEsLTk3NzUyMDM4OSwxODMyNjc5NTQ0LC0yMjUyNzk3NTIsMT
+U1MzgzNDAxNCwxNTcwNDMxNDU5LDI4NjA0NjQ0MSwtMTQ0ODg0
+MzU3NCwxNjE1MDE1MTQxLDQ3MjQwNTc1MywzNDUyNzAwMjEsMT
+M1ODU1NDI5OCwtMzI2MjUyNjEsNTczMTk2MDA1LDU3MzE5NjAw
+NV19
 -->
