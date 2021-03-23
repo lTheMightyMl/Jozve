@@ -27,7 +27,7 @@ If we do not make any assumptions about the function $f:S\rightarrow\mathbb{R}$ 
 
 However, if we make some reasonable assumptions about the function being examined, a solution can be found in finite time. One such assumption is Lipschitz continuity. The mathematical definition is as follows:
 $$\exists L\in\mathbb{R}:\forall x,y\in\mathbb{R}^n|f(x)-f(y)|\le L||x-y||$$
-It means that the difference between the value of the function at two points is never more than a constant multiple of the distance of the two points. This assumption restricts the growth of the function between 
+It means that the difference between the value of the function at two points is never more than a constant multiple of the distance of the two points. This assumption restricts the growth of the function when moving from one point to another.
 
 # 3
 
@@ -37,10 +37,10 @@ It means that the difference between the value of the function at two points is 
 
 # 6
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzkzNTk2NSwtNzE0Mjc5MzgyLC05NT
-YxNTEwNTIsLTExNTAwMDAxODMsLTkxMTgyMTc2NywxOTc0MDk2
-NTk5LC0xMzg1NzAwNDg4LDE3ODkzOTEzMzUsLTYyNTI1MDE2NC
-wxNjU5MDE0NjgzLC05NDg1NDY2MSw1NTk5OTg0ODQsLTExODEx
-Njg0MjgsMjAwNzk1MTkwMCwtMTczNTk1OTUyOSwtMTQyMTA4Nj
-AyMl19
+eyJoaXN0b3J5IjpbLTIwOTExMzcxNTMsLTcxNDI3OTM4MiwtOT
+U2MTUxMDUyLC0xMTUwMDAwMTgzLC05MTE4MjE3NjcsMTk3NDA5
+NjU5OSwtMTM4NTcwMDQ4OCwxNzg5MzkxMzM1LC02MjUyNTAxNj
+QsMTY1OTAxNDY4MywtOTQ4NTQ2NjEsNTU5OTk4NDg0LC0xMTgx
+MTY4NDI4LDIwMDc5NTE5MDAsLTE3MzU5NTk1MjksLTE0MjEwOD
+YwMjJdfQ==
 -->
