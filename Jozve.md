@@ -73,16 +73,16 @@ The idea is to take repeated steps in the opposite direction of the gradient (or
 
 ![](https://miro.medium.com/max/2976/1*70f9PB-RwFaakqD6lfp4iw.png)
 
-The algorithm is really simple (and effective!!!). Its pseudocode can be in below:
+The algorithm is really simple (and effective!!!). Isimple which its pseudocode can be in below:
 ```
 
-```
+```s
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTU0Mjg2MywtOTc3NTIwMzg5LDE4Mz
-I2Nzk1NDQsLTIyNTI3OTc1MiwxNTUzODM0MDE0LDE1NzA0MzE0
-NTksMjg2MDQ2NDQxLC0xNDQ4ODQzNTc0LDE2MTUwMTUxNDEsND
-cyNDA1NzUzLDM0NTI3MDAyMSwxMzU4NTU0Mjk4LC0zMjYyNTI2
-MSw1NzMxOTYwMDUsNTczMTk2MDA1LC0xNTY1MDc0NjMwLDY0OT
-I5MjM5NywxNzMwMjUxNTQ2LC0xMzk1MTI5NzIwLC0yMDkxMTM3
-MTUzXX0=
+eyJoaXN0b3J5IjpbLTIwMDQxMDE3ODQsLTE2OTU0Mjg2MywtOT
+c3NTIwMzg5LDE4MzI2Nzk1NDQsLTIyNTI3OTc1MiwxNTUzODM0
+MDE0LDE1NzA0MzE0NTksMjg2MDQ2NDQxLC0xNDQ4ODQzNTc0LD
+E2MTUwMTUxNDEsNDcyNDA1NzUzLDM0NTI3MDAyMSwxMzU4NTU0
+Mjk4LC0zMjYyNTI2MSw1NzMxOTYwMDUsNTczMTk2MDA1LC0xNT
+Y1MDc0NjMwLDY0OTI5MjM5NywxNzMwMjUxNTQ2LC0xMzk1MTI5
+NzIwXX0=
 -->
