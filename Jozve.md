@@ -28,7 +28,7 @@ where K * denotes convolution with a blurring filter.
 
 # 2
 
-## How difficult is real-valued optimisation?
+## How difficult is real-valued optimization?
 
 If we do not make any assumptions about the function $f:S\rightarrow\mathbb{R}$ where $S\subseteq\mathbb{R}^n$ is an infinite set, then it is impossible to find a global minimiser or maximiser in finite time. This is due to the fact that the value of the function at any one point does not reveal information about the function's behaviour at other points. As a result, we must know the function value for every point in $S$, which takes infinite time because the set $S$ is simply not finite. Even if we try to find a point at which the function's value is at most  $\epsilon$ far from the real minimum or maximum, we still need to find out the value of the function at all points which was shown cannot be done in finite time.
 
@@ -78,11 +78,11 @@ The algorithm is really simple (and effective!!!). Isimple which its pseudocode 
 
 ```s
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDQxMDE3ODQsLTE2OTU0Mjg2MywtOT
-c3NTIwMzg5LDE4MzI2Nzk1NDQsLTIyNTI3OTc1MiwxNTUzODM0
-MDE0LDE1NzA0MzE0NTksMjg2MDQ2NDQxLC0xNDQ4ODQzNTc0LD
-E2MTUwMTUxNDEsNDcyNDA1NzUzLDM0NTI3MDAyMSwxMzU4NTU0
-Mjk4LC0zMjYyNTI2MSw1NzMxOTYwMDUsNTczMTk2MDA1LC0xNT
-Y1MDc0NjMwLDY0OTI5MjM5NywxNzMwMjUxNTQ2LC0xMzk1MTI5
-NzIwXX0=
+eyJoaXN0b3J5IjpbLTg4MjQ2NzcxMSwtMTY5NTQyODYzLC05Nz
+c1MjAzODksMTgzMjY3OTU0NCwtMjI1Mjc5NzUyLDE1NTM4MzQw
+MTQsMTU3MDQzMTQ1OSwyODYwNDY0NDEsLTE0NDg4NDM1NzQsMT
+YxNTAxNTE0MSw0NzI0MDU3NTMsMzQ1MjcwMDIxLDEzNTg1NTQy
+OTgsLTMyNjI1MjYxLDU3MzE5NjAwNSw1NzMxOTYwMDUsLTE1Nj
+UwNzQ2MzAsNjQ5MjkyMzk3LDE3MzAyNTE1NDYsLTEzOTUxMjk3
+MjBdfQ==
 -->
