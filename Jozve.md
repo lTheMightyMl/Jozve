@@ -80,9 +80,9 @@ for EPOCHS tims repeat:
 	x -=  contant * gradient(f(x))
 ```
 s
-
+in fact, the value of 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0Nzg3Nzg1NjcsMjAzMzY2MDI2MCwxND
+eyJoaXN0b3J5IjpbLTI0NDQ5MDkzNSwtMTQ3ODc3ODU2NywxND
 U4NDEwNTE3LDg0NjgyNjE1MSwtOTc3NTIwMzg5LDE4MzI2Nzk1
 NDQsLTIyNTI3OTc1MiwxNTUzODM0MDE0LDE1NzA0MzE0NTksMj
 g2MDQ2NDQxLC0xNDQ4ODQzNTc0LDE2MTUwMTUxNDEsNDcyNDA1
