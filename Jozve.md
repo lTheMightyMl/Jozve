@@ -75,14 +75,16 @@ The idea is to take repeated steps in the opposite direction of the gradient (or
 
 The algorithm is really simple (and effective!!!). Isimple which its pseudocode can be in below:
 ```
-
+x  = initilize_point()
+for EPOCHS tims repeat:
+	x = x - C*
 ```s
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxNTE4NDI2NCwtMTY5NTQyODYzLC05Nz
-c1MjAzODksMTgzMjY3OTU0NCwtMjI1Mjc5NzUyLDE1NTM4MzQw
-MTQsMTU3MDQzMTQ1OSwyODYwNDY0NDEsLTE0NDg4NDM1NzQsMT
-YxNTAxNTE0MSw0NzI0MDU3NTMsMzQ1MjcwMDIxLDEzNTg1NTQy
-OTgsLTMyNjI1MjYxLDU3MzE5NjAwNSw1NzMxOTYwMDUsLTE1Nj
-UwNzQ2MzAsNjQ5MjkyMzk3LDE3MzAyNTE1NDYsLTEzOTUxMjk3
-MjBdfQ==
+eyJoaXN0b3J5IjpbLTE0NDEwODkyNTIsMTUxNTE4NDI2NCwtOT
+c3NTIwMzg5LDE4MzI2Nzk1NDQsLTIyNTI3OTc1MiwxNTUzODM0
+MDE0LDE1NzA0MzE0NTksMjg2MDQ2NDQxLC0xNDQ4ODQzNTc0LD
+E2MTUwMTUxNDEsNDcyNDA1NzUzLDM0NTI3MDAyMSwxMzU4NTU0
+Mjk4LC0zMjYyNTI2MSw1NzMxOTYwMDUsNTczMTk2MDA1LC0xNT
+Y1MDc0NjMwLDY0OTI5MjM5NywxNzMwMjUxNTQ2LC0xMzk1MTI5
+NzIwXX0=
 -->
