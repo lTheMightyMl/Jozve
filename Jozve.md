@@ -71,15 +71,15 @@ Now once we found out this useful property, a good idea can be model our problem
 ### gradient descent
 The idea is to take repeated steps in the opposite direction of the gradient (or approximate gradient) of the function at the current point, because this is the direction of steepest descent. Conversely, stepping in the direction of the gradient will lead to a local maximum of that function; the procedure is then known as **gradient ascent**.
 
-
+![](https://miro.medium.com/max/2976/1*70f9PB-RwFaakqD6lfp4iw.png)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3NzUyMDM4OSwxODMyNjc5NTQ0LC0yMj
-UyNzk3NTIsMTU1MzgzNDAxNCwxNTcwNDMxNDU5LDI4NjA0NjQ0
-MSwtMTQ0ODg0MzU3NCwxNjE1MDE1MTQxLDQ3MjQwNTc1MywzND
-UyNzAwMjEsMTM1ODU1NDI5OCwtMzI2MjUyNjEsNTczMTk2MDA1
-LDU3MzE5NjAwNSwtMTU2NTA3NDYzMCw2NDkyOTIzOTcsMTczMD
-I1MTU0NiwtMTM5NTEyOTcyMCwtMjA5MTEzNzE1MywtNzE0Mjc5
-MzgyXX0=
+eyJoaXN0b3J5IjpbLTI3NDA5NDAsLTk3NzUyMDM4OSwxODMyNj
+c5NTQ0LC0yMjUyNzk3NTIsMTU1MzgzNDAxNCwxNTcwNDMxNDU5
+LDI4NjA0NjQ0MSwtMTQ0ODg0MzU3NCwxNjE1MDE1MTQxLDQ3Mj
+QwNTc1MywzNDUyNzAwMjEsMTM1ODU1NDI5OCwtMzI2MjUyNjEs
+NTczMTk2MDA1LDU3MzE5NjAwNSwtMTU2NTA3NDYzMCw2NDkyOT
+IzOTcsMTczMDI1MTU0NiwtMTM5NTEyOTcyMCwtMjA5MTEzNzE1
+M119
 -->
