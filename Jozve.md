@@ -13,13 +13,13 @@ might be continuous (or discrete) in our problems, and this section provides a i
 ### Weber Point
 
 Given a collection of cities (assume on 2D plane) how can we find the location that minimizes the sum of distances to all cities?
-![Weber ](https://mgje.github.io/presentations/Budapest2014/media/fermat_weber_europe.png)
+![Weber Point of European cities](https://mgje.github.io/presentations/Budapest2014/media/fermat_weber_europe.png)
 Let's denote the location of cities as $y_1, y_2, ..., y_n$.
 Then we can find answer to our question by solving the optimization problem below:
 $$\min_{x} \sum^{n}_{i=1}||x-y_i||_2$$
 
 ### Image deblurring and denoising
-`image`
+
 Image **Deblurring** (**Noise reduction**) is the processes of removing blurring artifacts (noise) from images [input image say $Y$ which is blurred image which generally happens due to camera shake or some other phenomenon].
 Given corrupted image $Y \in \mathbb R^{m\times n}$, we reconstruct the image by solving the optimization problem below:
 $$\min_X \sum_{i, j}|Y_{ij}-(K*X)_{ij}| + \lambda \sum_{i, j}\big((X_{ij}-X_{i, j+1})^2+(X_{i+1, j}-X_{ij})^2\big)^\frac{1}{2}$$
@@ -99,11 +99,11 @@ and obviously $x_{new} = (x_{new_1}, x_{new_2})$.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwOTQzMzM1MCwxMDM4ODA1NjcxLC0yNj
-QxNTE3MDksMTk5OTk2MzQ4NCwxOTUxMzY1NDYsLTY3NTQ1NzMw
-MSwtMTYwMjI4MTc4LC0xMzAzMjQzMDA4LC0xNDc4Nzc4NTY3LD
-E0NTg0MTA1MTcsODQ2ODI2MTUxLC05Nzc1MjAzODksMTgzMjY3
-OTU0NCwtMjI1Mjc5NzUyLDE1NTM4MzQwMTQsMTU3MDQzMTQ1OS
-wyODYwNDY0NDEsLTE0NDg4NDM1NzQsMTYxNTAxNTE0MSw0NzI0
-MDU3NTNdfQ==
+eyJoaXN0b3J5IjpbMTcwNDY3NjM4LDEwMzg4MDU2NzEsLTI2ND
+E1MTcwOSwxOTk5OTYzNDg0LDE5NTEzNjU0NiwtNjc1NDU3MzAx
+LC0xNjAyMjgxNzgsLTEzMDMyNDMwMDgsLTE0Nzg3Nzg1NjcsMT
+Q1ODQxMDUxNyw4NDY4MjYxNTEsLTk3NzUyMDM4OSwxODMyNjc5
+NTQ0LC0yMjUyNzk3NTIsMTU1MzgzNDAxNCwxNTcwNDMxNDU5LD
+I4NjA0NjQ0MSwtMTQ0ODg0MzU3NCwxNjE1MDE1MTQxLDQ3MjQw
+NTc1M119
 -->
