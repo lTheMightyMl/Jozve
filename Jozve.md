@@ -31,7 +31,7 @@ $$\exists L\in\mathbb{R}:\forall x,y\in\mathbb{R}^n|f(x)-f(y)|\le L||x-y||$$
 
 It means that the difference between the value of the function at two points is never more than a constant multiple of the distance of the two points. This assumption restricts the growth of the function when moving from one point to another. As to know how this assumption can help us find a near optimal solution, consider the following case:
 
-Assume $S$ is a bounded subset of $\mathbb{R}$, and we know that 
+Assume $S$ is a bounded subset of $\mathbb{R}$. We know that $\forall x,y\in\mathbb{R}^n|f(x)-f(y)|\le 5||x-y||$ and we want to find a fuvalue which is at most $0.1$ more than the real minimum or maximum,
 
 # 3
 
@@ -41,7 +41,7 @@ Assume $S$ is a bounded subset of $\mathbb{R}$, and we know that
 
 # 6
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDg3OTk4MzQsLTIwOTExMzcxNTMsLT
+eyJoaXN0b3J5IjpbLTEwOTAxMzc2MjksLTIwOTExMzcxNTMsLT
 cxNDI3OTM4MiwtOTU2MTUxMDUyLC0xMTUwMDAwMTgzLC05MTE4
 MjE3NjcsMTk3NDA5NjU5OSwtMTM4NTcwMDQ4OCwxNzg5MzkxMz
 M1LC02MjUyNTAxNjQsMTY1OTAxNDY4MywtOTQ4NTQ2NjEsNTU5
