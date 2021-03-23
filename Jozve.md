@@ -19,7 +19,7 @@ Then we can find answer to our question by solving the optimization problem belo
 $$\min_{x} \sum^{n}_{i=1}||x-y_i||_2$$
 
 ### Image deblurring and denoising
-
+![Image Denoising](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2gCwhdGdOTVWExz0qvZFiWws1NVGLsO5uqA&usqp=CAU)
 Image **Deblurring** (**Noise reduction**) is the processes of removing blurring artifacts (noise) from images [input image say $Y$ which is blurred image which generally happens due to camera shake or some other phenomenon].
 Given corrupted image $Y \in \mathbb R^{m\times n}$, we reconstruct the image by solving the optimization problem below:
 $$\min_X \sum_{i, j}|Y_{ij}-(K*X)_{ij}| + \lambda \sum_{i, j}\big((X_{ij}-X_{i, j+1})^2+(X_{i+1, j}-X_{ij})^2\big)^\frac{1}{2}$$
@@ -99,11 +99,11 @@ and obviously $x_{new} = (x_{new_1}, x_{new_2})$.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwNDY3NjM4LDEwMzg4MDU2NzEsLTI2ND
-E1MTcwOSwxOTk5OTYzNDg0LDE5NTEzNjU0NiwtNjc1NDU3MzAx
-LC0xNjAyMjgxNzgsLTEzMDMyNDMwMDgsLTE0Nzg3Nzg1NjcsMT
-Q1ODQxMDUxNyw4NDY4MjYxNTEsLTk3NzUyMDM4OSwxODMyNjc5
-NTQ0LC0yMjUyNzk3NTIsMTU1MzgzNDAxNCwxNTcwNDMxNDU5LD
-I4NjA0NjQ0MSwtMTQ0ODg0MzU3NCwxNjE1MDE1MTQxLDQ3MjQw
-NTc1M119
+eyJoaXN0b3J5IjpbLTIwNzgzNzYwMjEsMTcwNDY3NjM4LDEwMz
+g4MDU2NzEsLTI2NDE1MTcwOSwxOTk5OTYzNDg0LDE5NTEzNjU0
+NiwtNjc1NDU3MzAxLC0xNjAyMjgxNzgsLTEzMDMyNDMwMDgsLT
+E0Nzg3Nzg1NjcsMTQ1ODQxMDUxNyw4NDY4MjYxNTEsLTk3NzUy
+MDM4OSwxODMyNjc5NTQ0LC0yMjUyNzk3NTIsMTU1MzgzNDAxNC
+wxNTcwNDMxNDU5LDI4NjA0NjQ0MSwtMTQ0ODg0MzU3NCwxNjE1
+MDE1MTQxXX0=
 -->
