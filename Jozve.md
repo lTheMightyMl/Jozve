@@ -4,7 +4,7 @@ import god
 Courtesy: Most content are adopted from 15-780 course at CMU.
 # Continuous Optimization
 In real life, we face a lot of problems with continues variables.
-Actually, the _state_ of the environment the way time is handled and the percepts and actions of the agent
+Actually, the _state_ of the environment, the way _time_ is handled and the _percepts_ and _actions_ of the agent
 
 might be continuous (or discrete) in our problems, and this section provides a introduction to some local search techniques for finding optimal solutions in continuous spaces.
 
@@ -59,11 +59,11 @@ which the first property is the key point that enable us to tackle these types o
 
 # 6
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTA1NTAwMzYzLDQ3MjQwNTc1MywzNDUyNz
-AwMjEsMTM1ODU1NDI5OCwtMzI2MjUyNjEsNTczMTk2MDA1LDU3
-MzE5NjAwNSwtMTU2NTA3NDYzMCw2NDkyOTIzOTcsMTczMDI1MT
-U0NiwtMTM5NTEyOTcyMCwtMjA5MTEzNzE1MywtNzE0Mjc5Mzgy
-LC05NTYxNTEwNTIsLTExNTAwMDAxODMsLTkxMTgyMTc2NywxOT
-c0MDk2NTk5LC0xMzg1NzAwNDg4LDE3ODkzOTEzMzUsLTYyNTI1
-MDE2NF19
+eyJoaXN0b3J5IjpbMTYxNTAxNTE0MSw0NzI0MDU3NTMsMzQ1Mj
+cwMDIxLDEzNTg1NTQyOTgsLTMyNjI1MjYxLDU3MzE5NjAwNSw1
+NzMxOTYwMDUsLTE1NjUwNzQ2MzAsNjQ5MjkyMzk3LDE3MzAyNT
+E1NDYsLTEzOTUxMjk3MjAsLTIwOTExMzcxNTMsLTcxNDI3OTM4
+MiwtOTU2MTUxMDUyLC0xMTUwMDAwMTgzLC05MTE4MjE3NjcsMT
+k3NDA5NjU5OSwtMTM4NTcwMDQ4OCwxNzg5MzkxMzM1LC02MjUy
+NTAxNjRdfQ==
 -->
