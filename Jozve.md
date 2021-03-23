@@ -42,7 +42,7 @@ Assume $S$ is a bounded subset of $\mathbb{R}$. We know that $\forall x,y\in\mat
 
 ```image```
 
-Lipschitz continuity made it possible to find near-optimal solutions, but it can be proved that any algorithm to find a near-optimal minimum or maximum for a Lipschitz continuous function on $\mathbb{R}^n$ has $\Omega\big(\frac{1}{t^\frac{1}{n}}\big)$ error after $t$ iterations. We can see that assumptions can make a big difference, but we still need faster 
+Lipschitz continuity made it possible to find near-optimal solutions, but it can be proved that any algorithm to find a near-optimal minimum or maximum for a Lipschitz continuous function on $\mathbb{R}^n$ has $\Omega\big(\frac{1}{t^\frac{1}{n}}\big)$ error after $t$ iterations. We can see that assumptions can make a big difference, but we still need faster algorithms.
 
 # 3
 
@@ -81,11 +81,11 @@ for EPOCHS tims repeat:
 ```s
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTAwOTA2MzksODQ2ODI2MTUxLC0xND
-QxMDg5MjUyLC05Nzc1MjAzODksMTgzMjY3OTU0NCwtMjI1Mjc5
-NzUyLDE1NTM4MzQwMTQsMTU3MDQzMTQ1OSwyODYwNDY0NDEsLT
-E0NDg4NDM1NzQsMTYxNTAxNTE0MSw0NzI0MDU3NTMsMzQ1Mjcw
-MDIxLDEzNTg1NTQyOTgsLTMyNjI1MjYxLDU3MzE5NjAwNSw1Nz
-MxOTYwMDUsLTE1NjUwNzQ2MzAsNjQ5MjkyMzk3LDE3MzAyNTE1
-NDZdfQ==
+eyJoaXN0b3J5IjpbMTQ1ODQxMDUxNyw4NDY4MjYxNTEsLTE0ND
+EwODkyNTIsLTk3NzUyMDM4OSwxODMyNjc5NTQ0LC0yMjUyNzk3
+NTIsMTU1MzgzNDAxNCwxNTcwNDMxNDU5LDI4NjA0NjQ0MSwtMT
+Q0ODg0MzU3NCwxNjE1MDE1MTQxLDQ3MjQwNTc1MywzNDUyNzAw
+MjEsMTM1ODU1NDI5OCwtMzI2MjUyNjEsNTczMTk2MDA1LDU3Mz
+E5NjAwNSwtMTU2NTA3NDYzMCw2NDkyOTIzOTcsMTczMDI1MTU0
+Nl19
 -->
