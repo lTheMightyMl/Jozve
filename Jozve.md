@@ -40,7 +40,7 @@ Lipschitz continuity made it possible to find near-optimal solutions, but
 # 3
 
 ## Convex Optimization
-A convex optimization problem is an [optimization problem](https://en.wikipedia.org/wiki/Optimization_problem "Optimization problem") in which the objective function is a [convex function](https://en.wikipedia.org/wiki/Convex_function "Convex function") and the [feasible set](https://en.wikipedia.org/wiki/Feasible_region "Feasible region") is a [convex set](https://en.wikipedia.org/wiki/Convex_set "Convex set").
+As you may know, A convex optimization problem is an optimization problem in which the objective function is a convex function and the feasible set is a convex set.
 
 # 4
 
@@ -48,11 +48,11 @@ A convex optimization problem is an [optimization problem](https://en.wikipedia.
 
 # 6
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzQ3MjIyMjMsLTMyNjI1MjYxLDU3Mz
-E5NjAwNSw1NzMxOTYwMDUsLTE1NjUwNzQ2MzAsNjQ5MjkyMzk3
-LDE3MzAyNTE1NDYsLTEzOTUxMjk3MjAsLTIwOTExMzcxNTMsLT
-cxNDI3OTM4MiwtOTU2MTUxMDUyLC0xMTUwMDAwMTgzLC05MTE4
-MjE3NjcsMTk3NDA5NjU5OSwtMTM4NTcwMDQ4OCwxNzg5MzkxMz
-M1LC02MjUyNTAxNjQsMTY1OTAxNDY4MywtOTQ4NTQ2NjEsNTU5
-OTk4NDg0XX0=
+eyJoaXN0b3J5IjpbLTg5NDgxODM2LC0zMjYyNTI2MSw1NzMxOT
+YwMDUsNTczMTk2MDA1LC0xNTY1MDc0NjMwLDY0OTI5MjM5Nywx
+NzMwMjUxNTQ2LC0xMzk1MTI5NzIwLC0yMDkxMTM3MTUzLC03MT
+QyNzkzODIsLTk1NjE1MTA1MiwtMTE1MDAwMDE4MywtOTExODIx
+NzY3LDE5NzQwOTY1OTksLTEzODU3MDA0ODgsMTc4OTM5MTMzNS
+wtNjI1MjUwMTY0LDE2NTkwMTQ2ODMsLTk0ODU0NjYxLDU1OTk5
+ODQ4NF19
 -->
