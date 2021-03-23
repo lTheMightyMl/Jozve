@@ -80,14 +80,14 @@ for EPOCHS tims repeat:
 	x -=  contant * gradient(f(x))
 ```
 
-in fact, the value of $f$ is decreasing in each iteration.
+in fact, the value of $f$ is decreasing in each iteration. The proof is straight forward as it is illustrated in below:
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDMyNDMwMDgsLTE0Nzg3Nzg1NjcsMT
-Q1ODQxMDUxNyw4NDY4MjYxNTEsLTk3NzUyMDM4OSwxODMyNjc5
-NTQ0LC0yMjUyNzk3NTIsMTU1MzgzNDAxNCwxNTcwNDMxNDU5LD
-I4NjA0NjQ0MSwtMTQ0ODg0MzU3NCwxNjE1MDE1MTQxLDQ3MjQw
-NTc1MywzNDUyNzAwMjEsMTM1ODU1NDI5OCwtMzI2MjUyNjEsNT
-czMTk2MDA1LDU3MzE5NjAwNSwtMTU2NTA3NDYzMCw2NDkyOTIz
-OTddfQ==
+eyJoaXN0b3J5IjpbLTE2MDIyODE3OCwtMTMwMzI0MzAwOCwtMT
+Q3ODc3ODU2NywxNDU4NDEwNTE3LDg0NjgyNjE1MSwtOTc3NTIw
+Mzg5LDE4MzI2Nzk1NDQsLTIyNTI3OTc1MiwxNTUzODM0MDE0LD
+E1NzA0MzE0NTksMjg2MDQ2NDQxLC0xNDQ4ODQzNTc0LDE2MTUw
+MTUxNDEsNDcyNDA1NzUzLDM0NTI3MDAyMSwxMzU4NTU0Mjk4LC
+0zMjYyNTI2MSw1NzMxOTYwMDUsNTczMTk2MDA1LC0xNTY1MDc0
+NjMwXX0=
 -->
