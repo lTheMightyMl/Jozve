@@ -55,9 +55,7 @@ Now let's go through its proof:
 
 Assume there exists $x_0$ such that $f(x_0)<f(x_∗)$ where $x_*$ is the local optima of the function. 
 Then for any $t∈(0,1]t∈(0,1]$ we have:
-$$f((1−t)x_∗+tx_0)≤(1−t)f(x_∗)+tf(x_0)$$
-$$<(1−t)f(x_∗)+tf(x_∗)$$
-$$=f(x_∗)$$
+$$f((1−t)x_∗+tx_0)≤(1−t)f(x_∗)+tf(x_0)$$$$<(1−t)f(x_∗)+tf(x_∗)$$$$=f(x_∗)$$
 
 
 # 4
@@ -66,11 +64,11 @@ $$=f(x_∗)$$
 
 # 6
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODYzNjkwNjgyLDE1NzA0MzE0NTksMjg2MD
-Q2NDQxLC0xNDQ4ODQzNTc0LDE2MTUwMTUxNDEsNDcyNDA1NzUz
-LDM0NTI3MDAyMSwxMzU4NTU0Mjk4LC0zMjYyNTI2MSw1NzMxOT
-YwMDUsNTczMTk2MDA1LC0xNTY1MDc0NjMwLDY0OTI5MjM5Nywx
-NzMwMjUxNTQ2LC0xMzk1MTI5NzIwLC0yMDkxMTM3MTUzLC03MT
-QyNzkzODIsLTk1NjE1MTA1MiwtMTE1MDAwMDE4MywtOTExODIx
-NzY3XX0=
+eyJoaXN0b3J5IjpbMTU1MzgzNDAxNCwxNTcwNDMxNDU5LDI4Nj
+A0NjQ0MSwtMTQ0ODg0MzU3NCwxNjE1MDE1MTQxLDQ3MjQwNTc1
+MywzNDUyNzAwMjEsMTM1ODU1NDI5OCwtMzI2MjUyNjEsNTczMT
+k2MDA1LDU3MzE5NjAwNSwtMTU2NTA3NDYzMCw2NDkyOTIzOTcs
+MTczMDI1MTU0NiwtMTM5NTEyOTcyMCwtMjA5MTEzNzE1MywtNz
+E0Mjc5MzgyLC05NTYxNTEwNTIsLTExNTAwMDAxODMsLTkxMTgy
+MTc2N119
 -->
