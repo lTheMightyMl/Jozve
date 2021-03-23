@@ -28,6 +28,7 @@ where $K*$ denotes convolution with a blurring filter.
 ![Image Denoising](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2gCwhdGdOTVWExz0qvZFiWws1NVGLsO5uqA&usqp=CAU)
 ### Machine Learning
 
+
 # 2
 
 ## How difficult is real-valued optimization?
@@ -101,11 +102,11 @@ and obviously $x_{new} = (x_{new_1}, x_{new_2})$.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTM0MTc5OTYsLTIwNzgzNzYwMjEsMT
-cwNDY3NjM4LDEwMzg4MDU2NzEsLTI2NDE1MTcwOSwxOTk5OTYz
-NDg0LDE5NTEzNjU0NiwtNjc1NDU3MzAxLC0xNjAyMjgxNzgsLT
-EzMDMyNDMwMDgsLTE0Nzg3Nzg1NjcsMTQ1ODQxMDUxNyw4NDY4
-MjYxNTEsLTk3NzUyMDM4OSwxODMyNjc5NTQ0LC0yMjUyNzk3NT
-IsMTU1MzgzNDAxNCwxNTcwNDMxNDU5LDI4NjA0NjQ0MSwtMTQ0
-ODg0MzU3NF19
+eyJoaXN0b3J5IjpbNDcxMjQ4NjEwLC0xNDkzNDE3OTk2LC0yMD
+c4Mzc2MDIxLDE3MDQ2NzYzOCwxMDM4ODA1NjcxLC0yNjQxNTE3
+MDksMTk5OTk2MzQ4NCwxOTUxMzY1NDYsLTY3NTQ1NzMwMSwtMT
+YwMjI4MTc4LC0xMzAzMjQzMDA4LC0xNDc4Nzc4NTY3LDE0NTg0
+MTA1MTcsODQ2ODI2MTUxLC05Nzc1MjAzODksMTgzMjY3OTU0NC
+wtMjI1Mjc5NzUyLDE1NTM4MzQwMTQsMTU3MDQzMTQ1OSwyODYw
+NDY0NDFdfQ==
 -->
