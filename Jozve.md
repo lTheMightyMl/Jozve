@@ -53,7 +53,8 @@ Now let's examine some useful properties:
 In fact many of search algorithms find the local optima, and that's why the first property is the key point that enable us to tackle these types of problems to find the global optima solutions.
 Now let's go through its proof:
 
-Assume there exists $x_0$ such that $f(x0)<f(x∗)f(x0)<f(x∗)$.
+Assume there exists $x_0$ such that $f(x_0)<f(x_∗)$
+Then for any t∈(0,1]t∈(0,1] we have:
 
 
 # 4
@@ -62,7 +63,7 @@ Assume there exists $x_0$ such that $f(x0)<f(x∗)f(x0)<f(x∗)$.
 
 # 6
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4NjU2OTc3NCwyODYwNDY0NDEsLTE0ND
+eyJoaXN0b3J5IjpbMTEwOTkwMDI0NywyODYwNDY0NDEsLTE0ND
 g4NDM1NzQsMTYxNTAxNTE0MSw0NzI0MDU3NTMsMzQ1MjcwMDIx
 LDEzNTg1NTQyOTgsLTMyNjI1MjYxLDU3MzE5NjAwNSw1NzMxOT
 YwMDUsLTE1NjUwNzQ2MzAsNjQ5MjkyMzk3LDE3MzAyNTE1NDYs
