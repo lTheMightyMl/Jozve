@@ -13,7 +13,7 @@ might be continuous (or discrete) in our problems, and this section provides a i
 ### Weber Point
 
 Given a collection of cities (assume on 2D plane) how can we find the location that minimizes the sum of distances to all cities?
-`picture`
+![Weber ](https://mgje.github.io/presentations/Budapest2014/media/fermat_weber_europe.png)
 Let's denote the location of cities as $y_1, y_2, ..., y_n$.
 Then we can find answer to our question by solving the optimization problem below:
 $$\min_{x} \sum^{n}_{i=1}||x-y_i||_2$$
@@ -99,7 +99,7 @@ and obviously $x_{new} = (x_{new_1}, x_{new_2})$.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0ODMyNjY3NywxMDM4ODA1NjcxLC0yNj
+eyJoaXN0b3J5IjpbLTgwOTQzMzM1MCwxMDM4ODA1NjcxLC0yNj
 QxNTE3MDksMTk5OTk2MzQ4NCwxOTUxMzY1NDYsLTY3NTQ1NzMw
 MSwtMTYwMjI4MTc4LC0xMzAzMjQzMDA4LC0xNDc4Nzc4NTY3LD
 E0NTg0MTA1MTcsODQ2ODI2MTUxLC05Nzc1MjAzODksMTgzMjY3
