@@ -80,11 +80,11 @@ for EPOCHS tims repeat:
 	x -=  contant * gradient(f(x))
 ```
 
-in fact, the value of $f$ is decreasing in each iteration. The proof is straight forward as it is illustrated in below:
+In fact, the value of $f$ is decreasing in each iteration. The proof is straight forward as it is illustrated in below:
 By *taylor exapansion* of a function $f$  we have:
-
+$$f(x+v) = f(x-\alpha v)  $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjA4NjQzMzYsLTE2MDIyODE3OCwtMT
+eyJoaXN0b3J5IjpbLTE0OTkxNDc1MjMsLTE2MDIyODE3OCwtMT
 MwMzI0MzAwOCwtMTQ3ODc3ODU2NywxNDU4NDEwNTE3LDg0Njgy
 NjE1MSwtOTc3NTIwMzg5LDE4MzI2Nzk1NDQsLTIyNTI3OTc1Mi
 wxNTUzODM0MDE0LDE1NzA0MzE0NTksMjg2MDQ2NDQxLC0xNDQ4
