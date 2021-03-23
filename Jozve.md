@@ -29,7 +29,7 @@ where $K*$ denotes convolution with a blurring filter.
 
 ### Machine Learning
 Virtually all (supervised) machine learning algorithms boil down to solving the optimization problem:
-$$\min_\theta \sum_{i=1}^m \$$
+$$\min_\theta \sum_{i=1}^m l$$
 
 # 2
 
@@ -104,7 +104,7 @@ and obviously $x_{new} = (x_{new_1}, x_{new_2})$.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwNDU4Mzc4OCwtMTAyNzM2NTk2OCw0Nz
+eyJoaXN0b3J5IjpbMTUzMTk5MTEzOCwtMTAyNzM2NTk2OCw0Nz
 EyNDg2MTAsLTE0OTM0MTc5OTYsLTIwNzgzNzYwMjEsMTcwNDY3
 NjM4LDEwMzg4MDU2NzEsLTI2NDE1MTcwOSwxOTk5OTYzNDg0LD
 E5NTEzNjU0NiwtNjc1NDU3MzAxLC0xNjAyMjgxNzgsLTEzMDMy
