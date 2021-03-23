@@ -89,13 +89,13 @@ $$= f(x)  -\alpha||\nabla_x f(x)||_2^2 + C||\alpha\nabla_x f(x)||_2^2$$$$\le f(x
 Note the second relation will only hold for small size of $||\alpha\nabla_x f(x)||_2^2$.
 $\blacksquare$
 ![4: 3 steps of a Gradient Descent with learning decay rate α starting... |  Download Scientific Diagram](https://www.researchgate.net/profile/Victor-Suarez-Paniagua/publication/334643403/figure/fig2/AS:783985458282496@1563928107803/3-steps-of-a-Gradient-Descent-with-learning-decay-rate-a-starting-from-the-initial.png)
-So by far we have seen that 
+So by far we have seen that the gradient descent will converge toward the local 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzExNDcwNTYxLC0xNjAyMjgxNzgsLTEzMD
-MyNDMwMDgsLTE0Nzg3Nzg1NjcsMTQ1ODQxMDUxNyw4NDY4MjYx
-NTEsLTk3NzUyMDM4OSwxODMyNjc5NTQ0LC0yMjUyNzk3NTIsMT
-U1MzgzNDAxNCwxNTcwNDMxNDU5LDI4NjA0NjQ0MSwtMTQ0ODg0
-MzU3NCwxNjE1MDE1MTQxLDQ3MjQwNTc1MywzNDUyNzAwMjEsMT
-M1ODU1NDI5OCwtMzI2MjUyNjEsNTczMTk2MDA1LDU3MzE5NjAw
-NV19
+eyJoaXN0b3J5IjpbLTE1NTc5ODk1ODYsLTE2MDIyODE3OCwtMT
+MwMzI0MzAwOCwtMTQ3ODc3ODU2NywxNDU4NDEwNTE3LDg0Njgy
+NjE1MSwtOTc3NTIwMzg5LDE4MzI2Nzk1NDQsLTIyNTI3OTc1Mi
+wxNTUzODM0MDE0LDE1NzA0MzE0NTksMjg2MDQ2NDQxLC0xNDQ4
+ODQzNTc0LDE2MTUwMTUxNDEsNDcyNDA1NzUzLDM0NTI3MDAyMS
+wxMzU4NTU0Mjk4LC0zMjYyNTI2MSw1NzMxOTYwMDUsNTczMTk2
+MDA1XX0=
 -->
