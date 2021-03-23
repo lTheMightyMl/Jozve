@@ -86,13 +86,13 @@ $$f(x+v) = f(x) + \nabla_x f(x)^Tv  + O(||v||_2^2)$$
 Now choose $v$ to be multiplication of gradient i.e. $-\alpha\nabla_x f(x)$. By substituting in the above equation we have:
 $$= f(x)  -\alpha||\nabla_x f(x)||_2^2 + C||\alpha\nabla_x f(x)||_2^2$$$$\le f(x) - (\alpha-\alpha^2C)||\nabla_x f(x)||_2^2 $$ $$< f(x)$$
 
-Note the second relation will only hold for small size of $||\alpha\nabla_x f(x)||_2^2$.
+Note that the second relation will only hold for small size of $||\alpha\nabla_x f(x)||_2^2$.  Also every $v$ which its inner product with the gradient is less than zero cannot be a good choi
 $\blacksquare$
 ![What is Stochastic Gradient Descent- A Super Easy Complete Guide!](https://www.mltut.com/wp-content/uploads/2020/04/Untitled-document-3.png)
 So by far we have seen that the gradient descent will converge toward the local minimum (see the figure above to see the importance of starting point in non-convex functions).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzgwNzM4MjU2LC0xNjAyMjgxNzgsLTEzMD
+eyJoaXN0b3J5IjpbNjI1MzI3NzUzLC0xNjAyMjgxNzgsLTEzMD
 MyNDMwMDgsLTE0Nzg3Nzg1NjcsMTQ1ODQxMDUxNyw4NDY4MjYx
 NTEsLTk3NzUyMDM4OSwxODMyNjc5NTQ0LC0yMjUyNzk3NTIsMT
 U1MzgzNDAxNCwxNTcwNDMxNDU5LDI4NjA0NjQ0MSwtMTQ0ODg0
