@@ -23,7 +23,7 @@ $$\min_{x} \sum^{n}_{i=1}||x-y_i||_2$$
 Image **Deblurring** (**Noise reduction**) is the processes of removing blurring artifacts (noise) from images [input image say $Y$ which is blurred image which generally happens due to camera shake or some other phenomenon].
 Given corrupted image $Y \in \mathbb R^{m\times n}$, we reconstruct the image by solving the optimization problem below:
 $$\min_X \sum_{i, j}|Y_{ij}-(K*X)_{ij}| + \lambda \sum_{i, j}\big((X_{ij}-X_{i, j+1})^2+(X_{i+1, j}-X_{ij})^2\big)^\frac{1}{2}$$
-where K * denotes convolution with a blurring filter.
+where $K*$ denotes convolution with a blurring filter.
 ### Machine Learning
 
 # 2
@@ -99,11 +99,11 @@ and obviously $x_{new} = (x_{new_1}, x_{new_2})$.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzODgwNTY3MSwtMjY0MTUxNzA5LDE5OT
-k5NjM0ODQsMTk1MTM2NTQ2LC02NzU0NTczMDEsLTE2MDIyODE3
-OCwtMTMwMzI0MzAwOCwtMTQ3ODc3ODU2NywxNDU4NDEwNTE3LD
-g0NjgyNjE1MSwtOTc3NTIwMzg5LDE4MzI2Nzk1NDQsLTIyNTI3
-OTc1MiwxNTUzODM0MDE0LDE1NzA0MzE0NTksMjg2MDQ2NDQxLC
-0xNDQ4ODQzNTc0LDE2MTUwMTUxNDEsNDcyNDA1NzUzLDM0NTI3
-MDAyMV19
+eyJoaXN0b3J5IjpbMjA0ODMyNjY3NywxMDM4ODA1NjcxLC0yNj
+QxNTE3MDksMTk5OTk2MzQ4NCwxOTUxMzY1NDYsLTY3NTQ1NzMw
+MSwtMTYwMjI4MTc4LC0xMzAzMjQzMDA4LC0xNDc4Nzc4NTY3LD
+E0NTg0MTA1MTcsODQ2ODI2MTUxLC05Nzc1MjAzODksMTgzMjY3
+OTU0NCwtMjI1Mjc5NzUyLDE1NTM4MzQwMTQsMTU3MDQzMTQ1OS
+wyODYwNDY0NDEsLTE0NDg4NDM1NzQsMTYxNTAxNTE0MSw0NzI0
+MDU3NTNdfQ==
 -->
