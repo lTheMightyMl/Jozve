@@ -53,6 +53,7 @@ Now let's examine some useful properties:
 In fact many of search algorithms find the local optima, and that's why the first property is the key point that enable us to tackle these types of problems to find the global optima solutions.
 Now let's go through its proof:
 
+Assume there exists $x_0$ such that $f(x0)<f(x∗)f(x0)<f(x∗)$.
 
 
 # 4
@@ -61,11 +62,11 @@ Now let's go through its proof:
 
 # 6
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjg2MDQ2NDQxLC0xNDQ4ODQzNTc0LDE2MT
-UwMTUxNDEsNDcyNDA1NzUzLDM0NTI3MDAyMSwxMzU4NTU0Mjk4
-LC0zMjYyNTI2MSw1NzMxOTYwMDUsNTczMTk2MDA1LC0xNTY1MD
-c0NjMwLDY0OTI5MjM5NywxNzMwMjUxNTQ2LC0xMzk1MTI5NzIw
-LC0yMDkxMTM3MTUzLC03MTQyNzkzODIsLTk1NjE1MTA1MiwtMT
-E1MDAwMDE4MywtOTExODIxNzY3LDE5NzQwOTY1OTksLTEzODU3
-MDA0ODhdfQ==
+eyJoaXN0b3J5IjpbMTU4NjU2OTc3NCwyODYwNDY0NDEsLTE0ND
+g4NDM1NzQsMTYxNTAxNTE0MSw0NzI0MDU3NTMsMzQ1MjcwMDIx
+LDEzNTg1NTQyOTgsLTMyNjI1MjYxLDU3MzE5NjAwNSw1NzMxOT
+YwMDUsLTE1NjUwNzQ2MzAsNjQ5MjkyMzk3LDE3MzAyNTE1NDYs
+LTEzOTUxMjk3MjAsLTIwOTExMzcxNTMsLTcxNDI3OTM4MiwtOT
+U2MTUxMDUyLC0xMTUwMDAwMTgzLC05MTE4MjE3NjcsMTk3NDA5
+NjU5OV19
 -->
