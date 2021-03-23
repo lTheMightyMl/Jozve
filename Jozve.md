@@ -31,7 +31,7 @@ $$\exists L\in\mathbb{R}:\forall x,y\in\mathbb{R}^n|f(x)-f(y)|\le L||x-y||$$
 
 It means that the difference between the value of the function at two points is never more than a constant multiple of the distance of the two points. This assumption restricts the growth of the function when moving from one point to another. As to know how this assumption can help us find a near optimal solution, consider the following case:
 
-Assume $S$ is a bounded subset of $\mathbb{R}$. We know that $\forall x,y\in\mathbb{R}^n|f(x)-f(y)|\le 5||x-y||$ and we want to find a function value which is at most $0.1$ far from the actual minimum or maximum. Consider points in $S$ at most $\frac{0.1}{5}=0.02$ far from each other and from the boundaries of $S$ and call the set of these points $P$. Because of the restriction imposed on $f$, we can be sure that the value of the function at points not in $P$ is at most $0.02 \times 5 = 0.1$ far from the two nearest points in $P$. Consequentially
+Assume $S$ is a bounded subset of $\mathbb{R}$. We know that $\forall x,y\in\mathbb{R}^n|f(x)-f(y)|\le 5||x-y||$ and we want to find a function value which is at most $0.1$ far from the actual minimum or maximum. Consider points in $S$ at most $\frac{0.1}{5}=0.02$ far from each other and from the boundaries of $S$ and call the set of these points $P$. Because of the restriction imposed on $f$ we can be sure that the value of the function at points not in $P$ is at most $0.02 \times 5 = 0.1$ far from the two nearest points in $P$. Consequentially
 
 # 3
 
@@ -42,11 +42,11 @@ Assume $S$ is a bounded subset of $\mathbb{R}$. We know that $\forall x,y\in\mat
 
 # 6
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5MDc1MTMyMiw2NDkyOTIzOTcsMTczMD
-I1MTU0NiwtMTM5NTEyOTcyMCwtMjA5MTEzNzE1MywtNzE0Mjc5
-MzgyLC05NTYxNTEwNTIsLTExNTAwMDAxODMsLTkxMTgyMTc2Ny
-wxOTc0MDk2NTk5LC0xMzg1NzAwNDg4LDE3ODkzOTEzMzUsLTYy
-NTI1MDE2NCwxNjU5MDE0NjgzLC05NDg1NDY2MSw1NTk5OTg0OD
-QsLTExODExNjg0MjgsMjAwNzk1MTkwMCwtMTczNTk1OTUyOSwt
-MTQyMTA4NjAyMl19
+eyJoaXN0b3J5IjpbLTE1NjUwNzQ2MzAsLTY5MDc1MTMyMiw2ND
+kyOTIzOTcsMTczMDI1MTU0NiwtMTM5NTEyOTcyMCwtMjA5MTEz
+NzE1MywtNzE0Mjc5MzgyLC05NTYxNTEwNTIsLTExNTAwMDAxOD
+MsLTkxMTgyMTc2NywxOTc0MDk2NTk5LC0xMzg1NzAwNDg4LDE3
+ODkzOTEzMzUsLTYyNTI1MDE2NCwxNjU5MDE0NjgzLC05NDg1ND
+Y2MSw1NTk5OTg0ODQsLTExODExNjg0MjgsMjAwNzk1MTkwMCwt
+MTczNTk1OTUyOV19
 -->
