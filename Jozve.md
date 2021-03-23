@@ -82,13 +82,14 @@ for EPOCHS tims repeat:
 
 In fact, the value of $f$ is decreasing in each iteration. The proof is straight forward as it is illustrated in below:
 By *taylor exapansion* of a function $f$  we have:
-$$f(x+v) = f(x-\alpha v)  $$
+$$f(x+v) = f(x) + \nabla_x f(x)^Tv  + O(||v||_2^2)$$
+Now we just n
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTkxNDc1MjMsLTE2MDIyODE3OCwtMT
-MwMzI0MzAwOCwtMTQ3ODc3ODU2NywxNDU4NDEwNTE3LDg0Njgy
-NjE1MSwtOTc3NTIwMzg5LDE4MzI2Nzk1NDQsLTIyNTI3OTc1Mi
-wxNTUzODM0MDE0LDE1NzA0MzE0NTksMjg2MDQ2NDQxLC0xNDQ4
-ODQzNTc0LDE2MTUwMTUxNDEsNDcyNDA1NzUzLDM0NTI3MDAyMS
-wxMzU4NTU0Mjk4LC0zMjYyNTI2MSw1NzMxOTYwMDUsNTczMTk2
-MDA1XX0=
+eyJoaXN0b3J5IjpbMTkwNjg5Nzk4MSwtMTYwMjI4MTc4LC0xMz
+AzMjQzMDA4LC0xNDc4Nzc4NTY3LDE0NTg0MTA1MTcsODQ2ODI2
+MTUxLC05Nzc1MjAzODksMTgzMjY3OTU0NCwtMjI1Mjc5NzUyLD
+E1NTM4MzQwMTQsMTU3MDQzMTQ1OSwyODYwNDY0NDEsLTE0NDg4
+NDM1NzQsMTYxNTAxNTE0MSw0NzI0MDU3NTMsMzQ1MjcwMDIxLD
+EzNTg1NTQyOTgsLTMyNjI1MjYxLDU3MzE5NjAwNSw1NzMxOTYw
+MDVdfQ==
 -->
