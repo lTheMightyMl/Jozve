@@ -12,7 +12,8 @@ bluh bluh bluh
 Given a collection of cities (assume on 2D plane) how can we find the location that minimizes the sum of distances to all cities?
 
 Let's denote the location of cities as $y_1, y_2, ..., y_n$.
-Then we can find answ
+Then we can find answer to our question by solving the optimization problem below.
+$$min_x \Sigma$$
 
 ### Image deblurring and denoising
 
@@ -29,8 +30,8 @@ Then we can find answ
 # 6
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzI4MjMwMjI0LC02MjUyNTAxNjQsMTY1OT
-AxNDY4MywtOTQ4NTQ2NjEsNTU5OTk4NDg0LC0xMTgxMTY4NDI4
-LDIwMDc5NTE5MDAsLTE3MzU5NTk1MjksLTE0MjEwODYwMjJdfQ
-==
+eyJoaXN0b3J5IjpbLTI2MjA1MDc0NywtNjI1MjUwMTY0LDE2NT
+kwMTQ2ODMsLTk0ODU0NjYxLDU1OTk5ODQ4NCwtMTE4MTE2ODQy
+OCwyMDA3OTUxOTAwLC0xNzM1OTU5NTI5LC0xNDIxMDg2MDIyXX
+0=
 -->
