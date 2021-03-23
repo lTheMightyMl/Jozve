@@ -3,7 +3,7 @@ import god
 ```
 Courtesy: Most content are adopted from 15-780 course at CMU.
 # Continuous Optimization
-In real life, we face a lot of problems with continues variables
+In real life, we face a lot of problems with continues variablesspace
 
 ## Examples
 
@@ -35,15 +35,15 @@ Assume $S$ is a bounded subset of $\mathbb{R}$. We know that $\forall x,y\in\mat
 
 ```image```
 
-Lipschitz continuity made it possible to find near-optimal solutions, but 
+Lipschitz continuity made it possible to find near-optimal solutions, but it can be proved that any algorithm to find a near-optimal minimum or maximum 
 
 # 3
 
 ## Convex Optimization
-As you may know,  convex optimization problem is an [optimization problem](https://en.wikipedia.org/wiki/Optimization_problem "Optimization problem") in which the objective function is a [convex function and the feasible set is a convex set.
+As you may know,  convex optimization problem is an [optimization problem](https://en.wikipedia.org/wiki/Optimization_problem "Optimization problem") in which the objective function is a [convex function](https://en.wikipedia.org/wiki/Convex_function "Convex function") and the [feasible set](https://en.wikipedia.org/wiki/Feasible_region "Feasible region") is a [convex set](https://en.wikipedia.org/wiki/Convex_set "Convex set").
 Now let's examine some useful properties:
 
- - every local minimum is a  global minimum
+ - -   every local minimum is a  global minimum
  - the optimal set is convex
  - if the objective function is _strictly_ convex, then the problem has at most one optimal point
 
@@ -54,11 +54,11 @@ Now let's examine some useful properties:
 
 # 6
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwODA0NTc1LDEzNTg1NTQyOTgsLTMyNj
-I1MjYxLDU3MzE5NjAwNSw1NzMxOTYwMDUsLTE1NjUwNzQ2MzAs
-NjQ5MjkyMzk3LDE3MzAyNTE1NDYsLTEzOTUxMjk3MjAsLTIwOT
-ExMzcxNTMsLTcxNDI3OTM4MiwtOTU2MTUxMDUyLC0xMTUwMDAw
-MTgzLC05MTE4MjE3NjcsMTk3NDA5NjU5OSwtMTM4NTcwMDQ4OC
-wxNzg5MzkxMzM1LC02MjUyNTAxNjQsMTY1OTAxNDY4MywtOTQ4
-NTQ2NjFdfQ==
+eyJoaXN0b3J5IjpbNjQ5Njg3MjU1LDIwMDgwNDU3NSwxMzU4NT
+U0Mjk4LC0zMjYyNTI2MSw1NzMxOTYwMDUsNTczMTk2MDA1LC0x
+NTY1MDc0NjMwLDY0OTI5MjM5NywxNzMwMjUxNTQ2LC0xMzk1MT
+I5NzIwLC0yMDkxMTM3MTUzLC03MTQyNzkzODIsLTk1NjE1MTA1
+MiwtMTE1MDAwMDE4MywtOTExODIxNzY3LDE5NzQwOTY1OTksLT
+EzODU3MDA0ODgsMTc4OTM5MTMzNSwtNjI1MjUwMTY0LDE2NTkw
+MTQ2ODNdfQ==
 -->
