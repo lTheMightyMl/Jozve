@@ -3,7 +3,13 @@ import god
 ```
 Courtesy: Most content are adopted from 15-780 course at CMU.
 # Continuous Optimization
-In real life, we face a lot of problems with continues variablesspace
+In real life, we face a lot of problems with continues variablesspace.
+Actually, 
+1. the state of the environment
+2. the way time is handled
+3. the percepts and actions of the agent
+
+mig
 
 ## Examples
 
@@ -54,11 +60,11 @@ Now let's examine some useful properties:
 
 # 6
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQ5Njg3MjU1LDIwMDgwNDU3NSwxMzU4NT
-U0Mjk4LC0zMjYyNTI2MSw1NzMxOTYwMDUsNTczMTk2MDA1LC0x
-NTY1MDc0NjMwLDY0OTI5MjM5NywxNzMwMjUxNTQ2LC0xMzk1MT
-I5NzIwLC0yMDkxMTM3MTUzLC03MTQyNzkzODIsLTk1NjE1MTA1
-MiwtMTE1MDAwMDE4MywtOTExODIxNzY3LDE5NzQwOTY1OTksLT
-EzODU3MDA0ODgsMTc4OTM5MTMzNSwtNjI1MjUwMTY0LDE2NTkw
-MTQ2ODNdfQ==
+eyJoaXN0b3J5IjpbLTE4ODIzNjY1MDcsNjQ5Njg3MjU1LDIwMD
+gwNDU3NSwxMzU4NTU0Mjk4LC0zMjYyNTI2MSw1NzMxOTYwMDUs
+NTczMTk2MDA1LC0xNTY1MDc0NjMwLDY0OTI5MjM5NywxNzMwMj
+UxNTQ2LC0xMzk1MTI5NzIwLC0yMDkxMTM3MTUzLC03MTQyNzkz
+ODIsLTk1NjE1MTA1MiwtMTE1MDAwMDE4MywtOTExODIxNzY3LD
+E5NzQwOTY1OTksLTEzODU3MDA0ODgsMTc4OTM5MTMzNSwtNjI1
+MjUwMTY0XX0=
 -->
