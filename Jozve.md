@@ -23,7 +23,7 @@ $$\min_{x} \sum^{n}_{i=1}||x-y_i||_2$$
 
 ## How difficult is real-valued optimisation?
 
-If we do not make any assumptions about the function $f:\mathbb{R}^n\rightarrow\mathbb{R}$ , then it is impossible to find a global minimiser or maximiser in finite time. This is due to the fact that the value of the function at any one point does not reveal information about the function's behaviour at other points. As a result, we must examine all points in $\mathbb{R}$ to find a minimiser and check its function value against all other points in $\mathbb{R}$, which
+If we do not make any assumptions about the function $f:\mathbb{R}^n\rightarrow\mathbb{R}$ , then it is impossible to find a global minimiser or maximiser in finite time. This is due to the fact that the value of the function at any one point does not reveal information about the function's behaviour at other points. As a result, we must know the function value for every point in $\mathbb{R}$ , which is simply uncountable.
 
 # 3
 
@@ -34,9 +34,9 @@ If we do not make any assumptions about the function $f:\mathbb{R}^n\rightarrow\
 # 6
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDU1ODgzMjgsLTk1NjE1MTA1MiwtMT
-E1MDAwMDE4MywtOTExODIxNzY3LDE5NzQwOTY1OTksLTEzODU3
-MDA0ODgsMTc4OTM5MTMzNSwtNjI1MjUwMTY0LDE2NTkwMTQ2OD
-MsLTk0ODU0NjYxLDU1OTk5ODQ4NCwtMTE4MTE2ODQyOCwyMDA3
-OTUxOTAwLC0xNzM1OTU5NTI5LC0xNDIxMDg2MDIyXX0=
+eyJoaXN0b3J5IjpbLTY4OTU5ODg4LC05NTYxNTEwNTIsLTExNT
+AwMDAxODMsLTkxMTgyMTc2NywxOTc0MDk2NTk5LC0xMzg1NzAw
+NDg4LDE3ODkzOTEzMzUsLTYyNTI1MDE2NCwxNjU5MDE0NjgzLC
+05NDg1NDY2MSw1NTk5OTg0ODQsLTExODExNjg0MjgsMjAwNzk1
+MTkwMCwtMTczNTk1OTUyOSwtMTQyMTA4NjAyMl19
 -->
