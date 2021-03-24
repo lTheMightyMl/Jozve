@@ -37,6 +37,8 @@ where
 * $h_\theta$ is a hypothesis function parameterized by $\theta$
 
 ## optimization benefits
+## Classes of optimization problems
+## Constrained vs. Unconstrained
 
 # 2
 
@@ -111,11 +113,11 @@ and obviously $x_{new} = (x_{new_1}, x_{new_2})$.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjYyMTk5NjY0LDE1MzE5OTExMzgsLTEwMj
-czNjU5NjgsNDcxMjQ4NjEwLC0xNDkzNDE3OTk2LC0yMDc4Mzc2
-MDIxLDE3MDQ2NzYzOCwxMDM4ODA1NjcxLC0yNjQxNTE3MDksMT
-k5OTk2MzQ4NCwxOTUxMzY1NDYsLTY3NTQ1NzMwMSwtMTYwMjI4
-MTc4LC0xMzAzMjQzMDA4LC0xNDc4Nzc4NTY3LDE0NTg0MTA1MT
-csODQ2ODI2MTUxLC05Nzc1MjAzODksMTgzMjY3OTU0NCwtMjI1
-Mjc5NzUyXX0=
+eyJoaXN0b3J5IjpbMTg2MTcwMzI3OCwxNTMxOTkxMTM4LC0xMD
+I3MzY1OTY4LDQ3MTI0ODYxMCwtMTQ5MzQxNzk5NiwtMjA3ODM3
+NjAyMSwxNzA0Njc2MzgsMTAzODgwNTY3MSwtMjY0MTUxNzA5LD
+E5OTk5NjM0ODQsMTk1MTM2NTQ2LC02NzU0NTczMDEsLTE2MDIy
+ODE3OCwtMTMwMzI0MzAwOCwtMTQ3ODc3ODU2NywxNDU4NDEwNT
+E3LDg0NjgyNjE1MSwtOTc3NTIwMzg5LDE4MzI2Nzk1NDQsLTIy
+NTI3OTc1Ml19
 -->
