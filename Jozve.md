@@ -38,7 +38,7 @@ where
 
 ## Optimization benefits
 `image`
-
+there are off-the-shelf solvers for many classes of problems that will let you solve even large, complex problems, once you have put them in the right form.
 ## Classes of optimization problems
 There are many different types of optimization problems (linear programming, quadratic programming, nonlinear programming, semidefinite programming, integer programming, geometric programming, mixed linear binary integer programming, etc.).
 As these names could all get confusing, we instead classify problems by focusing on two dimensions:
@@ -124,7 +124,7 @@ and obviously $x_{new} = (x_{new_1}, x_{new_2})$.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTAxOTMwMTIsMTUzMTk5MTEzOCwtMT
+eyJoaXN0b3J5IjpbLTEwNjcwNDA1MjEsMTUzMTk5MTEzOCwtMT
 AyNzM2NTk2OCw0NzEyNDg2MTAsLTE0OTM0MTc5OTYsLTIwNzgz
 NzYwMjEsMTcwNDY3NjM4LDEwMzg4MDU2NzEsLTI2NDE1MTcwOS
 wxOTk5OTYzNDg0LDE5NTEzNjU0NiwtNjc1NDU3MzAxLC0xNjAy
