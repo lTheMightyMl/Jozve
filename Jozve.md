@@ -117,7 +117,7 @@ Assume $f(ta+(1-t)b)\le tf(a)+(1-t)f(b)$ for all $a,b\in\mathbb{R},t\in[0,1]$. L
 (Note that $f''(x)=\lim_{h\to0}\frac{f(x+h)-2f(x)+f(x-h)}{h^2}.$)
 Now assume $f''(x)\ge0$ for all $x\in(-\infty,\infty)$. Using the first-order Taylor series expansion of $f$ around $x_0$ we have: $$f(x)=f(x_0)+f'(x_0)(x-x_0)+\frac{f''(x^*)}{2}(x-x_0)^2$$ 
 for some $x^*$ between $x$ and $x_0$.
-The last term is always positive because of the hypothesis, so setting $x_0=\lambda x_1+(1-\lambda)x_2$
+The last term is always positive because of the hypothesis. Setting $x_0=\lambda x_1+(1-\lambda)x_2$, for $x=x_1$ we ge
 
 ## Convex Optimization
 As you may know,  convex optimization problem is an optimization problem in which the objective function is a convex function and the feasible set is a convex set.
@@ -172,11 +172,11 @@ and obviously $x_{new} = (x_{new_1}, x_{new_2})$.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2OTczMzUyNywyMDA4MjQ0OCwxMzAyMz
-U2MDcsLTEwNzAxODc0MywtNzM5OTE4MDU3LDE1MzE5OTExMzgs
-LTEwMjczNjU5NjgsNDcxMjQ4NjEwLC0xNDkzNDE3OTk2LC0yMD
-c4Mzc2MDIxLDE3MDQ2NzYzOCwxMDM4ODA1NjcxLC0yNjQxNTE3
-MDksMTk5OTk2MzQ4NCwxOTUxMzY1NDYsLTY3NTQ1NzMwMSwtMT
-YwMjI4MTc4LC0xMzAzMjQzMDA4LC0xNDc4Nzc4NTY3LDE0NTg0
-MTA1MTddfQ==
+eyJoaXN0b3J5IjpbLTEyNzM3OTk2MzcsMjAwODI0NDgsMTMwMj
+M1NjA3LC0xMDcwMTg3NDMsLTczOTkxODA1NywxNTMxOTkxMTM4
+LC0xMDI3MzY1OTY4LDQ3MTI0ODYxMCwtMTQ5MzQxNzk5NiwtMj
+A3ODM3NjAyMSwxNzA0Njc2MzgsMTAzODgwNTY3MSwtMjY0MTUx
+NzA5LDE5OTk5NjM0ODQsMTk1MTM2NTQ2LC02NzU0NTczMDEsLT
+E2MDIyODE3OCwtMTMwMzI0MzAwOCwtMTQ3ODc3ODU2NywxNDU4
+NDEwNTE3XX0=
 -->
