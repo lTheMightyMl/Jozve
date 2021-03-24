@@ -92,7 +92,9 @@ For example, the following sets are convex:
 
 ### Convex functions
 
-A function $f:\mathbb{R}^n →\mathbb{R$ isconvexif,forany",#∈Rn and0≤%≤1
+A function $f:\mathbb{R}^n\rightarrow\mathbb{R}$ is convex if and only if $$\forall x,y\in\mathbb{R}^n,\theta\in[0,1]\;\;\;f(\theta x+(1-\theta)y)\le\theta f(x)+(1-\theta)f(y)$$
+
+```image```
 
 ## Convex Optimization
 As you may know,  convex optimization problem is an optimization problem in which the objective function is a convex function and the feasible set is a convex set.
@@ -147,7 +149,7 @@ and obviously $x_{new} = (x_{new_1}, x_{new_2})$.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5ODg5ODU1LDEzMDIzNTYwNywtMTA3MD
+eyJoaXN0b3J5IjpbMTMyMjM1MDg4LDEzMDIzNTYwNywtMTA3MD
 E4NzQzLC03Mzk5MTgwNTcsMTUzMTk5MTEzOCwtMTAyNzM2NTk2
 OCw0NzEyNDg2MTAsLTE0OTM0MTc5OTYsLTIwNzgzNzYwMjEsMT
 cwNDY3NjM4LDEwMzg4MDU2NzEsLTI2NDE1MTcwOSwxOTk5OTYz
