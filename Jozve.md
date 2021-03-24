@@ -120,7 +120,7 @@ Now assume $f''(x)\ge0$ for all $x\in(-\infty,\infty)$. Using the first-order Ta
 for some $x^*$ between $x$ and $x_0$.
 The last term is always positive because of the hypothesis. Setting $x_0=\lambda x_1+(1-\lambda)x_2$, for $x=x_1$ we get: $$f(x_1)\ge f(x_0)+f'(x_0)((1-\lambda)(x_1-x_2)).$$
 For $x=x_2$ we get: $$f(x_2)\ge f(x_0)+f'(x_0)(\lambda(x_2-x_1)).$$
-Now we can conclude that $$\lambda f(x_1)+(1-\lambda)f(x_2)\ge.$$
+Now we can conclude that $$f(x_0)\le\lambda f(x_1)+(1-\lambda)f(x_2)$$ and the i
 
 ## Convex Optimization
 As you may know,  convex optimization problem is an optimization problem in which the objective function is a convex function and the feasible set is a convex set.
@@ -175,11 +175,11 @@ and obviously $x_{new} = (x_{new_1}, x_{new_2})$.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzk5MDY2MDUsMjAwODI0NDgsMTMwMjM1Nj
-A3LC0xMDcwMTg3NDMsLTczOTkxODA1NywxNTMxOTkxMTM4LC0x
-MDI3MzY1OTY4LDQ3MTI0ODYxMCwtMTQ5MzQxNzk5NiwtMjA3OD
-M3NjAyMSwxNzA0Njc2MzgsMTAzODgwNTY3MSwtMjY0MTUxNzA5
-LDE5OTk5NjM0ODQsMTk1MTM2NTQ2LC02NzU0NTczMDEsLTE2MD
-IyODE3OCwtMTMwMzI0MzAwOCwtMTQ3ODc3ODU2NywxNDU4NDEw
-NTE3XX0=
+eyJoaXN0b3J5IjpbLTE4ODMxODc5MDcsNzk5MDY2MDUsMjAwOD
+I0NDgsMTMwMjM1NjA3LC0xMDcwMTg3NDMsLTczOTkxODA1Nywx
+NTMxOTkxMTM4LC0xMDI3MzY1OTY4LDQ3MTI0ODYxMCwtMTQ5Mz
+QxNzk5NiwtMjA3ODM3NjAyMSwxNzA0Njc2MzgsMTAzODgwNTY3
+MSwtMjY0MTUxNzA5LDE5OTk5NjM0ODQsMTk1MTM2NTQ2LC02Nz
+U0NTczMDEsLTE2MDIyODE3OCwtMTMwMzI0MzAwOCwtMTQ3ODc3
+ODU2N119
 -->
