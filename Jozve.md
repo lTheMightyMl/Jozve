@@ -113,7 +113,7 @@ A simple test for determining the convexity of a function is known as the second
 
 - $f:\mathbb{R}\rightarrow\mathbb{R}$, is convex if and only if its second derivative is non-negative.
 Proof:
-Assume $f(ta+(1-t)b)\le tf(a)+(1-t)f(b)$ for all $a,b,t
+Assume $f(ta+(1-t)b)\le tf(a)+(1-t)f(b)$ for all $a,b\in\mathbb{R},t\in[0,1]$. Let $t=\frac{1}{2}$
 
 ## Convex Optimization
 As you may know,  convex optimization problem is an optimization problem in which the objective function is a convex function and the feasible set is a convex set.
@@ -168,11 +168,11 @@ and obviously $x_{new} = (x_{new_1}, x_{new_2})$.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzU4OTg1NTkxLDEzMDIzNTYwNywtMTA3MD
-E4NzQzLC03Mzk5MTgwNTcsMTUzMTk5MTEzOCwtMTAyNzM2NTk2
-OCw0NzEyNDg2MTAsLTE0OTM0MTc5OTYsLTIwNzgzNzYwMjEsMT
-cwNDY3NjM4LDEwMzg4MDU2NzEsLTI2NDE1MTcwOSwxOTk5OTYz
-NDg0LDE5NTEzNjU0NiwtNjc1NDU3MzAxLC0xNjAyMjgxNzgsLT
-EzMDMyNDMwMDgsLTE0Nzg3Nzg1NjcsMTQ1ODQxMDUxNyw4NDY4
-MjYxNTFdfQ==
+eyJoaXN0b3J5IjpbMTM4NzE3MzM1MSwxMzAyMzU2MDcsLTEwNz
+AxODc0MywtNzM5OTE4MDU3LDE1MzE5OTExMzgsLTEwMjczNjU5
+NjgsNDcxMjQ4NjEwLC0xNDkzNDE3OTk2LC0yMDc4Mzc2MDIxLD
+E3MDQ2NzYzOCwxMDM4ODA1NjcxLC0yNjQxNTE3MDksMTk5OTk2
+MzQ4NCwxOTUxMzY1NDYsLTY3NTQ1NzMwMSwtMTYwMjI4MTc4LC
+0xMzAzMjQzMDA4LC0xNDc4Nzc4NTY3LDE0NTg0MTA1MTcsODQ2
+ODI2MTUxXX0=
 -->
