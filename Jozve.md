@@ -31,7 +31,7 @@ where $K*$ denotes convolution with a blurring filter.
 Virtually all (supervised) machine learning algorithms boil down to solving the optimization problem:
 $$\min_\theta \sum_{i=1}^m l(h_\theta(x_i), y_i)$$
 where
-* fre
+* $x_i \in \Chi$
 
 # 2
 
@@ -106,7 +106,7 @@ and obviously $x_{new} = (x_{new_1}, x_{new_2})$.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2ODc5NDc2NiwxNTMxOTkxMTM4LC0xMD
+eyJoaXN0b3J5IjpbLTkyNzI0ODc3OCwxNTMxOTkxMTM4LC0xMD
 I3MzY1OTY4LDQ3MTI0ODYxMCwtMTQ5MzQxNzk5NiwtMjA3ODM3
 NjAyMSwxNzA0Njc2MzgsMTAzODgwNTY3MSwtMjY0MTUxNzA5LD
 E5OTk5NjM0ODQsMTk1MTM2NTQ2LC02NzU0NTczMDEsLTE2MDIy
