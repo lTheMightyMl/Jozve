@@ -130,7 +130,8 @@ We have $g''(t)=u^T(\mathbf{H}_f(x_0+tu))u\ge0$ for all $x_0$ and $u$, so $\math
 
 Using the second-order convexity test, we can easily show that:
 
-- 
+- $f(x_1,x_2)=x_1\cdot x_2$ is not convex.
+- $f(x_1,x_2)=x^2_1+x^2_2+x_1x_2$ is convex.
 
 ## Convex Optimization
 As you may know,  convex optimization problem is an optimization problem in which the objective function is a convex function and the feasible set is a convex set.
@@ -185,11 +186,11 @@ and obviously $x_{new} = (x_{new_1}, x_{new_2})$.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzMDQyMzkyNCwtNjE5OTEzNzIxLDc5OT
-A2NjA1LDIwMDgyNDQ4LDEzMDIzNTYwNywtMTA3MDE4NzQzLC03
-Mzk5MTgwNTcsMTUzMTk5MTEzOCwtMTAyNzM2NTk2OCw0NzEyND
-g2MTAsLTE0OTM0MTc5OTYsLTIwNzgzNzYwMjEsMTcwNDY3NjM4
-LDEwMzg4MDU2NzEsLTI2NDE1MTcwOSwxOTk5OTYzNDg0LDE5NT
-EzNjU0NiwtNjc1NDU3MzAxLC0xNjAyMjgxNzgsLTEzMDMyNDMw
-MDhdfQ==
+eyJoaXN0b3J5IjpbLTE5NTM4OTQzOTEsLTYxOTkxMzcyMSw3OT
+kwNjYwNSwyMDA4MjQ0OCwxMzAyMzU2MDcsLTEwNzAxODc0Mywt
+NzM5OTE4MDU3LDE1MzE5OTExMzgsLTEwMjczNjU5NjgsNDcxMj
+Q4NjEwLC0xNDkzNDE3OTk2LC0yMDc4Mzc2MDIxLDE3MDQ2NzYz
+OCwxMDM4ODA1NjcxLC0yNjQxNTE3MDksMTk5OTk2MzQ4NCwxOT
+UxMzY1NDYsLTY3NTQ1NzMwMSwtMTYwMjI4MTc4LC0xMzAzMjQz
+MDA4XX0=
 -->
