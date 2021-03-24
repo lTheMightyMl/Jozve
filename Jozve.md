@@ -69,6 +69,10 @@ Assume $S$ is a bounded subset of $\mathbb{R}$. We know that $\forall x,y\in\mat
 
 Lipschitz continuity made it possible to find near-optimal solutions, but it can be proved that any algorithm to find a near-optimal minimum or maximum for a Lipschitz continuous function on $\mathbb{R}^n$ has $\Omega\big(\frac{1}{t^\frac{1}{n}}\big)$ error after $t$ iterations. We can see that assumptions can make a big difference, but we still need faster algorithms.
 
+## Convexity
+
+
+
 ## Convex Optimization
 As you may know,  convex optimization problem is an optimization problem in which the objective function is a convex function and the feasible set is a convex set.
 Now let's examine some useful properties:
@@ -122,7 +126,7 @@ and obviously $x_{new} = (x_{new_1}, x_{new_2})$.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODEwODAzMDI2LDEzMDIzNTYwNywtMTA3MD
+eyJoaXN0b3J5IjpbMjczOTEwMDQ5LDEzMDIzNTYwNywtMTA3MD
 E4NzQzLC03Mzk5MTgwNTcsMTUzMTk5MTEzOCwtMTAyNzM2NTk2
 OCw0NzEyNDg2MTAsLTE0OTM0MTc5OTYsLTIwNzgzNzYwMjEsMT
 cwNDY3NjM4LDEwMzg4MDU2NzEsLTI2NDE1MTcwOSwxOTk5OTYz
