@@ -112,10 +112,10 @@ Examples of convex functions are:
 A simple test for determining the convexity of a function is known as the second-order convexity condition and is as follows:
 
 - $f:\mathbb{R}\rightarrow\mathbb{R}$, is convex if and only if its second derivative is non-negative.
-Proof:
+#### Proof:
 Assume $f(ta+(1-t)b)\le tf(a)+(1-t)f(b)$ for all $a,b\in\mathbb{R},t\in[0,1]$. Let $t=\frac{1}{2},a=x-h,b=x+h$. We have: $$f(x)\le\frac{1}{2}f(x-h)+\frac{1}{2}f(x+h)\\\Rightarrow f(x+h)-2f(x)+f(x-h)\ge0$$
-(Note that we have $f''(x)=\lim_{h\to0}\frac{f(x+h)-2f(x)+f(x-h)}{h^2}.$)
-Now assume $f''(x)\ge0$ for all $x\in(-\infty,\infty)$
+(Note that $f''(x)=\lim_{h\to0}\frac{f(x+h)-2f(x)+f(x-h)}{h^2}.$)
+Now assume $f''(x)\ge0$ for all $x\in(-\infty,\infty)$. Using the first-order taylor 
 
 ## Convex Optimization
 As you may know,  convex optimization problem is an optimization problem in which the objective function is a convex function and the feasible set is a convex set.
@@ -170,7 +170,7 @@ and obviously $x_{new} = (x_{new_1}, x_{new_2})$.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzY0MDU5MjUyLDEzMDIzNTYwNywtMTA3MD
+eyJoaXN0b3J5IjpbLTk4MTczNzM3LDEzMDIzNTYwNywtMTA3MD
 E4NzQzLC03Mzk5MTgwNTcsMTUzMTk5MTEzOCwtMTAyNzM2NTk2
 OCw0NzEyNDg2MTAsLTE0OTM0MTc5OTYsLTIwNzgzNzYwMjEsMT
 cwNDY3NjM4LDEwMzg4MDU2NzEsLTI2NDE1MTcwOSwxOTk5OTYz
