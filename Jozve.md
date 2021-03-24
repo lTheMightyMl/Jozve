@@ -38,7 +38,7 @@ where
 
 ## Optimization benefits
 `image`
-One of the key benefits of looking at problems in AI as optimization problems is that by doing so, we can separate out the _definition_ of the problem and the _method_ for _solving_ it, and we can use general methods to solve different problems.
+One of the key benefits of looking at problems in AI as optimization problems is that by doing so, we can separate out the _definition_ of the problem and the _method_ for _solving_ it, and that way we can use general methods to solve different problems.
 There are off-the-shelf solvers for many classes of optimization problems that will let us solve even large, complex problems. We only need to put our problems in the right form.
 
 ## Classes of optimization problems
@@ -126,11 +126,11 @@ and obviously $x_{new} = (x_{new_1}, x_{new_2})$.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDg0MTIzMDEsMTUzMTk5MTEzOCwtMT
-AyNzM2NTk2OCw0NzEyNDg2MTAsLTE0OTM0MTc5OTYsLTIwNzgz
-NzYwMjEsMTcwNDY3NjM4LDEwMzg4MDU2NzEsLTI2NDE1MTcwOS
-wxOTk5OTYzNDg0LDE5NTEzNjU0NiwtNjc1NDU3MzAxLC0xNjAy
-MjgxNzgsLTEzMDMyNDMwMDgsLTE0Nzg3Nzg1NjcsMTQ1ODQxMD
-UxNyw4NDY4MjYxNTEsLTk3NzUyMDM4OSwxODMyNjc5NTQ0LC0y
-MjUyNzk3NTJdfQ==
+eyJoaXN0b3J5IjpbLTczOTkxODA1NywxNTMxOTkxMTM4LC0xMD
+I3MzY1OTY4LDQ3MTI0ODYxMCwtMTQ5MzQxNzk5NiwtMjA3ODM3
+NjAyMSwxNzA0Njc2MzgsMTAzODgwNTY3MSwtMjY0MTUxNzA5LD
+E5OTk5NjM0ODQsMTk1MTM2NTQ2LC02NzU0NTczMDEsLTE2MDIy
+ODE3OCwtMTMwMzI0MzAwOCwtMTQ3ODc3ODU2NywxNDU4NDEwNT
+E3LDg0NjgyNjE1MSwtOTc3NTIwMzg5LDE4MzI2Nzk1NDQsLTIy
+NTI3OTc1Ml19
 -->
