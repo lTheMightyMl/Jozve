@@ -40,11 +40,12 @@ where
 `image`
 
 ## Classes of optimization problems
-`image`
 There are many different types of optimization problems (linear programming, quadratic programming, nonlinear programming, semidefinite programming, integer programming, geometric programming, mixed linear binary integer programming, etc.).
 As these names could all get confusing, we instead classify problems by focusing on two dimensions:
 * constrained vs. unconstrained
 * convex vs. nonconvex
+
+`image`
 
 ## Constrained vs. Unconstrained
 `image`
@@ -123,11 +124,11 @@ and obviously $x_{new} = (x_{new_1}, x_{new_2})$.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5MjYzMzYyLDE1MzE5OTExMzgsLTEwMj
-czNjU5NjgsNDcxMjQ4NjEwLC0xNDkzNDE3OTk2LC0yMDc4Mzc2
-MDIxLDE3MDQ2NzYzOCwxMDM4ODA1NjcxLC0yNjQxNTE3MDksMT
-k5OTk2MzQ4NCwxOTUxMzY1NDYsLTY3NTQ1NzMwMSwtMTYwMjI4
-MTc4LC0xMzAzMjQzMDA4LC0xNDc4Nzc4NTY3LDE0NTg0MTA1MT
-csODQ2ODI2MTUxLC05Nzc1MjAzODksMTgzMjY3OTU0NCwtMjI1
-Mjc5NzUyXX0=
+eyJoaXN0b3J5IjpbLTEyMTAxOTMwMTIsMTUzMTk5MTEzOCwtMT
+AyNzM2NTk2OCw0NzEyNDg2MTAsLTE0OTM0MTc5OTYsLTIwNzgz
+NzYwMjEsMTcwNDY3NjM4LDEwMzg4MDU2NzEsLTI2NDE1MTcwOS
+wxOTk5OTYzNDg0LDE5NTEzNjU0NiwtNjc1NDU3MzAxLC0xNjAy
+MjgxNzgsLTEzMDMyNDMwMDgsLTE0Nzg3Nzg1NjcsMTQ1ODQxMD
+UxNyw4NDY4MjYxNTEsLTk3NzUyMDM4OSwxODMyNjc5NTQ0LC0y
+MjUyNzk3NTJdfQ==
 -->
