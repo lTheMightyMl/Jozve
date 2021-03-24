@@ -85,8 +85,9 @@ A set $\mathcal{C}$ is convex if and only if $$\forall x,y\in\mathcal{C},\theta\
 
 For example, the following sets are convex:
 
-- $\mathcal{C}=\mathbb{R}^n$ for all non-negative integers $n$
-- 
+- $\mathbb{R}^n$ for all non-negative integers $n$
+- All intervals $[l,r]$ in $\mathbb{R}$
+- Linear equalities $\{\}$ for all $\
 
 ## Convex Optimization
 As you may know,  convex optimization problem is an optimization problem in which the objective function is a convex function and the feasible set is a convex set.
@@ -141,7 +142,7 @@ and obviously $x_{new} = (x_{new_1}, x_{new_2})$.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTY5MjkwMjQsMTMwMjM1NjA3LC0xMD
+eyJoaXN0b3J5IjpbLTE2ODA5NzkxNDYsMTMwMjM1NjA3LC0xMD
 cwMTg3NDMsLTczOTkxODA1NywxNTMxOTkxMTM4LC0xMDI3MzY1
 OTY4LDQ3MTI0ODYxMCwtMTQ5MzQxNzk5NiwtMjA3ODM3NjAyMS
 wxNzA0Njc2MzgsMTAzODgwNTY3MSwtMjY0MTUxNzA5LDE5OTk5
