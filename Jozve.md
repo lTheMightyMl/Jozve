@@ -128,6 +128,10 @@ Now we can conclude that $$f(x_0)\le\lambda f(x_1)+(1-\lambda)f(x_2)$$ and the p
 Lemma: $f:\mathbb{R}^n\rightarrow\mathbb{R}$ is convex if and only if $g(t)=f(x_0+tu)$ is convex for every $x_0,u\in\mathbb{R}^n$ (the function is convex in every direction).
 We have $g''(t)=u^T(\mathbf{H}_f(x_0+tu))u\ge0$ for all $x_0$ and $u$, so $\mathbf{H}_f(x)$ must be positive semi-definite for all $x$.
 
+Using the second-order convexity test, we can easily show that:
+
+- 
+
 ## Convex Optimization
 As you may know,  convex optimization problem is an optimization problem in which the objective function is a convex function and the feasible set is a convex set.
 Now let's examine some useful properties:
@@ -181,7 +185,7 @@ and obviously $x_{new} = (x_{new_1}, x_{new_2})$.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4NTQyMzc3OSwtNjE5OTEzNzIxLDc5OT
+eyJoaXN0b3J5IjpbLTIzMDQyMzkyNCwtNjE5OTEzNzIxLDc5OT
 A2NjA1LDIwMDgyNDQ4LDEzMDIzNTYwNywtMTA3MDE4NzQzLC03
 Mzk5MTgwNTcsMTUzMTk5MTEzOCwtMTAyNzM2NTk2OCw0NzEyND
 g2MTAsLTE0OTM0MTc5OTYsLTIwNzgzNzYwMjEsMTcwNDY3NjM4
