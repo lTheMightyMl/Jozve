@@ -120,7 +120,9 @@ Now assume $f''(x)\ge0$ for all $x\in(-\infty,\infty)$. Using the first-order Ta
 for some $x^*$ between $x$ and $x_0$.
 The last term is always positive because of the hypothesis. Setting $x_0=\lambda x_1+(1-\lambda)x_2$, for $x=x_1$ we get: $$f(x_1)\ge f(x_0)+f'(x_0)((1-\lambda)(x_1-x_2)).$$
 For $x=x_2$ we get: $$f(x_2)\ge f(x_0)+f'(x_0)(\lambda(x_2-x_1)).$$
-Now we can conclude that $$f(x_0)\le\lambda f(x_1)+(1-\lambda)f(x_2)$$ and the proposition
+Now we can conclude that $$f(x_0)\le\lambda f(x_1)+(1-\lambda)f(x_2)$$ and the proposition is proven.
+
+- $f:\mathbb{R}^n\rightarrow\mathbb{R}$, is convex if and only $\nabla^2$.
 
 ## Convex Optimization
 As you may know,  convex optimization problem is an optimization problem in which the objective function is a convex function and the feasible set is a convex set.
@@ -175,7 +177,7 @@ and obviously $x_{new} = (x_{new_1}, x_{new_2})$.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0OTIxOTQ3OCw3OTkwNjYwNSwyMDA4Mj
+eyJoaXN0b3J5IjpbLTYxOTkxMzcyMSw3OTkwNjYwNSwyMDA4Mj
 Q0OCwxMzAyMzU2MDcsLTEwNzAxODc0MywtNzM5OTE4MDU3LDE1
 MzE5OTExMzgsLTEwMjczNjU5NjgsNDcxMjQ4NjEwLC0xNDkzND
 E3OTk2LC0yMDc4Mzc2MDIxLDE3MDQ2NzYzOCwxMDM4ODA1Njcx
