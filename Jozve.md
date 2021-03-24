@@ -79,7 +79,7 @@ First, we need to know the definition of convex sets and convex functions:
 
 ### Convex sets
 
-A set $\mathcm{C}$is convex if and only if $$\forallx,y$$
+A set $\mathcal{C}$ is convex if and only if $$\forall x,y\in\mathcal{C},\theta\in[0,1]\;\;\;\;\theta x+(1-\theta)y\in\mathcal{C}$$
 
 ## Convex Optimization
 As you may know,  convex optimization problem is an optimization problem in which the objective function is a convex function and the feasible set is a convex set.
@@ -134,11 +134,11 @@ and obviously $x_{new} = (x_{new_1}, x_{new_2})$.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjIxMjk5NjgsMTMwMjM1NjA3LC0xMD
-cwMTg3NDMsLTczOTkxODA1NywxNTMxOTkxMTM4LC0xMDI3MzY1
-OTY4LDQ3MTI0ODYxMCwtMTQ5MzQxNzk5NiwtMjA3ODM3NjAyMS
-wxNzA0Njc2MzgsMTAzODgwNTY3MSwtMjY0MTUxNzA5LDE5OTk5
-NjM0ODQsMTk1MTM2NTQ2LC02NzU0NTczMDEsLTE2MDIyODE3OC
-wtMTMwMzI0MzAwOCwtMTQ3ODc3ODU2NywxNDU4NDEwNTE3LDg0
-NjgyNjE1MV19
+eyJoaXN0b3J5IjpbNzE5MDI1NjI3LDEzMDIzNTYwNywtMTA3MD
+E4NzQzLC03Mzk5MTgwNTcsMTUzMTk5MTEzOCwtMTAyNzM2NTk2
+OCw0NzEyNDg2MTAsLTE0OTM0MTc5OTYsLTIwNzgzNzYwMjEsMT
+cwNDY3NjM4LDEwMzg4MDU2NzEsLTI2NDE1MTcwOSwxOTk5OTYz
+NDg0LDE5NTEzNjU0NiwtNjc1NDU3MzAxLC0xNjAyMjgxNzgsLT
+EzMDMyNDMwMDgsLTE0Nzg3Nzg1NjcsMTQ1ODQxMDUxNyw4NDY4
+MjYxNTFdfQ==
 -->
