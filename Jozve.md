@@ -126,7 +126,7 @@ Now we can conclude that $$f(x_0)\le\lambda f(x_1)+(1-\lambda)f(x_2)$$ and the p
 
 ####  Proof
 Lemma: $f:\mathbb{R}^n\rightarrow\mathbb{R}$ is convex if and only if $g(t)=f(x_0+tu)$ is convex for every $x_0,u\in\mathbb{R}^n$ (the function is convex in every direction).
-We have $g''(t)=u^T\mathbf{H}$
+We have $g''(t)=u^T(\mathbf{H}_f(x_0+tu))u\ge0$ for all $x_0$ and $u$
 
 ## Convex Optimization
 As you may know,  convex optimization problem is an optimization problem in which the objective function is a convex function and the feasible set is a convex set.
@@ -181,11 +181,11 @@ and obviously $x_{new} = (x_{new_1}, x_{new_2})$.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjUyOTIzNTgxLC02MTk5MTM3MjEsNzk5MD
-Y2MDUsMjAwODI0NDgsMTMwMjM1NjA3LC0xMDcwMTg3NDMsLTcz
-OTkxODA1NywxNTMxOTkxMTM4LC0xMDI3MzY1OTY4LDQ3MTI0OD
-YxMCwtMTQ5MzQxNzk5NiwtMjA3ODM3NjAyMSwxNzA0Njc2Mzgs
-MTAzODgwNTY3MSwtMjY0MTUxNzA5LDE5OTk5NjM0ODQsMTk1MT
-M2NTQ2LC02NzU0NTczMDEsLTE2MDIyODE3OCwtMTMwMzI0MzAw
-OF19
+eyJoaXN0b3J5IjpbMTI2OTUzMzk5OSwtNjE5OTEzNzIxLDc5OT
+A2NjA1LDIwMDgyNDQ4LDEzMDIzNTYwNywtMTA3MDE4NzQzLC03
+Mzk5MTgwNTcsMTUzMTk5MTEzOCwtMTAyNzM2NTk2OCw0NzEyND
+g2MTAsLTE0OTM0MTc5OTYsLTIwNzgzNzYwMjEsMTcwNDY3NjM4
+LDEwMzg4MDU2NzEsLTI2NDE1MTcwOSwxOTk5OTYzNDg0LDE5NT
+EzNjU0NiwtNjc1NDU3MzAxLC0xNjAyMjgxNzgsLTEzMDMyNDMw
+MDhdfQ==
 -->
