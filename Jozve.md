@@ -122,11 +122,11 @@ The last term is always positive because of the hypothesis. Setting $x_0=\lambda
 For $x=x_2$ we get: $$f(x_2)\ge f(x_0)+f'(x_0)(\lambda(x_2-x_1)).$$
 Now we can conclude that $$f(x_0)\le\lambda f(x_1)+(1-\lambda)f(x_2)$$ and the proposition is proven.
 
-- $f:\mathbb{R}^n\rightarrow\mathbb{R}$, is convex if and only $\mathbf{H}_f$ (its Hessian matrix) is positive semi-definite.
+- $f:\mathbb{R}^n\rightarrow\mathbb{R}$, is convex if and only $\mathbf{H}_f(x)$ (its Hessian matrix) is positive semi-definite at all $x\in\mathbb{R}^n$
 
 ####  Proof
 Lemma: $f:\mathbb{R}^n\rightarrow\mathbb{R}$ is convex if and only if $g(t)=f(x_0+tu)$ is convex for every $x_0,u\in\mathbb{R}^n$ (the function is convex in every direction).
-We have $g''(t)=u^T(\mathbf{H}_f(x_0+tu))u\ge0$ for all $x_0$ and $u$
+We have $g''(t)=u^T(\mathbf{H}_f(x_0+tu))u\ge0$ for all $x_0$ and $u$, so $\mathbf{H}_f(x)$ must be positive semi-definite for all $x$.
 
 ## Convex Optimization
 As you may know,  convex optimization problem is an optimization problem in which the objective function is a convex function and the feasible set is a convex set.
@@ -181,7 +181,7 @@ and obviously $x_{new} = (x_{new_1}, x_{new_2})$.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2OTUzMzk5OSwtNjE5OTEzNzIxLDc5OT
+eyJoaXN0b3J5IjpbMTY4NTQyMzc3OSwtNjE5OTEzNzIxLDc5OT
 A2NjA1LDIwMDgyNDQ4LDEzMDIzNTYwNywtMTA3MDE4NzQzLC03
 Mzk5MTgwNTcsMTUzMTk5MTEzOCwtMTAyNzM2NTk2OCw0NzEyND
 g2MTAsLTE0OTM0MTc5OTYsLTIwNzgzNzYwMjEsMTcwNDY3NjM4
