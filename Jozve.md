@@ -87,7 +87,7 @@ For example, the following sets are convex:
 
 - $\mathbb{R}^n$ for all non-negative integers $n$
 - All intervals $[l,r]$ in $\mathbb{R}$
-- Linear equalities $\{\}$ for all $\
+- Linear equalities $\{x|x\in\mathbb{R}^n,Ax=b\}$ for all $m\times n$ matrices $A$ and all m-dimensional vectors $b$
 
 ## Convex Optimization
 As you may know,  convex optimization problem is an optimization problem in which the objective function is a convex function and the feasible set is a convex set.
@@ -142,11 +142,11 @@ and obviously $x_{new} = (x_{new_1}, x_{new_2})$.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODA5NzkxNDYsMTMwMjM1NjA3LC0xMD
-cwMTg3NDMsLTczOTkxODA1NywxNTMxOTkxMTM4LC0xMDI3MzY1
-OTY4LDQ3MTI0ODYxMCwtMTQ5MzQxNzk5NiwtMjA3ODM3NjAyMS
-wxNzA0Njc2MzgsMTAzODgwNTY3MSwtMjY0MTUxNzA5LDE5OTk5
-NjM0ODQsMTk1MTM2NTQ2LC02NzU0NTczMDEsLTE2MDIyODE3OC
-wtMTMwMzI0MzAwOCwtMTQ3ODc3ODU2NywxNDU4NDEwNTE3LDg0
-NjgyNjE1MV19
+eyJoaXN0b3J5IjpbMTczMzQ0MjIzMiwxMzAyMzU2MDcsLTEwNz
+AxODc0MywtNzM5OTE4MDU3LDE1MzE5OTExMzgsLTEwMjczNjU5
+NjgsNDcxMjQ4NjEwLC0xNDkzNDE3OTk2LC0yMDc4Mzc2MDIxLD
+E3MDQ2NzYzOCwxMDM4ODA1NjcxLC0yNjQxNTE3MDksMTk5OTk2
+MzQ4NCwxOTUxMzY1NDYsLTY3NTQ1NzMwMSwtMTYwMjI4MTc4LC
+0xMzAzMjQzMDA4LC0xNDc4Nzc4NTY3LDE0NTg0MTA1MTcsODQ2
+ODI2MTUxXX0=
 -->
