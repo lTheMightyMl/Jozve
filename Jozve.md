@@ -71,7 +71,11 @@ Lipschitz continuity made it possible to find near-optimal solutions, but it can
 
 ## Convexity
 
--Originally, researchers distinguished between linear (easy) and nonlinear (hard) problems, SessioBut in 80s and 90s, it became clear that this wasn’t the right distinction, key difference is between convex and nonconvex problems
+Originally, researchers distinguished between linear (easy) and nonlinear (hard) problems, but in 80s and 90s it became clear that this wasn’t the right distinction; the key difference is between convex and non-convex problems.
+
+```image```
+
+Convex optimisation problems 
 
 ## Convex Optimization
 As you may know,  convex optimization problem is an optimization problem in which the objective function is a convex function and the feasible set is a convex set.
@@ -126,7 +130,7 @@ and obviously $x_{new} = (x_{new_1}, x_{new_2})$.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwMTk3Mjk4OSwxMzAyMzU2MDcsLTEwNz
+eyJoaXN0b3J5IjpbMTE3OTYxODc2MSwxMzAyMzU2MDcsLTEwNz
 AxODc0MywtNzM5OTE4MDU3LDE1MzE5OTExMzgsLTEwMjczNjU5
 NjgsNDcxMjQ4NjEwLC0xNDkzNDE3OTk2LC0yMDc4Mzc2MDIxLD
 E3MDQ2NzYzOCwxMDM4ODA1NjcxLC0yNjQxNTE3MDksMTk5OTk2
