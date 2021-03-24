@@ -103,7 +103,7 @@ for EPOCHS tims repeat:
 	x -=  learning_rate * gradient(f(x))
 ```
 
-In fact, the value of $f$ is decreasing in each iteration. The proof is straight forward as it is illustrated in below:
+n fact, the value of $f$ is decreasing in each iteration. The proof is straight forward as it is illustrated in below:
 By *taylor exapansion* of a function $f$  we have:
 $$f(x+v) = f(x) + \nabla_x f(x)^Tv  + O(||v||_2^2)$$
 Now choose $v$ to be multiplication of gradient i.e. $-\alpha\nabla_x f(x)$. By substituting in the above equation we have:
@@ -122,11 +122,11 @@ and obviously $x_{new} = (x_{new_1}, x_{new_2})$.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwMjM1NjA3LC0xMDcwMTg3NDMsLTczOT
-kxODA1NywxNTMxOTkxMTM4LC0xMDI3MzY1OTY4LDQ3MTI0ODYx
-MCwtMTQ5MzQxNzk5NiwtMjA3ODM3NjAyMSwxNzA0Njc2MzgsMT
-AzODgwNTY3MSwtMjY0MTUxNzA5LDE5OTk5NjM0ODQsMTk1MTM2
-NTQ2LC02NzU0NTczMDEsLTE2MDIyODE3OCwtMTMwMzI0MzAwOC
-wtMTQ3ODc3ODU2NywxNDU4NDEwNTE3LDg0NjgyNjE1MSwtOTc3
-NTIwMzg5XX0=
+eyJoaXN0b3J5IjpbODEwODAzMDI2LDEzMDIzNTYwNywtMTA3MD
+E4NzQzLC03Mzk5MTgwNTcsMTUzMTk5MTEzOCwtMTAyNzM2NTk2
+OCw0NzEyNDg2MTAsLTE0OTM0MTc5OTYsLTIwNzgzNzYwMjEsMT
+cwNDY3NjM4LDEwMzg4MDU2NzEsLTI2NDE1MTcwOSwxOTk5OTYz
+NDg0LDE5NTEzNjU0NiwtNjc1NDU3MzAxLC0xNjAyMjgxNzgsLT
+EzMDMyNDMwMDgsLTE0Nzg3Nzg1NjcsMTQ1ODQxMDUxNyw4NDY4
+MjYxNTFdfQ==
 -->
