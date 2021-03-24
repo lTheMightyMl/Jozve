@@ -125,7 +125,8 @@ Now we can conclude that $$f(x_0)\le\lambda f(x_1)+(1-\lambda)f(x_2)$$ and the p
 - $f:\mathbb{R}^n\rightarrow\mathbb{R}$, is convex if and only $\mathbf{H}_f$ (its Hessian matrix) is positive semi-definite.
 
 ####  Proof
-Lemma: $f:\mathbb{R}^n\rightarrow\mathbb{R}$ is convex if and only if $g(t)=f(x_0+tu)$
+Lemma: $f:\mathbb{R}^n\rightarrow\mathbb{R}$ is convex if and only if $g(t)=f(x_0+tu)$ is convex for every $x_0,u\in\mathbb{R}^n$ (the function is convex in every direction).
+We have $g''(t)=u^T\mathbf{H}$
 
 ## Convex Optimization
 As you may know,  convex optimization problem is an optimization problem in which the objective function is a convex function and the feasible set is a convex set.
@@ -180,11 +181,11 @@ and obviously $x_{new} = (x_{new_1}, x_{new_2})$.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDA4ODg5MTEsLTYxOTkxMzcyMSw3OT
-kwNjYwNSwyMDA4MjQ0OCwxMzAyMzU2MDcsLTEwNzAxODc0Mywt
-NzM5OTE4MDU3LDE1MzE5OTExMzgsLTEwMjczNjU5NjgsNDcxMj
-Q4NjEwLC0xNDkzNDE3OTk2LC0yMDc4Mzc2MDIxLDE3MDQ2NzYz
-OCwxMDM4ODA1NjcxLC0yNjQxNTE3MDksMTk5OTk2MzQ4NCwxOT
-UxMzY1NDYsLTY3NTQ1NzMwMSwtMTYwMjI4MTc4LC0xMzAzMjQz
-MDA4XX0=
+eyJoaXN0b3J5IjpbMjUyOTIzNTgxLC02MTk5MTM3MjEsNzk5MD
+Y2MDUsMjAwODI0NDgsMTMwMjM1NjA3LC0xMDcwMTg3NDMsLTcz
+OTkxODA1NywxNTMxOTkxMTM4LC0xMDI3MzY1OTY4LDQ3MTI0OD
+YxMCwtMTQ5MzQxNzk5NiwtMjA3ODM3NjAyMSwxNzA0Njc2Mzgs
+MTAzODgwNTY3MSwtMjY0MTUxNzA5LDE5OTk5NjM0ODQsMTk1MT
+M2NTQ2LC02NzU0NTczMDEsLTE2MDIyODE3OCwtMTMwMzI0MzAw
+OF19
 -->
