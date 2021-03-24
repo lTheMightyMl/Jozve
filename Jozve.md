@@ -106,7 +106,7 @@ Examples of convex functions are:
 - Euclidean norm and its square: $f(x)=\lVert x\rVert^2_2\equiv x^Tx\equiv\sum^n_{i=1}x^2_i$ and $f(x)=\lVert x\rVert_2\equiv \sqrt{x^Tx}\equiv\sqrt{\sum^n_{i=1}x^2_i}$
 - Weighted sum of convex functions with non-negative weights: $$f(x)=\sum^m_{i=1}w_i\cdot f_i(x)$$ where $w_i\ge0$ and $f_i$ are convex.
 
-A simple test for determining 
+A simple test for determining the convexity of functions is 
 
 ## Convex Optimization
 As you may know,  convex optimization problem is an optimization problem in which the objective function is a convex function and the feasible set is a convex set.
@@ -161,7 +161,7 @@ and obviously $x_{new} = (x_{new_1}, x_{new_2})$.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDQxOTU5NTcsMTMwMjM1NjA3LC0xMD
+eyJoaXN0b3J5IjpbLTIwODgwMzIwMzcsMTMwMjM1NjA3LC0xMD
 cwMTg3NDMsLTczOTkxODA1NywxNTMxOTkxMTM4LC0xMDI3MzY1
 OTY4LDQ3MTI0ODYxMCwtMTQ5MzQxNzk5NiwtMjA3ODM3NjAyMS
 wxNzA0Njc2MzgsMTAzODgwNTY3MSwtMjY0MTUxNzA5LDE5OTk5
