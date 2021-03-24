@@ -46,10 +46,10 @@ As these names could all get confusing, we instead classify problems by focusing
 * constrained vs. unconstrained
 * convex vs. nonconvex
 
-`image`
+![](https://uupload.ir/files/pqj1_picture1.png)
 
 ## Constrained vs. Unconstrained
-`image`
+![enter image description here](https://uupload.ir/files/6gjn_picture2.png)
 In an unconstrained optimization problem, every point $x \in \mathbb{R}^n$ is feasible, so we only focus on minimizing $f(x)$.
 In contrast, for constrained optimization, it may be difficult to even find a point $x \in \zeta$.
 # 2
@@ -125,11 +125,11 @@ and obviously $x_{new} = (x_{new_1}, x_{new_2})$.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzM4MjQwODMwLC03Mzk5MTgwNTcsMTUzMT
-k5MTEzOCwtMTAyNzM2NTk2OCw0NzEyNDg2MTAsLTE0OTM0MTc5
-OTYsLTIwNzgzNzYwMjEsMTcwNDY3NjM4LDEwMzg4MDU2NzEsLT
-I2NDE1MTcwOSwxOTk5OTYzNDg0LDE5NTEzNjU0NiwtNjc1NDU3
-MzAxLC0xNjAyMjgxNzgsLTEzMDMyNDMwMDgsLTE0Nzg3Nzg1Nj
-csMTQ1ODQxMDUxNyw4NDY4MjYxNTEsLTk3NzUyMDM4OSwxODMy
-Njc5NTQ0XX0=
+eyJoaXN0b3J5IjpbLTk5MzkxMzk2NSwtNzM5OTE4MDU3LDE1Mz
+E5OTExMzgsLTEwMjczNjU5NjgsNDcxMjQ4NjEwLC0xNDkzNDE3
+OTk2LC0yMDc4Mzc2MDIxLDE3MDQ2NzYzOCwxMDM4ODA1NjcxLC
+0yNjQxNTE3MDksMTk5OTk2MzQ4NCwxOTUxMzY1NDYsLTY3NTQ1
+NzMwMSwtMTYwMjI4MTc4LC0xMzAzMjQzMDA4LC0xNDc4Nzc4NT
+Y3LDE0NTg0MTA1MTcsODQ2ODI2MTUxLC05Nzc1MjAzODksMTgz
+MjY3OTU0NF19
 -->
