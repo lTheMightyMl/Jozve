@@ -122,7 +122,7 @@ The last term is always positive because of the hypothesis. Setting $x_0=\lambda
 For $x=x_2$ we get: $$f(x_2)\ge f(x_0)+f'(x_0)(\lambda(x_2-x_1)).$$
 Now we can conclude that $$f(x_0)\le\lambda f(x_1)+(1-\lambda)f(x_2)$$ and the proposition is proven.
 
-- $f:\mathbb{R}^n\rightarrow\mathbb{R}$, is convex if and only $\nabla^2$.
+- $f:\mathbb{R}^n\rightarrow\mathbb{R}$, is convex if and only $\mathbf{H}_f$ (its Hessia.
 
 ## Convex Optimization
 As you may know,  convex optimization problem is an optimization problem in which the objective function is a convex function and the feasible set is a convex set.
@@ -177,11 +177,11 @@ and obviously $x_{new} = (x_{new_1}, x_{new_2})$.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxOTkxMzcyMSw3OTkwNjYwNSwyMDA4Mj
-Q0OCwxMzAyMzU2MDcsLTEwNzAxODc0MywtNzM5OTE4MDU3LDE1
-MzE5OTExMzgsLTEwMjczNjU5NjgsNDcxMjQ4NjEwLC0xNDkzND
-E3OTk2LC0yMDc4Mzc2MDIxLDE3MDQ2NzYzOCwxMDM4ODA1Njcx
-LC0yNjQxNTE3MDksMTk5OTk2MzQ4NCwxOTUxMzY1NDYsLTY3NT
-Q1NzMwMSwtMTYwMjI4MTc4LC0xMzAzMjQzMDA4LC0xNDc4Nzc4
-NTY3XX0=
+eyJoaXN0b3J5IjpbMTA1MzcxODY2MSwtNjE5OTEzNzIxLDc5OT
+A2NjA1LDIwMDgyNDQ4LDEzMDIzNTYwNywtMTA3MDE4NzQzLC03
+Mzk5MTgwNTcsMTUzMTk5MTEzOCwtMTAyNzM2NTk2OCw0NzEyND
+g2MTAsLTE0OTM0MTc5OTYsLTIwNzgzNzYwMjEsMTcwNDY3NjM4
+LDEwMzg4MDU2NzEsLTI2NDE1MTcwOSwxOTk5OTYzNDg0LDE5NT
+EzNjU0NiwtNjc1NDU3MzAxLC0xNjAyMjgxNzgsLTEzMDMyNDMw
+MDhdfQ==
 -->
