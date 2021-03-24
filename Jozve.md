@@ -39,7 +39,7 @@ where
 ## Optimization benefits
 `image`
 In an unconstrained optimization problem, every point $x \in \mathbb{R}^n$ is feasible, so we only focus on minimizing $f(x)$.
-In contrast, for constrained optimization, it may be difficult to even find a point $x \in \zeta$
+In contrast, for constrained optimization, it may be difficult to even find a point $x \in \zeta$.
 ## Classes of optimization problems
 ## Constrained vs. Unconstrained
 
@@ -116,7 +116,7 @@ and obviously $x_{new} = (x_{new_1}, x_{new_2})$.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTYzNjM1NjY0LDE1MzE5OTExMzgsLTEwMj
+eyJoaXN0b3J5IjpbNDUyNDgyOTc2LDE1MzE5OTExMzgsLTEwMj
 czNjU5NjgsNDcxMjQ4NjEwLC0xNDkzNDE3OTk2LC0yMDc4Mzc2
 MDIxLDE3MDQ2NzYzOCwxMDM4ODA1NjcxLC0yNjQxNTE3MDksMT
 k5OTk2MzQ4NCwxOTUxMzY1NDYsLTY3NTQ1NzMwMSwtMTYwMjI4
