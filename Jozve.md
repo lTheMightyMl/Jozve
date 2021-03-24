@@ -38,6 +38,7 @@ where
 
 ## Optimization benefits
 `image`
+One of the key benefits of looking at problems in AI as optimization problems is that by doing so, we can separate out the _definition_ of ht
 There are off-the-shelf solvers for many classes of optimization problems that will let us solve even large, complex problems. We only need to put our problems in the right form.
 
 ## Classes of optimization problems
@@ -125,7 +126,7 @@ and obviously $x_{new} = (x_{new_1}, x_{new_2})$.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3MTQ4Nzk4MiwxNTMxOTkxMTM4LC0xMD
+eyJoaXN0b3J5IjpbMTc3NjMzNjMyNywxNTMxOTkxMTM4LC0xMD
 I3MzY1OTY4LDQ3MTI0ODYxMCwtMTQ5MzQxNzk5NiwtMjA3ODM3
 NjAyMSwxNzA0Njc2MzgsMTAzODgwNTY3MSwtMjY0MTUxNzA5LD
 E5OTk5NjM0ODQsMTk1MTM2NTQ2LC02NzU0NTczMDEsLTE2MDIy
