@@ -29,7 +29,9 @@ where $K*$ denotes convolution with a blurring filter.
 
 ### Machine Learning
 Virtually all (supervised) machine learning algorithms boil down to solving the optimization problem:
-$$\min_\theta \sum_{i=1}^m l$$
+$$\min_\theta \sum_{i=1}^m l(h_\theta(x_i), y_i)$$
+where
+* fre
 
 # 2
 
@@ -104,11 +106,11 @@ and obviously $x_{new} = (x_{new_1}, x_{new_2})$.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzMTk5MTEzOCwtMTAyNzM2NTk2OCw0Nz
-EyNDg2MTAsLTE0OTM0MTc5OTYsLTIwNzgzNzYwMjEsMTcwNDY3
-NjM4LDEwMzg4MDU2NzEsLTI2NDE1MTcwOSwxOTk5OTYzNDg0LD
-E5NTEzNjU0NiwtNjc1NDU3MzAxLC0xNjAyMjgxNzgsLTEzMDMy
-NDMwMDgsLTE0Nzg3Nzg1NjcsMTQ1ODQxMDUxNyw4NDY4MjYxNT
-EsLTk3NzUyMDM4OSwxODMyNjc5NTQ0LC0yMjUyNzk3NTIsMTU1
-MzgzNDAxNF19
+eyJoaXN0b3J5IjpbLTY2ODc5NDc2NiwxNTMxOTkxMTM4LC0xMD
+I3MzY1OTY4LDQ3MTI0ODYxMCwtMTQ5MzQxNzk5NiwtMjA3ODM3
+NjAyMSwxNzA0Njc2MzgsMTAzODgwNTY3MSwtMjY0MTUxNzA5LD
+E5OTk5NjM0ODQsMTk1MTM2NTQ2LC02NzU0NTczMDEsLTE2MDIy
+ODE3OCwtMTMwMzI0MzAwOCwtMTQ3ODc3ODU2NywxNDU4NDEwNT
+E3LDg0NjgyNjE1MSwtOTc3NTIwMzg5LDE4MzI2Nzk1NDQsLTIy
+NTI3OTc1Ml19
 -->
