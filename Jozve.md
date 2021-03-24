@@ -98,7 +98,10 @@ $$\forall x,y\in\mathbb{R}^n,\theta\in[0,1]\;\;\;f(\theta x+(1-\theta)y)\le\thet
 
 ```image```
 
-If the function $f$ is convex, we call $-f$ concave, and if $f$ is both convex and concave, then it
+If the function $f$ is convex, we call $-f$ concave, and if $f$ is both convex and concave, then it is an affine function is of the form $$f(x)=\sum^{n}_{i=1}a_ix_i+b.$$
+
+Examples of convex functions are:
+- $f(x)$
 
 ## Convex Optimization
 As you may know,  convex optimization problem is an optimization problem in which the objective function is a convex function and the feasible set is a convex set.
@@ -153,7 +156,7 @@ and obviously $x_{new} = (x_{new_1}, x_{new_2})$.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjkwMDkyNDksMTMwMjM1NjA3LC0xMD
+eyJoaXN0b3J5IjpbLTE5NDYyODc2NTAsMTMwMjM1NjA3LC0xMD
 cwMTg3NDMsLTczOTkxODA1NywxNTMxOTkxMTM4LC0xMDI3MzY1
 OTY4LDQ3MTI0ODYxMCwtMTQ5MzQxNzk5NiwtMjA3ODM3NjAyMS
 wxNzA0Njc2MzgsMTAzODgwNTY3MSwtMjY0MTUxNzA5LDE5OTk5
