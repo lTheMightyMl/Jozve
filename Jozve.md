@@ -8,9 +8,9 @@ Actually, the _state_ of the environment the way _time_ is handled the _percepts
 
 might be continuous (or discrete) in our problems, and this section provides a introduction to some local search techniques for finding optimal solutions in continuous spaces.
 
-## Examples
+## 1. Examples
 
-### Weber Point
+### 1.1. Weber Point
 
 Given a collection of cities (assume on 2D plane) how can we find the location that minimizes the sum of distances to all cities?
 ![Weber Point of European cities](https://mgje.github.io/presentations/Budapest2014/media/fermat_weber_europe.png)
@@ -18,7 +18,7 @@ Let's denote the location of cities as $y_1, y_2, ..., y_n$.
 Then we can find answer to our question by solving the optimization problem below:
 $$\min_{x} \sum^{n}_{i=1}||x-y_i||_2$$
 
-### Image deblurring and denoising
+### 1.2 Image deblurring and denoising
 
 ![Image Denoising](https://www.irisa.fr/vista/Themes/Demos/Debruitage/images/House_denoise.png)
 Image **Deblurring** (**Noise reduction**) is the processes of removing blurring artifacts (noise) from images [input image say $Y$ which is blurred image which generally happens due to camera shake or some other phenomenon].
@@ -186,11 +186,11 @@ and obviously $x_{new} = (x_{new_1}, x_{new_2})$.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTM4OTQzOTEsLTYxOTkxMzcyMSw3OT
-kwNjYwNSwyMDA4MjQ0OCwxMzAyMzU2MDcsLTEwNzAxODc0Mywt
-NzM5OTE4MDU3LDE1MzE5OTExMzgsLTEwMjczNjU5NjgsNDcxMj
-Q4NjEwLC0xNDkzNDE3OTk2LC0yMDc4Mzc2MDIxLDE3MDQ2NzYz
-OCwxMDM4ODA1NjcxLC0yNjQxNTE3MDksMTk5OTk2MzQ4NCwxOT
-UxMzY1NDYsLTY3NTQ1NzMwMSwtMTYwMjI4MTc4LC0xMzAzMjQz
-MDA4XX0=
+eyJoaXN0b3J5IjpbODg2NDk5NDM5LC0xOTUzODk0MzkxLC02MT
+k5MTM3MjEsNzk5MDY2MDUsMjAwODI0NDgsMTMwMjM1NjA3LC0x
+MDcwMTg3NDMsLTczOTkxODA1NywxNTMxOTkxMTM4LC0xMDI3Mz
+Y1OTY4LDQ3MTI0ODYxMCwtMTQ5MzQxNzk5NiwtMjA3ODM3NjAy
+MSwxNzA0Njc2MzgsMTAzODgwNTY3MSwtMjY0MTUxNzA5LDE5OT
+k5NjM0ODQsMTk1MTM2NTQ2LC02NzU0NTczMDEsLTE2MDIyODE3
+OF19
 -->
