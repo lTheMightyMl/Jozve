@@ -69,7 +69,7 @@ Assume $S$ is a bounded subset of $\mathbb{R}$. We know that $\forall x,y\in\mat
 
 Lipschitz continuity made it possible to find near-optimal solutions, but it can be proved that any algorithm to find a near-optimal minimum or maximum for a Lipschitz continuous function on $\mathbb{R}^n$ has $\Omega\big(\frac{1}{t^\frac{1}{n}}\big)$ error after $t$ iterations. We can see that assumptions can make a big difference, but we still need faster algorithms.
 
-## Convexity
+## 6. Convexity
 
 Originally, researchers distinguished between linear (easy) and nonlinear (hard) problems, but in 80s and 90s it became clear that this wasn’t the right distinction; the key difference is between convex and non-convex problems.
 
@@ -77,7 +77,7 @@ Originally, researchers distinguished between linear (easy) and nonlinear (hard)
 
 First, we need to know the definition of convex sets and convex functions:
 
-### Convex sets
+### 6.1. Convex sets
 
 A set $\mathcal{C}$ is convex if and only if $$\forall x,y\in\mathcal{C},\theta\in[0,1]\;\;\;\;\;\theta x+(1-\theta)y\in\mathcal{C}.$$
 
@@ -93,7 +93,7 @@ For example, the following sets are convex:
 
 Note that the union of any number of convex sets need not be convex. (Consider the union of two disjoint circles in $\mathbb{R}^2$.)
 
-### Convex functions
+### 6.2. Convex functions
 
 A function $f:\mathbb{R}^n\rightarrow\mathbb{R}$ is convex if and only if it never curves downward. The formal definition is as follows:
 
@@ -133,7 +133,7 @@ Using the second-order convexity test, we can easily show that:
 - $f(x_1,x_2)=x_1\cdot x_2$ is not convex.
 - $f(x_1,x_2)=x^2_1+x^2_2+x_1x_2$ is convex.
 
-## Convex Optimization
+## 7. Convex Optimization
 As you may know,  convex optimization problem is an optimization problem in which the objective function is a convex function and the feasible set is a convex set.
 Now let's examine some useful properties:
 
@@ -155,7 +155,7 @@ which contradicts to the previous relation. Hence the hypothesis was wrong and t
 ---
 Now once we found out this useful property, a good idea can be model our problems to a convex optimization problem through which we can apply various iterative methods like `gradient descent` to solve the problems.
 
-### gradient descent
+### 7.1. gradient descent
 The idea is to take repeated steps in the opposite direction of the gradient (or approximate gradient) of the function at the current point, because this is the direction of steepest descent. Conversely, stepping in the direction of the gradient will lead to a local maximum of that function; the procedure is then known as **gradient ascent**.
 
 ![](https://miro.medium.com/max/2976/1*70f9PB-RwFaakqD6lfp4iw.png)
@@ -168,7 +168,7 @@ for EPOCHS tims repeat:
 ```
 
 n fact, the value of $f$ is decreasing in each iteration. The proof is straight forward as it is illustrated in below:
-By *taylor exapansion* of a function $f$  we have:
+By *Taylor expansion* of a function $f$  we have:
 $$f(x+v) = f(x) + \nabla_x f(x)^Tv  + O(||v||_2^2)$$
 Now choose $v$ to be multiplication of gradient i.e. $-\alpha\nabla_x f(x)$. By substituting in the above equation we have:
 $$= f(x)  -\alpha||\nabla_x f(x)||_2^2 + C||\alpha\nabla_x f(x)||_2^2$$$$\le f(x) - (\alpha-\alpha^2C)||\nabla_x f(x)||_2^2 $$ $$< f(x)\blacksquare$$
@@ -186,11 +186,11 @@ and obviously $x_{new} = (x_{new_1}, x_{new_2})$.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxODgwOTg4NSwtMTk1Mzg5NDM5MSwtNj
-E5OTEzNzIxLDc5OTA2NjA1LDIwMDgyNDQ4LDEzMDIzNTYwNywt
-MTA3MDE4NzQzLC03Mzk5MTgwNTcsMTUzMTk5MTEzOCwtMTAyNz
-M2NTk2OCw0NzEyNDg2MTAsLTE0OTM0MTc5OTYsLTIwNzgzNzYw
-MjEsMTcwNDY3NjM4LDEwMzg4MDU2NzEsLTI2NDE1MTcwOSwxOT
-k5OTYzNDg0LDE5NTEzNjU0NiwtNjc1NDU3MzAxLC0xNjAyMjgx
-NzhdfQ==
+eyJoaXN0b3J5IjpbMTY3ODQzNjk3NiwxNDE4ODA5ODg1LC0xOT
+UzODk0MzkxLC02MTk5MTM3MjEsNzk5MDY2MDUsMjAwODI0NDgs
+MTMwMjM1NjA3LC0xMDcwMTg3NDMsLTczOTkxODA1NywxNTMxOT
+kxMTM4LC0xMDI3MzY1OTY4LDQ3MTI0ODYxMCwtMTQ5MzQxNzk5
+NiwtMjA3ODM3NjAyMSwxNzA0Njc2MzgsMTAzODgwNTY3MSwtMj
+Y0MTUxNzA5LDE5OTk5NjM0ODQsMTk1MTM2NTQ2LC02NzU0NTcz
+MDFdfQ==
 -->
