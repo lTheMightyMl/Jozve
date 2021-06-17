@@ -18,7 +18,7 @@ Let's denote the location of cities as $y_1, y_2, ..., y_n$.
 Then we can find answer to our question by solving the optimization problem below:
 $$\min_{x} \sum^{n}_{i=1}||x-y_i||_2$$
 
-### 1.2 Image deblurring and denoising
+### 1.2. Image deblurring and denoising
 
 ![Image Denoising](https://www.irisa.fr/vista/Themes/Demos/Debruitage/images/House_denoise.png)
 Image **Deblurring** (**Noise reduction**) is the processes of removing blurring artifacts (noise) from images [input image say $Y$ which is blurred image which generally happens due to camera shake or some other phenomenon].
@@ -27,7 +27,7 @@ Given corrupted image $Y \in \mathbb R^{m\times n}$, we reconstruct the image by
 $$\min_X \sum_{i, j}|Y_{ij}-(K*X)_{ij}| + \lambda \sum_{i, j}\sqrt{(X_{ij}-X_{i, j+1})^2+(X_{i+1, j}-X_{ij})^2}$$
 where $K*$ denotes convolution with a blurring filter.
 
-### Machine Learning
+### 1.3. Machine Learning
 Virtually all (supervised) machine learning algorithms boil down to solving the optimization problem:
 $$\min_\theta \sum_{i=1}^m \ell(h_\theta(x_i), y_i)$$
 where
@@ -36,11 +36,11 @@ where
 * $\ell$ is loss function
 * $h_\theta$ is a hypothesis function parameterized by $\theta$
 
-## Optimization benefits
+## 2. Optimization benefits
 One of the key benefits of looking at problems in AI as optimization problems is that by doing so, we can separate out the _definition_ of the problem and the _method_ for _solving_ it, and that way we can use general methods to solve different problems.
 There are off-the-shelf solvers for many classes of optimization problems that will let us solve even large, complex problems. We only need to put our problems in the right form.
 
-## Classes of optimization problems
+## 3. Classes of optimization problems
 There are many different types of optimization problems (linear programming, quadratic programming, nonlinear programming, semidefinite programming, integer programming, geometric programming, mixed linear binary integer programming, etc.).
 As these names could all get confusing, we instead classify problems by focusing on two dimensions:
 * constrained vs. unconstrained
@@ -48,12 +48,12 @@ As these names could all get confusing, we instead classify problems by focusing
 
 ![](https://uupload.ir/files/pqj1_picture1.png)
 
-## Constrained vs. Unconstrained
+## 4. Constrained vs. Unconstrained
 ![](https://uupload.ir/files/6gjn_picture2.png)
 In an unconstrained optimization problem, every point $x \in \mathbb{R}^n$ is feasible, so we only focus on minimizing $f(x)$.
 In contrast, for constrained optimization, it may be difficult to even find a point $x \in \zeta$.
 
-## How difficult is real-valued optimization?
+## 5. How difficult is real-valued optimization?
 
 If we do not make any assumptions about the function $f:S\rightarrow\mathbb{R}$ where $S\subseteq\mathbb{R}^n$ is an infinite set, then it is impossible to find a global minimizer or maximiser in finite time. This is due to the fact that the value of the function at any one point does not reveal information about the function's behaviour at other points. As a result, we must know the function value for every point in $S$, which takes infinite time because the set $S$ is simply not finite. Even if we try to find a point at which the function's value is at most  $\epsilon$ far from the real minimum or maximum, we still need to find out the value of the function at all points which was shown cannot be done in finite time.
 
@@ -186,11 +186,11 @@ and obviously $x_{new} = (x_{new_1}, x_{new_2})$.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODg2NDk5NDM5LC0xOTUzODk0MzkxLC02MT
-k5MTM3MjEsNzk5MDY2MDUsMjAwODI0NDgsMTMwMjM1NjA3LC0x
-MDcwMTg3NDMsLTczOTkxODA1NywxNTMxOTkxMTM4LC0xMDI3Mz
-Y1OTY4LDQ3MTI0ODYxMCwtMTQ5MzQxNzk5NiwtMjA3ODM3NjAy
-MSwxNzA0Njc2MzgsMTAzODgwNTY3MSwtMjY0MTUxNzA5LDE5OT
-k5NjM0ODQsMTk1MTM2NTQ2LC02NzU0NTczMDEsLTE2MDIyODE3
-OF19
+eyJoaXN0b3J5IjpbMTQxODgwOTg4NSwtMTk1Mzg5NDM5MSwtNj
+E5OTEzNzIxLDc5OTA2NjA1LDIwMDgyNDQ4LDEzMDIzNTYwNywt
+MTA3MDE4NzQzLC03Mzk5MTgwNTcsMTUzMTk5MTEzOCwtMTAyNz
+M2NTk2OCw0NzEyNDg2MTAsLTE0OTM0MTc5OTYsLTIwNzgzNzYw
+MjEsMTcwNDY3NjM4LDEwMzg4MDU2NzEsLTI2NDE1MTcwOSwxOT
+k5OTYzNDg0LDE5NTEzNjU0NiwtNjc1NDU3MzAxLC0xNjAyMjgx
+NzhdfQ==
 -->
