@@ -65,24 +65,21 @@ It means that the difference between the value of the function at two points is 
 
 Assume $S$ is a bounded subset of $\mathbb{R}$. We know that $\forall x,y\in\mathbb{R}^n|f(x)-f(y)|\le 5||x-y||$ and we want to find a function value which is at most $0.1$ far from the actual minimum or maximum. ow, consider points in $S$ at most $\frac{0.1}{5}=0.02$ far from each other and from the boundaries of $S$ and call the set of these points $P$. Because of the restriction imposed on $f$ we can be sure that the value of the function at points not in $P$ is at most $0.02 \times 5 = 0.1$ far from the two nearest points in $P$. Consequentially, if we take the minimum or maximum value of $f$ among points in $P$, we can be sure that this value is at most $0.1$ far from the real minimum or maximum of $f$ in $S$.
 
-```image```
-
+![](https://s4.uupload.ir/files/image-080_sjps.png)
 Lipschitz continuity made it possible to find near-optimal solutions, but it can be proved that any algorithm to find a near-optimal minimum or maximum for a Lipschitz continuous function on $\mathbb{R}^n$ has $\Omega\big(\frac{1}{t^\frac{1}{n}}\big)$ error after $t$ iterations. We can see that assumptions can make a big difference, but we still need faster algorithms.
 
 ## 6. Convexity
 
 Originally, researchers distinguished between linear (easy) and nonlinear (hard) problems, but in 80s and 90s it became clear that this wasn’t the right distinction; the key difference is between convex and non-convex problems.
 
-```image```
-
+![](https://s4.uupload.ir/files/image-090_itz7.png)
 First, we need to know the definition of convex sets and convex functions:
 
 ### 6.1. Convex sets
 
 A set $\mathcal{C}$ is convex if and only if $$\forall x,y\in\mathcal{C},\theta\in[0,1]\;\;\;\;\;\theta x+(1-\theta)y\in\mathcal{C}.$$
 
-```image```
-
+![](https://s4.uupload.ir/files/image-090_itz7.png)
 For example, the following sets are convex:
 
 - $\mathbb{R}^n$ for all non-negative integers $n$
@@ -186,11 +183,11 @@ and obviously $x_{new} = (x_{new_1}, x_{new_2})$.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3ODQzNjk3NiwxNDE4ODA5ODg1LC0xOT
-UzODk0MzkxLC02MTk5MTM3MjEsNzk5MDY2MDUsMjAwODI0NDgs
-MTMwMjM1NjA3LC0xMDcwMTg3NDMsLTczOTkxODA1NywxNTMxOT
-kxMTM4LC0xMDI3MzY1OTY4LDQ3MTI0ODYxMCwtMTQ5MzQxNzk5
-NiwtMjA3ODM3NjAyMSwxNzA0Njc2MzgsMTAzODgwNTY3MSwtMj
-Y0MTUxNzA5LDE5OTk5NjM0ODQsMTk1MTM2NTQ2LC02NzU0NTcz
-MDFdfQ==
+eyJoaXN0b3J5IjpbMTc1MjI4NjA4NywxNjc4NDM2OTc2LDE0MT
+g4MDk4ODUsLTE5NTM4OTQzOTEsLTYxOTkxMzcyMSw3OTkwNjYw
+NSwyMDA4MjQ0OCwxMzAyMzU2MDcsLTEwNzAxODc0MywtNzM5OT
+E4MDU3LDE1MzE5OTExMzgsLTEwMjczNjU5NjgsNDcxMjQ4NjEw
+LC0xNDkzNDE3OTk2LC0yMDc4Mzc2MDIxLDE3MDQ2NzYzOCwxMD
+M4ODA1NjcxLC0yNjQxNTE3MDksMTk5OTk2MzQ4NCwxOTUxMzY1
+NDZdfQ==
 -->
