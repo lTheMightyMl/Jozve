@@ -79,7 +79,7 @@ First, we need to know the definition of convex sets and convex functions:
 
 A set $\mathcal{C}$ is convex if and only if $$\forall x,y\in\mathcal{C},\theta\in[0,1]\;\;\;\;\;\theta x+(1-\theta)y\in\mathcal{C}.$$
 
-![](https://s4.uupload.ir/files/image-090_itz7.png)
+![](https://s4.uupload.ir/files/image-098_ly1v.png)
 For example, the following sets are convex:
 
 - $\mathbb{R}^n$ for all non-negative integers $n$
@@ -96,8 +96,7 @@ A function $f:\mathbb{R}^n\rightarrow\mathbb{R}$ is convex if and only if it nev
 
 $$\forall x,y\in\mathbb{R}^n,\theta\in[0,1]\;\;\;f(\theta x+(1-\theta)y)\le\theta f(x)+(1-\theta)f(y)$$
 
-```image```
-
+![](https://s4.uupload.ir/files/image-104_t4ys.png)
 If the function $f$ is convex, we call $-f$ concave, and if $f$ is both convex and concave, then it is an affine function is of the form $$f(x)=\sum^{n}_{i=1}a_ix_i+b.$$
 
 Examples of convex functions are:
@@ -183,7 +182,7 @@ and obviously $x_{new} = (x_{new_1}, x_{new_2})$.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1MjI4NjA4NywxNjc4NDM2OTc2LDE0MT
+eyJoaXN0b3J5IjpbMTQ0MjAwODc4NSwxNjc4NDM2OTc2LDE0MT
 g4MDk4ODUsLTE5NTM4OTQzOTEsLTYxOTkxMzcyMSw3OTkwNjYw
 NSwyMDA4MjQ0OCwxMzAyMzU2MDcsLTEwNzAxODc0MywtNzM5OT
 E4MDU3LDE1MzE5OTExMzgsLTEwMjczNjU5NjgsNDcxMjQ4NjEw
