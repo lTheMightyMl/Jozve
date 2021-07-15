@@ -142,8 +142,7 @@ Now let's go through its proof:
 
 Assume there exists $x_0$ such that $f(x_0)<f(x_∗)$ where $x_*$ is the local optima of the function. 
 Then for any $t∈(0,1]t∈(0,1]$ we have:
-$$f(Z) = f((1−t)x_∗+tx_0)≤(1−t)f(x_∗)+tf(x_0)$$$$<(1−t)f(x_∗)+tf(x_∗)$$$$=f(x_∗)$$
-$$\Longrightarrow $$$$f(Z) < f(x_*) $$
+$$f(Z) = f((1−t)x_∗+tx_0)≤(1−t)f(x_∗)+tf(x_0)$$$$<(1−t)f(x_∗)+tf(x_∗)$$$$=f(x_∗)$$$$\Longrightarrow $$$$f(Z) < f(x_*) $$
 Now note that $Z$  is lying on the line which connects $x_0$ and $x_*$. Therefore, if $Z$ is chosen very close to $x_*$, the $f(Z)it $ must be greater than $f(x_*)$ due to local optimality of $x_*$ which means:
 $$f(Z) \ge f(x_*)$$
 which contradicts to the previous relation. Hence the hypothesis was wrong and the property is proved.
@@ -163,22 +162,26 @@ for EPOCHS tims repeat:
 	x -=  learning_rate * gradient(f(x))
 ```
 
-n fact, the value of $f$ is decreasing in each iteration. The proof is straight forward as it is illustrated in below:
+In fact, the value of $f$ is decreasing in each iteration. The proof is straight forward as it is illustrated in below:
 By *Taylor expansion* of a function $f$  we have:
 $$f(x+v) = f(x) + \nabla_x f(x)^Tv  + O(||v||_2^2)$$
 Now choose $v$ to be multiplication of gradient i.e. $-\alpha\nabla_x f(x)$. By substituting in the above equation we have:
-$$= f(x)  -\alpha||\nabla_x f(x)||_2^2 + C||\alpha\nabla_x f(x)||_2^2$$$$\le f(x) - (\alpha-\alpha^2C)||\nabla_x f(x)||_2^2 $$ $$< f(x)\blacksquare$$
+$$= f(x)  -\alpha||\nabla_x f(x)||_2^2 + C||\alpha\nabla_x f(x)||_2^2$$ $$\le f(x) - (\alpha-\alpha^2C)||\nabla_x f(x)||_2^2 $$ $$< f(x)\blacksquare$$
 
-Note that the second relation will only hold for small size of $||\alpha\nabla_x f(x)||_2^2$.  Also every $v$ which its inner product with the gradient is less than zero cannot be a good choice because ,as we have seen above, the value of $v$ itself can be effective too. For example see the picture below:
-![gradient descent learning rate](https://builtin.com/sites/default/files/styles/ckeditor_optimize/public/inline-images/gradient-descent-learning-rate.png)
+Note that the second relation will only hold for small size of $||\alpha\nabla_x f(x)||_2^2$.  Also every $v$ which its inner product with the gradient is less than zero cannot be a good choice because, as we have seen above, the value of $v$ itself can be effective too.
+
 If the learning rate (the constant which multiplies to the gradient) is too large convergence might be failed. On the other hand choosing a very small learning rate can slow down the convergence significantly. Therefore, choosing the learning rate can be really critical.
 
 ---
 ![What is Stochastic Gradient Descent- A Super Easy Complete Guide!](https://www.mltut.com/wp-content/uploads/2020/04/Untitled-document-3.png)
 So by far we have seen that the gradient descent will converge toward the local minimum (see the figure above to see the importance of starting point in non-convex functions). Now let's go through some examples:
 consider the function $f = x_1^2+x_2^2 + 2x_1 + x_1x_2$. we have:
-$$\nabla_{x_1}f = 2x_1 +2  + x_2 = A(x)$$$$\nabla_{x_2}f = 2x_2 + x_1 = B(x)$$$$x_{new_1} = x_1 -\alpha A(x) $$$$x_{new_2} = x_2 -\alpha B(x)$$
+$$\nabla_{x_1}f = 2x_1 +2  + x_2 = A(x)$$ $$\nabla_{x_2}f = 2x_2 + x_1 = B(x)$$ $$x_{new_1} = x_1 -\alpha A(x) $$ $$x_{new_2} = x_2 -\alpha B(x)$$
 and obviously $x_{new} = (x_{new_1}, x_{new_2})$.
+
+
+### Short Summary of Convex Optimization
+In this section, we first review the concept of convex optimization. Then, we have examined the proof of why *every local minimum is a global minimum*. Afterward, concept of **gradient descent** and its algorithm introduced. Moreover, we mathematically analyzed the algorithm and proved why it can converge to the minimum point of a function. At the end, a simple example of this algorithm, illustrating updating rule of a given function, has been provided.
 
 
 <!--stackedit_data:
