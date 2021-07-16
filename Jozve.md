@@ -179,17 +179,19 @@ consider the function $f = x_1^2+x_2^2 + 2x_1 + x_1x_2$. we have:
 $$\nabla_{x_1}f = 2x_1 +2  + x_2 = A(x)$$ $$\nabla_{x_2}f = 2x_2 + x_1 = B(x)$$ $$x_{new_1} = x_1 -\alpha A(x) $$ $$x_{new_2} = x_2 -\alpha B(x)$$
 and obviously $x_{new} = (x_{new_1}, x_{new_2})$.
 
+## 8. Summery
 
-### Short Summary of Convex Optimization
+### 8.1. 
+### 8.7. Convex Optimization
 In this section, we first review the concept of convex optimization. Then, we have examined the proof of why *every local minimum is a global minimum*. Afterward, concept of **gradient descent** and its algorithm introduced. Moreover, we mathematically analyzed the algorithm and proved why it can converge to the minimum point of a function. At the end, a simple example of this algorithm, illustrating updating rule of a given function, has been provided.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3ODk1MDcxMiwxNDQyMDA4Nzg1LDE2Nz
-g0MzY5NzYsMTQxODgwOTg4NSwtMTk1Mzg5NDM5MSwtNjE5OTEz
-NzIxLDc5OTA2NjA1LDIwMDgyNDQ4LDEzMDIzNTYwNywtMTA3MD
-E4NzQzLC03Mzk5MTgwNTcsMTUzMTk5MTEzOCwtMTAyNzM2NTk2
-OCw0NzEyNDg2MTAsLTE0OTM0MTc5OTYsLTIwNzgzNzYwMjEsMT
-cwNDY3NjM4LDEwMzg4MDU2NzEsLTI2NDE1MTcwOSwxOTk5OTYz
-NDg0XX0=
+eyJoaXN0b3J5IjpbNzgyMTc0MTcyLDE4Nzg5NTA3MTIsMTQ0Mj
+AwODc4NSwxNjc4NDM2OTc2LDE0MTg4MDk4ODUsLTE5NTM4OTQz
+OTEsLTYxOTkxMzcyMSw3OTkwNjYwNSwyMDA4MjQ0OCwxMzAyMz
+U2MDcsLTEwNzAxODc0MywtNzM5OTE4MDU3LDE1MzE5OTExMzgs
+LTEwMjczNjU5NjgsNDcxMjQ4NjEwLC0xNDkzNDE3OTk2LC0yMD
+c4Mzc2MDIxLDE3MDQ2NzYzOCwxMDM4ODA1NjcxLC0yNjQxNTE3
+MDldfQ==
 -->
