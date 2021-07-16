@@ -182,7 +182,7 @@ and obviously $x_{new} = (x_{new_1}, x_{new_2})$.
 ## 8. Summery
 
 ### 8.1. Examples
-in this section we saw three examples of 
+In this section we saw three examples of Continuous Optimization including Weber Point, Image deblurring and denoising, and Machine Learning.
 ### 8.2. Optimization benefits
 ### 8.3. Classes of optimization problems
 ### 8.4. Constrained vs. Unconstrained
@@ -193,11 +193,11 @@ In this section, we first review the concept of convex optimization. Then, we ha
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxODEyNDE5OSw0ODMwMTgwOTYsMTg3OD
-k1MDcxMiwxNDQyMDA4Nzg1LDE2Nzg0MzY5NzYsMTQxODgwOTg4
-NSwtMTk1Mzg5NDM5MSwtNjE5OTEzNzIxLDc5OTA2NjA1LDIwMD
-gyNDQ4LDEzMDIzNTYwNywtMTA3MDE4NzQzLC03Mzk5MTgwNTcs
-MTUzMTk5MTEzOCwtMTAyNzM2NTk2OCw0NzEyNDg2MTAsLTE0OT
-M0MTc5OTYsLTIwNzgzNzYwMjEsMTcwNDY3NjM4LDEwMzg4MDU2
-NzFdfQ==
+eyJoaXN0b3J5IjpbLTE4NDQ2OTYwMzEsNDgzMDE4MDk2LDE4Nz
+g5NTA3MTIsMTQ0MjAwODc4NSwxNjc4NDM2OTc2LDE0MTg4MDk4
+ODUsLTE5NTM4OTQzOTEsLTYxOTkxMzcyMSw3OTkwNjYwNSwyMD
+A4MjQ0OCwxMzAyMzU2MDcsLTEwNzAxODc0MywtNzM5OTE4MDU3
+LDE1MzE5OTExMzgsLTEwMjczNjU5NjgsNDcxMjQ4NjEwLC0xND
+kzNDE3OTk2LC0yMDc4Mzc2MDIxLDE3MDQ2NzYzOCwxMDM4ODA1
+NjcxXX0=
 -->
