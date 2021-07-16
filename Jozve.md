@@ -181,13 +181,18 @@ and obviously $x_{new} = (x_{new_1}, x_{new_2})$.
 
 ## 8. Summery
 
-### 8.1. 
+### 8.1. Examples
+### 8.2. Optimization benefits
+### 8.3. Classes of optimization problems
+### 8.4. Constrained vs. Unconstrained
+### 8.5. How difficult is real-valued optimization?
+### 8.6. Convexity
 ### 8.7. Convex Optimization
 In this section, we first review the concept of convex optimization. Then, we have examined the proof of why *every local minimum is a global minimum*. Afterward, concept of **gradient descent** and its algorithm introduced. Moreover, we mathematically analyzed the algorithm and proved why it can converge to the minimum point of a function. At the end, a simple example of this algorithm, illustrating updating rule of a given function, has been provided.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzgyMTc0MTcyLDE4Nzg5NTA3MTIsMTQ0Mj
+eyJoaXN0b3J5IjpbNDgzMDE4MDk2LDE4Nzg5NTA3MTIsMTQ0Mj
 AwODc4NSwxNjc4NDM2OTc2LDE0MTg4MDk4ODUsLTE5NTM4OTQz
 OTEsLTYxOTkxMzcyMSw3OTkwNjYwNSwyMDA4MjQ0OCwxMzAyMz
 U2MDcsLTEwNzAxODc0MywtNzM5OTE4MDU3LDE1MzE5OTExMzgs
