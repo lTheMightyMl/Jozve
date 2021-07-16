@@ -193,16 +193,17 @@ There are many different types of optimization problems but here we classify pro
 Here we compare Constrained and Unconstrained optimization problems.
 ### 8.5. How difficult is real-valued optimization?
 ### 8.6. Convexity
+We study convex sets and convex functions in this section 
 ### 8.7. Convex Optimization
 In this section, we first review the concept of convex optimization. Then, we have examined the proof of why *every local minimum is a global minimum*. Afterward, concept of **gradient descent** and its algorithm introduced. Moreover, we mathematically analyzed the algorithm and proved why it can converge to the minimum point of a function. At the end, a simple example of this algorithm, illustrating updating rule of a given function, has been provided.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczNDk4NzgzOCw0ODMwMTgwOTYsMTg3OD
-k1MDcxMiwxNDQyMDA4Nzg1LDE2Nzg0MzY5NzYsMTQxODgwOTg4
-NSwtMTk1Mzg5NDM5MSwtNjE5OTEzNzIxLDc5OTA2NjA1LDIwMD
-gyNDQ4LDEzMDIzNTYwNywtMTA3MDE4NzQzLC03Mzk5MTgwNTcs
-MTUzMTk5MTEzOCwtMTAyNzM2NTk2OCw0NzEyNDg2MTAsLTE0OT
-M0MTc5OTYsLTIwNzgzNzYwMjEsMTcwNDY3NjM4LDEwMzg4MDU2
-NzFdfQ==
+eyJoaXN0b3J5IjpbMjEwMDc1NDI4NCwtNzM0OTg3ODM4LDQ4Mz
+AxODA5NiwxODc4OTUwNzEyLDE0NDIwMDg3ODUsMTY3ODQzNjk3
+NiwxNDE4ODA5ODg1LC0xOTUzODk0MzkxLC02MTk5MTM3MjEsNz
+k5MDY2MDUsMjAwODI0NDgsMTMwMjM1NjA3LC0xMDcwMTg3NDMs
+LTczOTkxODA1NywxNTMxOTkxMTM4LC0xMDI3MzY1OTY4LDQ3MT
+I0ODYxMCwtMTQ5MzQxNzk5NiwtMjA3ODM3NjAyMSwxNzA0Njc2
+MzhdfQ==
 -->
