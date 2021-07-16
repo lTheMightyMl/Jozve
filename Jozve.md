@@ -192,6 +192,7 @@ There are many different types of optimization problems but here we classify pro
 ### 8.4. Constrained vs. Unconstrained
 Here we compare Constrained and Unconstrained optimization problems.
 ### 8.5. How difficult is real-valued optimization?
+Set of answer candidates for real-valued optimization is not finite
 ### 8.6. Convexity
 We study convex sets and convex functions in this section 
 ### 8.7. Convex Optimization
@@ -199,11 +200,11 @@ In this section, we first review the concept of convex optimization. Then, we ha
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwMDc1NDI4NCwtNzM0OTg3ODM4LDQ4Mz
-AxODA5NiwxODc4OTUwNzEyLDE0NDIwMDg3ODUsMTY3ODQzNjk3
-NiwxNDE4ODA5ODg1LC0xOTUzODk0MzkxLC02MTk5MTM3MjEsNz
-k5MDY2MDUsMjAwODI0NDgsMTMwMjM1NjA3LC0xMDcwMTg3NDMs
-LTczOTkxODA1NywxNTMxOTkxMTM4LC0xMDI3MzY1OTY4LDQ3MT
-I0ODYxMCwtMTQ5MzQxNzk5NiwtMjA3ODM3NjAyMSwxNzA0Njc2
-MzhdfQ==
+eyJoaXN0b3J5IjpbNTY5NTQyNzA5LC03MzQ5ODc4MzgsNDgzMD
+E4MDk2LDE4Nzg5NTA3MTIsMTQ0MjAwODc4NSwxNjc4NDM2OTc2
+LDE0MTg4MDk4ODUsLTE5NTM4OTQzOTEsLTYxOTkxMzcyMSw3OT
+kwNjYwNSwyMDA4MjQ0OCwxMzAyMzU2MDcsLTEwNzAxODc0Mywt
+NzM5OTE4MDU3LDE1MzE5OTExMzgsLTEwMjczNjU5NjgsNDcxMj
+Q4NjEwLC0xNDkzNDE3OTk2LC0yMDc4Mzc2MDIxLDE3MDQ2NzYz
+OF19
 -->
