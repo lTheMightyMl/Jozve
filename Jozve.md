@@ -186,6 +186,9 @@ In this section we saw three examples of Continuous Optimization including Weber
 ### 8.2. Optimization benefits
 In this section we discussed key benefits of looking at AI problems as optimization problems.
 ### 8.3. Classes of optimization problems
+There are many classes of optimization problems but here we classify problems by focusing on two dimensions:
+* constrained vs. unconstrained
+* convex vs. nonconvex
 ### 8.4. Constrained vs. Unconstrained
 ### 8.5. How difficult is real-valued optimization?
 ### 8.6. Convexity
@@ -194,7 +197,7 @@ In this section, we first review the concept of convex optimization. Then, we ha
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwOTk1ODY0NSw0ODMwMTgwOTYsMTg3OD
+eyJoaXN0b3J5IjpbLTIyNjgzMjczNCw0ODMwMTgwOTYsMTg3OD
 k1MDcxMiwxNDQyMDA4Nzg1LDE2Nzg0MzY5NzYsMTQxODgwOTg4
 NSwtMTk1Mzg5NDM5MSwtNjE5OTEzNzIxLDc5OTA2NjA1LDIwMD
 gyNDQ4LDEzMDIzNTYwNywtMTA3MDE4NzQzLC03Mzk5MTgwNTcs
