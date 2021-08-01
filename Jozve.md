@@ -192,7 +192,10 @@ at the beginning, it's just as before, when the first fork is finished, we can s
 	}
     ```
     2. [x] description for the parameter of wait system call
-    `wait(0)` means wait until a state change in the child process. 
+    `wait(0)` means wait until a state change in the child process. The call `wait(&wstatus)` is equivalent to:
+           `waitpid(-1, &wstatus, 0);`
+           and the parameter of `wstatus` is used for storing the status of child process.
+
 - [ ] Program showing process adoption
     1. [ ] `[FILL HERE with your source code]`
     1. [ ] `[FILL HERE an image from execution of your program]`
@@ -216,7 +219,7 @@ please submit all your codes in a zip file
  - [ ] `Zip File HERE`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0ODM3MTEzMiwtMTk2MzkxMjkxMiwxNz
+eyJoaXN0b3J5IjpbLTk3ODc2MzA3NCwtMTk2MzkxMjkxMiwxNz
 AxNjAzOTAzLDE3MTc0MzY0ODksMTA4NjE0Nzk3NiwyMTQzNzIz
 NzA4LDg1NTk2MTQxLC03MzQ5ODc4MzgsNDgzMDE4MDk2LDE4Nz
 g5NTA3MTIsMTQ0MjAwODc4NSwxNjc4NDM2OTc2LDE0MTg4MDk4
