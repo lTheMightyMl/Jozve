@@ -1,4 +1,5 @@
 
+
 Team Name: `97105782-97101359`
 
 Student Name of member 1: `Mostafa Ojaghi`
@@ -112,8 +113,26 @@ int main() {
 		return 0;
 	}
 	```
-- [ ] Program printing different messages for parent and child process
-    1. [ ] `[FILL HERE with your source code]`
+- [x] Program printing different messages for parent and child process
+    1. [x] source code
+    ```
+    #include <stdio.h>
+#include <sys/wait.h>
+#include <unistd.h>
+int main() {
+	int ret = fork();
+	if (ret == 0) {
+		printf("i am the child in the ret == 0\n");
+		return 23;
+	} else {
+		int rc = 0;
+		wait(&rc);
+		printf("i am parent\n");
+	}
+	return 0;
+}
+
+    ```
 
 - [ ] Program for the last task of this section
     1. [ ] `[FILL HERE with your source code]`
@@ -148,11 +167,11 @@ please submit all your codes in a zip file
  - [ ] `Zip File HERE`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4NjE0Nzk3NiwyMTQzNzIzNzA4LDg1NT
-k2MTQxLC03MzQ5ODc4MzgsNDgzMDE4MDk2LDE4Nzg5NTA3MTIs
-MTQ0MjAwODc4NSwxNjc4NDM2OTc2LDE0MTg4MDk4ODUsLTE5NT
-M4OTQzOTEsLTYxOTkxMzcyMSw3OTkwNjYwNSwyMDA4MjQ0OCwx
-MzAyMzU2MDcsLTEwNzAxODc0MywtNzM5OTE4MDU3LDE1MzE5OT
-ExMzgsLTEwMjczNjU5NjgsNDcxMjQ4NjEwLC0xNDkzNDE3OTk2
-XX0=
+eyJoaXN0b3J5IjpbMTY5Mzk1NzU2MywxMDg2MTQ3OTc2LDIxND
+M3MjM3MDgsODU1OTYxNDEsLTczNDk4NzgzOCw0ODMwMTgwOTYs
+MTg3ODk1MDcxMiwxNDQyMDA4Nzg1LDE2Nzg0MzY5NzYsMTQxOD
+gwOTg4NSwtMTk1Mzg5NDM5MSwtNjE5OTEzNzIxLDc5OTA2NjA1
+LDIwMDgyNDQ4LDEzMDIzNTYwNywtMTA3MDE4NzQzLC03Mzk5MT
+gwNTcsMTUzMTk5MTEzOCwtMTAyNzM2NTk2OCw0NzEyNDg2MTBd
+fQ==
 -->
