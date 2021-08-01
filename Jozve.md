@@ -117,21 +117,20 @@ int main() {
     1. [x] source code
     ```
     #include <stdio.h>
-#include <sys/wait.h>
-#include <unistd.h>
-int main() {
-	int ret = fork();
-	if (ret == 0) {
-		printf("i am the child in the ret == 0\n");
-		return 23;
-	} else {
-		int rc = 0;
-		wait(&rc);
-		printf("i am parent\n");
+	#include <sys/wait.h>
+	#include <unistd.h>
+	int main() {
+		int ret = fork();
+		if (ret == 0) {
+			printf("i am the child in the ret == 0\n");
+			return 23;
+		} else {
+			int rc = 0;
+			wait(&rc);
+			printf("i am parent\n");
+		}
+		return 0;
 	}
-	return 0;
-}
-
     ```
 
 - [ ] Program for the last task of this section
@@ -167,7 +166,7 @@ please submit all your codes in a zip file
  - [ ] `Zip File HERE`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5Mzk1NzU2MywxMDg2MTQ3OTc2LDIxND
+eyJoaXN0b3J5IjpbMTcxNzQzNjQ4OSwxMDg2MTQ3OTc2LDIxND
 M3MjM3MDgsODU1OTYxNDEsLTczNDk4NzgzOCw0ODMwMTgwOTYs
 MTg3ODk1MDcxMiwxNDQyMDA4Nzg1LDE2Nzg0MzY5NzYsMTQxOD
 gwOTg4NSwtMTk1Mzg5NDM5MSwtNjE5OTEzNzIxLDc5OTA2NjA1
