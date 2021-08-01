@@ -1,3 +1,4 @@
+
 Team Name: `97105782-97101359`
 
 Student Name of member 1: `Mostafa Ojaghi`
@@ -65,11 +66,52 @@ int main() {
 ![ppid](https://user-images.githubusercontent.com/45392657/127772212-20b103c2-4619-425b-a388-735c04d6506b.png)
 
 
-- [ ] Describe the C program (fork program)
-    1. [ ] `[FILL HERE with descriptions]`
+- [x] Describe the C program (fork program)
+    1. [x] the `if == 0` stands for the child process and the `else` scope is for father process. the father wait until the child process is finished and afterward it prints the return code of the child process which is `23`
 
-- [ ] Program showing that memory of the parent and the child is seperate
-    1. [ ] `[FILL HERE with your source code]`
+- [x] Program showing that memory of the parent and the child is seperate
+    1. [x] source code
+    ```
+    #include <unistd.h>
+#include <sys/types.h>
+#include <errno.h>
+#include <stdio.h>
+#include <sys/wait.h>
+#include <stdlib.h>
+
+int main(void)
+{
+	int localVar = 0;
+	int* p = (int*) malloc(2);
+	pid_t childPID = fork();
+
+	// Putting value at allocated address
+	*p = 0;
+    if (childPID == 0) // child process
+    {
+        printf("\n Child Process Initial Value :: localVar = %d", localVar);
+        localVar++;
+
+        int c = 500;
+        printf("\n Child Process :: localVar = %d", localVar);
+        printf("\n Address of malloced mem child = %p and value is %d", p, *p);
+        printf("\n change the value pointed my malloc");
+        *p = 50;
+        printf("\n Address of malloced mem child = %p and value is %d", p, *p);
+    }
+    else // Parent process
+    {
+        printf("\n Parent process Initial Value :localVar = %d", localVar);
+        localVar = 10;
+        printf("\n Parent process :: localVar = %d", localVar);
+        printf("\n Address of malloced mem parent= %p and value is %d", p, *p);
+        *p = 100;
+        printf("\n Address of malloced mem parent= %p and value is %d", p, *p);
+    }
+
+	return 0;
+}
+    ```
 
 - [ ] Program printing different messages for parent and child process
     1. [ ] `[FILL HERE with your source code]`
@@ -107,11 +149,11 @@ please submit all your codes in a zip file
  - [ ] `Zip File HERE`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0MzcyMzcwOCw4NTU5NjE0MSwtNzM0OT
-g3ODM4LDQ4MzAxODA5NiwxODc4OTUwNzEyLDE0NDIwMDg3ODUs
-MTY3ODQzNjk3NiwxNDE4ODA5ODg1LC0xOTUzODk0MzkxLC02MT
-k5MTM3MjEsNzk5MDY2MDUsMjAwODI0NDgsMTMwMjM1NjA3LC0x
-MDcwMTg3NDMsLTczOTkxODA1NywxNTMxOTkxMTM4LC0xMDI3Mz
-Y1OTY4LDQ3MTI0ODYxMCwtMTQ5MzQxNzk5NiwtMjA3ODM3NjAy
-MV19
+eyJoaXN0b3J5IjpbLTExMTc2OTY4MiwyMTQzNzIzNzA4LDg1NT
+k2MTQxLC03MzQ5ODc4MzgsNDgzMDE4MDk2LDE4Nzg5NTA3MTIs
+MTQ0MjAwODc4NSwxNjc4NDM2OTc2LDE0MTg4MDk4ODUsLTE5NT
+M4OTQzOTEsLTYxOTkxMzcyMSw3OTkwNjYwNSwyMDA4MjQ0OCwx
+MzAyMzU2MDcsLTEwNzAxODc0MywtNzM5OTE4MDU3LDE1MzE5OT
+ExMzgsLTEwMjczNjU5NjgsNDcxMjQ4NjEwLC0xNDkzNDE3OTk2
+XX0=
 -->
