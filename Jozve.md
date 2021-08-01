@@ -167,9 +167,32 @@ at the beginning, it's just as before, when the first fork is finished, we can s
 
 ## Section 4.4.3
 
-- [ ] Program using `wait` and counting from 1 to 100
-    1. [ ] `[FILL HERE with your source code]`
-    1. [ ] `[FILL HERE about description for the parameter of wait system call]`
+- [x] Program using `wait` and counting from 1 to 100
+    1. [x] source code
+    ```
+	#include<stdio.h>
+	#include<sys/wait.h>
+	#include<unistd.h>
+	 
+	int main()
+	{
+	    if (fork()== 0)
+	    {
+	        for (int i = 1; i <= 100; i++) {
+	            printf("%d ", i);
+	        }
+	        printf("\n");
+	    }
+	    else
+	    {
+	        wait(NULL);
+	        printf("parent: child has terminated\n");
+	    }
+	    return 0;
+	}
+    ```
+    2. [x] description for the parameter of wait system call
+    
 
 - [ ] Program showing process adoption
     1. [ ] `[FILL HERE with your source code]`
@@ -194,11 +217,11 @@ please submit all your codes in a zip file
  - [ ] `Zip File HERE`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwMTYwMzkwMywxNzE3NDM2NDg5LDEwOD
-YxNDc5NzYsMjE0MzcyMzcwOCw4NTU5NjE0MSwtNzM0OTg3ODM4
-LDQ4MzAxODA5NiwxODc4OTUwNzEyLDE0NDIwMDg3ODUsMTY3OD
-QzNjk3NiwxNDE4ODA5ODg1LC0xOTUzODk0MzkxLC02MTk5MTM3
-MjEsNzk5MDY2MDUsMjAwODI0NDgsMTMwMjM1NjA3LC0xMDcwMT
-g3NDMsLTczOTkxODA1NywxNTMxOTkxMTM4LC0xMDI3MzY1OTY4
+eyJoaXN0b3J5IjpbLTE5NjM5MTI5MTIsMTcwMTYwMzkwMywxNz
+E3NDM2NDg5LDEwODYxNDc5NzYsMjE0MzcyMzcwOCw4NTU5NjE0
+MSwtNzM0OTg3ODM4LDQ4MzAxODA5NiwxODc4OTUwNzEyLDE0ND
+IwMDg3ODUsMTY3ODQzNjk3NiwxNDE4ODA5ODg1LC0xOTUzODk0
+MzkxLC02MTk5MTM3MjEsNzk5MDY2MDUsMjAwODI0NDgsMTMwMj
+M1NjA3LC0xMDcwMTg3NDMsLTczOTkxODA1NywxNTMxOTkxMTM4
 XX0=
 -->
