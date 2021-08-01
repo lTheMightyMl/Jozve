@@ -136,7 +136,9 @@ int main() {
 
 - [x] Program for the last task of this section
     1. [x] source code
-    ```#include <stdio.h>
+    ```
+    
+#include <stdio.h>
 #include <sys/wait.h>
 #include <unistd.h>
 int main() {
@@ -157,8 +159,9 @@ int main() {
     printf("finish\n");
 	return 0;
 }
-```
-    1. [x] description of the output
+    ```
+	
+    3. [x] description of the output
 ![forkfork](https://user-images.githubusercontent.com/45392657/127773743-626604b9-4ece-4d3e-879f-24462688a602.png)
 at the beginning, it's just as before, when the first fork is finished, we can see 3 consecutive `after i fork` and the finish which is referred to the parent process. Then there is 2  consecutive `after i fork` which is referred to the second fork. the remaining messages are from the third fork which is once initialized in the parent process and once in the child process of the second fork. 
 
@@ -192,7 +195,7 @@ please submit all your codes in a zip file
  - [ ] `Zip File HERE`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0Mzg1OTI5NSwxNzE3NDM2NDg5LDEwOD
+eyJoaXN0b3J5IjpbLTMzNDE2MDAyNywxNzE3NDM2NDg5LDEwOD
 YxNDc5NzYsMjE0MzcyMzcwOCw4NTU5NjE0MSwtNzM0OTg3ODM4
 LDQ4MzAxODA5NiwxODc4OTUwNzEyLDE0NDIwMDg3ODUsMTY3OD
 QzNjk3NiwxNDE4ODA5ODg1LC0xOTUzODk0MzkxLC02MTk5MTM3
