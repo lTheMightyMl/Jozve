@@ -71,46 +71,8 @@ int main() {
 
 - [x] Program showing that memory of the parent and the child is seperate
     1. [x] source code
-    ```
-    #include <unistd.h>
-#include <sys/types.h>
-#include <errno.h>
-#include <stdio.h>
-#include <sys/wait.h>
-#include <stdlib.h>
+	 `enter code here`
 
-int main(void)
-{
-	int localVar = 0;
-	int* p = (int*) malloc(2);
-	pid_t childPID = fork();
-
-	// Putting value at allocated address
-	*p = 0;
-    if (childPID == 0) // child process
-    {
-        printf("\n Child Process Initial Value :: localVar = %d", localVar);
-        localVar++;
-
-        int c = 500;
-        printf("\n Child Process :: localVar = %d", localVar);
-        printf("\n Address of malloced mem child = %p and value is %d", p, *p);
-        printf("\n change the value pointed my malloc");
-        *p = 50;
-        printf("\n Address of malloced mem child = %p and value is %d", p, *p);
-    }
-    else // Parent process
-    {
-        printf("\n Parent process Initial Value :localVar = %d", localVar);
-        localVar = 10;
-        printf("\n Parent process :: localVar = %d", localVar);
-        printf("\n Address of malloced mem parent= %p and value is %d", p, *p);
-        *p = 100;
-        printf("\n Address of malloced mem parent= %p and value is %d", p, *p);
-    }
-
-	return 0;
-}
     ```
 
 - [ ] Program printing different messages for parent and child process
@@ -149,11 +111,11 @@ please submit all your codes in a zip file
  - [ ] `Zip File HERE`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTc2OTY4MiwyMTQzNzIzNzA4LDg1NT
-k2MTQxLC03MzQ5ODc4MzgsNDgzMDE4MDk2LDE4Nzg5NTA3MTIs
-MTQ0MjAwODc4NSwxNjc4NDM2OTc2LDE0MTg4MDk4ODUsLTE5NT
-M4OTQzOTEsLTYxOTkxMzcyMSw3OTkwNjYwNSwyMDA4MjQ0OCwx
-MzAyMzU2MDcsLTEwNzAxODc0MywtNzM5OTE4MDU3LDE1MzE5OT
-ExMzgsLTEwMjczNjU5NjgsNDcxMjQ4NjEwLC0xNDkzNDE3OTk2
-XX0=
+eyJoaXN0b3J5IjpbMzMwNjU2OTczLDIxNDM3MjM3MDgsODU1OT
+YxNDEsLTczNDk4NzgzOCw0ODMwMTgwOTYsMTg3ODk1MDcxMiwx
+NDQyMDA4Nzg1LDE2Nzg0MzY5NzYsMTQxODgwOTg4NSwtMTk1Mz
+g5NDM5MSwtNjE5OTEzNzIxLDc5OTA2NjA1LDIwMDgyNDQ4LDEz
+MDIzNTYwNywtMTA3MDE4NzQzLC03Mzk5MTgwNTcsMTUzMTk5MT
+EzOCwtMTAyNzM2NTk2OCw0NzEyNDg2MTAsLTE0OTM0MTc5OTZd
+fQ==
 -->
