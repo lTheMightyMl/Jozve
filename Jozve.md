@@ -137,28 +137,27 @@ int main() {
 - [x] Program for the last task of this section
     1. [x] source code
     ```
-    
-#include <stdio.h>
-#include <sys/wait.h>
-#include <unistd.h>
-int main() {
-	int ret = fork();
-	if (ret == 0) {
-		printf("i am the child in the ret == 0\n");
-		return 23;
-	} else {
-		int rc = 0;
-		wait(&rc);
-		printf("i am parent\n");
+	#include <stdio.h>
+	#include <sys/wait.h>
+	#include <unistd.h>
+	int main() {
+		int ret = fork();
+		if (ret == 0) {
+			printf("i am the child in the ret == 0\n");
+			return 23;
+		} else {
+			int rc = 0;
+			wait(&rc);
+			printf("i am parent\n");
+		}
+	    printf("after the first fork\n");
+	    fork();
+	    printf("after the second fork\n");
+	    fork();
+	    printf("after the third fork\n");
+	    printf("finish\n");
+		return 0;
 	}
-    printf("after the first fork\n");
-    fork();
-    printf("after the second fork\n");
-    fork();
-    printf("after the third fork\n");
-    printf("finish\n");
-	return 0;
-}
     ```
 	
     3. [x] description of the output
@@ -195,7 +194,7 @@ please submit all your codes in a zip file
  - [ ] `Zip File HERE`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzNDE2MDAyNywxNzE3NDM2NDg5LDEwOD
+eyJoaXN0b3J5IjpbMTcwMTYwMzkwMywxNzE3NDM2NDg5LDEwOD
 YxNDc5NzYsMjE0MzcyMzcwOCw4NTU5NjE0MSwtNzM0OTg3ODM4
 LDQ4MzAxODA5NiwxODc4OTUwNzEyLDE0NDIwMDg3ODUsMTY3OD
 QzNjk3NiwxNDE4ODA5ODg1LC0xOTUzODk0MzkxLC02MTk5MTM3
