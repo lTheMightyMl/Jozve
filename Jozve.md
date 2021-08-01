@@ -192,7 +192,9 @@ at the beginning, it's just as before, when the first fork is finished, we can s
 	}
     ```
     2. [x] description for the parameter of wait system call
-    `wait(0)` means wait until a state change in the child process.
+    `wait(0)` means wait until a state change in the child process. In other words, meaning wait for any child process whose process group ID
+              is equal to that of the calling process at the time of the
+              call to **waitpid**().
 
 - [ ] Program showing process adoption
     1. [ ] `[FILL HERE with your source code]`
@@ -217,11 +219,11 @@ please submit all your codes in a zip file
  - [ ] `Zip File HERE`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2Njk1MjU3MjIsLTE5NjM5MTI5MTIsMT
-cwMTYwMzkwMywxNzE3NDM2NDg5LDEwODYxNDc5NzYsMjE0Mzcy
-MzcwOCw4NTU5NjE0MSwtNzM0OTg3ODM4LDQ4MzAxODA5NiwxOD
-c4OTUwNzEyLDE0NDIwMDg3ODUsMTY3ODQzNjk3NiwxNDE4ODA5
-ODg1LC0xOTUzODk0MzkxLC02MTk5MTM3MjEsNzk5MDY2MDUsMj
-AwODI0NDgsMTMwMjM1NjA3LC0xMDcwMTg3NDMsLTczOTkxODA1
-N119
+eyJoaXN0b3J5IjpbLTcyNTA0MDQ0MywtMTk2MzkxMjkxMiwxNz
+AxNjAzOTAzLDE3MTc0MzY0ODksMTA4NjE0Nzk3NiwyMTQzNzIz
+NzA4LDg1NTk2MTQxLC03MzQ5ODc4MzgsNDgzMDE4MDk2LDE4Nz
+g5NTA3MTIsMTQ0MjAwODc4NSwxNjc4NDM2OTc2LDE0MTg4MDk4
+ODUsLTE5NTM4OTQzOTEsLTYxOTkxMzcyMSw3OTkwNjYwNSwyMD
+A4MjQ0OCwxMzAyMzU2MDcsLTEwNzAxODc0MywtNzM5OTE4MDU3
+XX0=
 -->
