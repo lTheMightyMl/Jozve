@@ -217,15 +217,21 @@ at the beginning, it's just as before, when the first fork is finished, we can s
 	    }
 	}
     ```
-    3. [ ] `[FILL HERE an image from execution of your program]`
+    3. [x] image from execution of your program    
+![sleep](https://user-images.githubusercontent.com/45392657/127775117-5271e540-945c-4bb4-b185-85e9fd7c2f2c.png)
+
 
 ### Section 4.4.4
 
-- [ ] Describe following commands/APIs:
-    1. `[FILL HERE with description about execv]`
-    1. `[FILL HERE with description about execl]`
-    1. `[FILL HERE with description about execvp]`
-    1. `[FILL HERE with description about execlp]`
+- [x] Describe following commands/APIs:
+    1. `execv` : `execv (const char *filename, char *const argv[])`
+    The filename is the file of the new process image. argv represents an array of null-terminated strings.
+    1. `execl` : `execl (const char *filename, const char *arg0, …)`
+    Same as `execv` but the arguments are provided as an individual string (separated by commas) instead of an array/vector.
+    1. `execvp` : `execvp (const char *filename, char *const argv[])`
+    Same as `execv` function but it searches standard environment variable PATH to find the filename if the filename does not contain a slash.
+    1. `execlp` : `execlp (const char *filename, const char *arg0, …)`
+    Same as `execl` function except the fact that if performs the filename search as the `execvp` function.
 
 - [ ] Program which forks and executues `ls` command
     1. [ ] `[FILL HERE with your source code]`
@@ -238,11 +244,11 @@ please submit all your codes in a zip file
  - [ ] `Zip File HERE`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyNjExNTMyOSwtOTc4NzYzMDc0LC0xOT
-YzOTEyOTEyLDE3MDE2MDM5MDMsMTcxNzQzNjQ4OSwxMDg2MTQ3
-OTc2LDIxNDM3MjM3MDgsODU1OTYxNDEsLTczNDk4NzgzOCw0OD
-MwMTgwOTYsMTg3ODk1MDcxMiwxNDQyMDA4Nzg1LDE2Nzg0MzY5
-NzYsMTQxODgwOTg4NSwtMTk1Mzg5NDM5MSwtNjE5OTEzNzIxLD
-c5OTA2NjA1LDIwMDgyNDQ4LDEzMDIzNTYwNywtMTA3MDE4NzQz
-XX0=
+eyJoaXN0b3J5IjpbLTExMTI5NzMzMzksLTYyNjExNTMyOSwtOT
+c4NzYzMDc0LC0xOTYzOTEyOTEyLDE3MDE2MDM5MDMsMTcxNzQz
+NjQ4OSwxMDg2MTQ3OTc2LDIxNDM3MjM3MDgsODU1OTYxNDEsLT
+czNDk4NzgzOCw0ODMwMTgwOTYsMTg3ODk1MDcxMiwxNDQyMDA4
+Nzg1LDE2Nzg0MzY5NzYsMTQxODgwOTg4NSwtMTk1Mzg5NDM5MS
+wtNjE5OTEzNzIxLDc5OTA2NjA1LDIwMDgyNDQ4LDEzMDIzNTYw
+N119
 -->
