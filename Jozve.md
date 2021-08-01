@@ -196,9 +196,28 @@ at the beginning, it's just as before, when the first fork is finished, we can s
            `waitpid(-1, &wstatus, 0);`
            and the parameter of `wstatus` is used for storing the status of child process.
 
-- [ ] Program showing process adoption
-    1. [ ] `[FILL HERE with your source code]`
-    1. [ ] `[FILL HERE an image from execution of your program]`
+- [x] Program showing process adoption
+    1. [x] source code
+    ```
+	#include <stdio.h>
+	#include <sys/wait.h>
+	#include <unistd.h>
+	#include <iostream>
+	 
+	int main()
+	{
+	    if (fork()== 0)
+	    {
+	        printf("the parent id of the child is: %d\n", getppid());
+	        sleep(2);
+	        printf("the parent id of the child after sleeping is: %d\n", getppid());
+	    }
+	    else{
+	        return 0;
+	    }
+	}
+    ```
+    3. [ ] `[FILL HERE an image from execution of your program]`
 
 ### Section 4.4.4
 
@@ -219,11 +238,11 @@ please submit all your codes in a zip file
  - [ ] `Zip File HERE`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3ODc2MzA3NCwtMTk2MzkxMjkxMiwxNz
-AxNjAzOTAzLDE3MTc0MzY0ODksMTA4NjE0Nzk3NiwyMTQzNzIz
-NzA4LDg1NTk2MTQxLC03MzQ5ODc4MzgsNDgzMDE4MDk2LDE4Nz
-g5NTA3MTIsMTQ0MjAwODc4NSwxNjc4NDM2OTc2LDE0MTg4MDk4
-ODUsLTE5NTM4OTQzOTEsLTYxOTkxMzcyMSw3OTkwNjYwNSwyMD
-A4MjQ0OCwxMzAyMzU2MDcsLTEwNzAxODc0MywtNzM5OTE4MDU3
+eyJoaXN0b3J5IjpbLTYyNjExNTMyOSwtOTc4NzYzMDc0LC0xOT
+YzOTEyOTEyLDE3MDE2MDM5MDMsMTcxNzQzNjQ4OSwxMDg2MTQ3
+OTc2LDIxNDM3MjM3MDgsODU1OTYxNDEsLTczNDk4NzgzOCw0OD
+MwMTgwOTYsMTg3ODk1MDcxMiwxNDQyMDA4Nzg1LDE2Nzg0MzY5
+NzYsMTQxODgwOTg4NSwtMTk1Mzg5NDM5MSwtNjE5OTEzNzIxLD
+c5OTA2NjA1LDIwMDgyNDQ4LDEzMDIzNTYwNywtMTA3MDE4NzQz
 XX0=
 -->
