@@ -233,9 +233,29 @@ at the beginning, it's just as before, when the first fork is finished, we can s
     1. `execlp` : `execlp (const char *filename, const char *arg0, …)`
     Same as `execl` function except the fact that if performs the filename search as the `execvp` function.
 
-- [ ] Program which forks and executues `ls` command
-    1. [ ] `[FILL HERE with your source code]`
-    1. [ ] `[FILL HERE an image from execution of your program]`
+- [x] Program which forks and executues `ls` command
+    1. [x] source code
+    ```
+    
+	#include <stdio.h>
+	#include <sys/wait.h>
+	#include <unistd.h>
+
+	int main()
+	{
+	    if (fork()== 0)
+	    {
+	        char *args[] = {"ls", "-g", "-h", NULL};
+	        printf("in the child\n");
+	        execvp(args[0], args);
+	    }
+	    else{
+	        return 0;
+	    }
+	    return 0;
+	}
+    ```
+    3. [ ] `[FILL HERE an image from execution of your program]`
 
 ## Source Code Submission
 
@@ -244,11 +264,11 @@ please submit all your codes in a zip file
  - [ ] `Zip File HERE`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTI5NzMzMzksLTYyNjExNTMyOSwtOT
-c4NzYzMDc0LC0xOTYzOTEyOTEyLDE3MDE2MDM5MDMsMTcxNzQz
-NjQ4OSwxMDg2MTQ3OTc2LDIxNDM3MjM3MDgsODU1OTYxNDEsLT
-czNDk4NzgzOCw0ODMwMTgwOTYsMTg3ODk1MDcxMiwxNDQyMDA4
-Nzg1LDE2Nzg0MzY5NzYsMTQxODgwOTg4NSwtMTk1Mzg5NDM5MS
-wtNjE5OTEzNzIxLDc5OTA2NjA1LDIwMDgyNDQ4LDEzMDIzNTYw
-N119
+eyJoaXN0b3J5IjpbMTA2Nzg0OTUyMiwtNjI2MTE1MzI5LC05Nz
+g3NjMwNzQsLTE5NjM5MTI5MTIsMTcwMTYwMzkwMywxNzE3NDM2
+NDg5LDEwODYxNDc5NzYsMjE0MzcyMzcwOCw4NTU5NjE0MSwtNz
+M0OTg3ODM4LDQ4MzAxODA5NiwxODc4OTUwNzEyLDE0NDIwMDg3
+ODUsMTY3ODQzNjk3NiwxNDE4ODA5ODg1LC0xOTUzODk0MzkxLC
+02MTk5MTM3MjEsNzk5MDY2MDUsMjAwODI0NDgsMTMwMjM1NjA3
+XX0=
 -->
