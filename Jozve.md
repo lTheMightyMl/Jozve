@@ -1,4 +1,5 @@
 
+
 Team Name: `97105782-97101359`
 
 Student Name of member 1: `Mostafa Ojaghi`
@@ -99,16 +100,43 @@ the results are consistent to the descriptions of the variables since the addres
 		  printf("end of heap address after malloc: %p\n", heap2);
 		}    
 	    ```
-	    
-    4. [x] `[FILL HERE with your screenshots & code of heap growth analysis]`
+	    the image of execution:
+![sbrk](https://user-images.githubusercontent.com/45392657/128448550-d8e29640-f453-46c3-98ae-c09573adb2e1.png)
+    4. [x] screenshots & code of heap growth analysis
+    screenshot of execution:
+![rec](https://user-images.githubusercontent.com/45392657/128449107-9db836a6-3f5b-4d30-9883-53af11411488.png)
+    code:
+    ```
+     #include <unistd.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+void rec(int counter)
+{
+	if (counter == 0)
+		return;
+	int i;
+	printf("address of i: %p\n", &i);
+	counter --;
+	rec(counter);
+}
+
+int
+main ()
+{
+	rec(100);
+}
+
+    ```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3MTE4MDI0MiwtMTQ0OTkxNDAzNywxMD
-Y3ODQ5NTIyLC02MjYxMTUzMjksLTk3ODc2MzA3NCwtMTk2Mzkx
-MjkxMiwxNzAxNjAzOTAzLDE3MTc0MzY0ODksMTA4NjE0Nzk3Ni
-wyMTQzNzIzNzA4LDg1NTk2MTQxLC03MzQ5ODc4MzgsNDgzMDE4
-MDk2LDE4Nzg5NTA3MTIsMTQ0MjAwODc4NSwxNjc4NDM2OTc2LD
-E0MTg4MDk4ODUsLTE5NTM4OTQzOTEsLTYxOTkxMzcyMSw3OTkw
-NjYwNV19
+eyJoaXN0b3J5IjpbMjMxMzA5NDMzLDE0NzExODAyNDIsLTE0ND
+k5MTQwMzcsMTA2Nzg0OTUyMiwtNjI2MTE1MzI5LC05Nzg3NjMw
+NzQsLTE5NjM5MTI5MTIsMTcwMTYwMzkwMywxNzE3NDM2NDg5LD
+EwODYxNDc5NzYsMjE0MzcyMzcwOCw4NTU5NjE0MSwtNzM0OTg3
+ODM4LDQ4MzAxODA5NiwxODc4OTUwNzEyLDE0NDIwMDg3ODUsMT
+Y3ODQzNjk3NiwxNDE4ODA5ODg1LC0xOTUzODk0MzkxLC02MTk5
+MTM3MjFdfQ==
 -->
