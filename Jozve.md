@@ -106,37 +106,36 @@ the results are consistent to the descriptions of the variables since the addres
     screenshot of execution:
 ![rec](https://user-images.githubusercontent.com/45392657/128449107-9db836a6-3f5b-4d30-9883-53af11411488.png)
     code:
-    ```
-     #include <unistd.h>
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
+	    ```
+	    #include <unistd.h>
+		#include <stdio.h>
+		#include <stdlib.h>
+		#include <string.h>
 
-void rec(int counter)
-{
-	if (counter == 0)
-		return;
-	int i;
-	printf("address of i: %p\n", &i);
-	counter --;
-	rec(counter);
-}
+		void rec(int counter)
+		{
+			if (counter == 0)
+				return;
+			int i;
+			printf("address of i: %p\n", &i);
+			counter --;
+			rec(counter);
+		}
 
-int
-main ()
-{
-	rec(100);
-}
-
-    ```
+		int
+		main ()
+		{
+			rec(100);
+		}
+	    ```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjMxMzA5NDMzLDE0NzExODAyNDIsLTE0ND
-k5MTQwMzcsMTA2Nzg0OTUyMiwtNjI2MTE1MzI5LC05Nzg3NjMw
-NzQsLTE5NjM5MTI5MTIsMTcwMTYwMzkwMywxNzE3NDM2NDg5LD
-EwODYxNDc5NzYsMjE0MzcyMzcwOCw4NTU5NjE0MSwtNzM0OTg3
-ODM4LDQ4MzAxODA5NiwxODc4OTUwNzEyLDE0NDIwMDg3ODUsMT
-Y3ODQzNjk3NiwxNDE4ODA5ODg1LC0xOTUzODk0MzkxLC02MTk5
-MTM3MjFdfQ==
+eyJoaXN0b3J5IjpbMTI4OTcyMjk1MSwxNDcxMTgwMjQyLC0xND
+Q5OTE0MDM3LDEwNjc4NDk1MjIsLTYyNjExNTMyOSwtOTc4NzYz
+MDc0LC0xOTYzOTEyOTEyLDE3MDE2MDM5MDMsMTcxNzQzNjQ4OS
+wxMDg2MTQ3OTc2LDIxNDM3MjM3MDgsODU1OTYxNDEsLTczNDk4
+NzgzOCw0ODMwMTgwOTYsMTg3ODk1MDcxMiwxNDQyMDA4Nzg1LD
+E2Nzg0MzY5NzYsMTQxODgwOTg4NSwtMTk1Mzg5NDM5MSwtNjE5
+OTEzNzIxXX0=
 -->
