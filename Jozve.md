@@ -308,7 +308,74 @@ Student No. of member 2: `97105782`
 ![thread-global-inc](https://user-images.githubusercontent.com/45392657/129455474-b7d8b7ff-5c62-4247-abd3-b41832d171a3.png)
 
 - [x] Forking
-    - [ ] `FILL HERE with screenshot of code`
+    - [x]  code
+	    ```
+	    #include <stdio.h>
+		#include <stdlib.h>
+		#include <pthread.h>
+		#include <unistd.h>
+		#include <errno.h>
+
+		#ifndef NUM_THREADS
+		#define NUM_THREADS 2
+		#endif
+
+		int global_param;
+
+		void kid(void* param) {
+			int local_param;
+			printf("Thread %d, pid %d, addresses: &global: %X, &local: &X \n", 
+			         pthread_self(), getpid(), &global_param , &local_param);
+			global_param++;
+			printf("In Thread %d, incremented global parameter=%d\n", 
+			          pthread_self(), global_param);
+			pthread_exit(0);
+		}
+
+
+		int main(int argc, char const *argv[]) {
+		    pthread_t threads[NUM_THREADS];
+		    int rc;
+		    long t;
+
+		    for (t = 0; t < NUM_THREADS; t++) {
+		        rc = pthread_create(&threads[t], NULL, &kid, NULL);
+		        if (rc) {
+		            printf("ERORR; return code from pthread_create() is %d\n", rc);
+		            exit(EXIT_FAILURE);
+		        }
+		    }
+
+		    int ret;
+		    for (t = 0; t < NUM_THREADS; t++) {
+		        void *retval;
+		        ret = pthread_join(threads[t], &retval);
+		    }
+		    printf("the final value of global_param: %d\n", global_param);
+		    
+		    global_param = 100;
+		    int locale_param = 50;
+		    
+		    pid_t pid = fork();
+		    
+		    if (pid ==0) {
+			printf("Thread %d, pid %d, addresses: &global: %X, &local: &X \n", 
+			         pthread_self(), getpid(), &global_param , &locale_param);
+			global_param++;
+			locale_param ++;
+			printf("In Thread %d, incremented global parameter=%d locale_param= %d\n", 
+			          pthread_self(), global_param, locale_param);
+		    }
+		    else {
+			printf("Thread %d, pid %d, addresses: &global: %X, &local: &X \n", 
+			         pthread_self(), getpid(), &global_param , &locale_param);
+			global_param++;
+			locale_param ++;
+			printf("In Thread %d, incremented global parameter=%d locale parameter= %d\n", 
+			          pthread_self(), global_param, locale_param);
+		    }
+		}
+	    ```
     - [ ] `FILL HERE with screenshot of output`
 ### Section 7.4.4
 - [ ] Passing multiple variables
@@ -316,7 +383,7 @@ Student No. of member 2: `97105782`
     - [ ] `FILL HERE with screenshot of output`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTMwMzM0MDgsNzI0MDgyOTAzLC0zNT
+eyJoaXN0b3J5IjpbLTEzNTYzNTAxNjEsNzI0MDgyOTAzLC0zNT
 IzMDc4NzAsLTEwNDY5NjAyNjAsLTQwMDA3MTczMywtMzg2NjM2
 OTg1LDkxMjA0NzEzMywxMjg5NzIyOTUxLDE0NzExODAyNDIsLT
 E0NDk5MTQwMzcsMTA2Nzg0OTUyMiwtNjI2MTE1MzI5LC05Nzg3
