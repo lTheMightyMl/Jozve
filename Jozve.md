@@ -98,7 +98,59 @@ Student No. of member 2: `97105782`
     At the beginning of the code a new thread is created with the function of `printHello` in which thread id is printed. Then the main thread wait until the new thread ends and then print its own thread id.
 
 - [x]  Shared variables
-    - [ ] `FILL HERE 
+    - [x] code
+	    ```
+	    #include <stdio.h>
+		#include <pthread.h>
+		  
+		  
+		int oslab;
+		/*thread function definition*/
+		void* threadFunction(void* args)
+		{
+		    while (1)
+		    {
+		        printf("I am threadFunction.\n");
+		    }
+		}
+
+		void *printHello(void *threadid) {
+			oslab = 100;
+		    printf("Hello from pthread ID - %lu, oslab: %d\n", pthread_self(), oslab);
+		    return NULL;
+		}
+
+		int main()
+		{
+		    /*creating thread id*/
+		    pthread_t id;
+		    int ret;
+		  
+		    /*creating thread*/
+		    ret = pthread_create (&id,NULL,printHello,NULL);
+		    if(ret==0){
+		        printf("Thread created successfully.\n");
+		    }
+		    else{
+		        printf("Thread not created.\n");
+		        return 0; /*return from main*/
+		    }
+		    
+		    void *retval;
+		    ret = pthread_join(id, &retval);
+		    if (retval == PTHREAD_CANCELED)
+		            printf("The thread was canceled - \n");
+		    else
+		    	printf("Returned value %d - \n", (int)retval);
+
+		    printf("Hello from pthread ID - %lu oslab: %d\n", pthread_self(), oslab);
+		    oslab = 200;
+		    printf("Hello from pthread ID - %lu oslab: %d\n", pthread_self(), oslab);
+		    
+		     
+		    return 0;
+		}
+	    ```
     - [ ]  `FILL HERE with screenshot of output`
     - [ ]  `FILL HERE with your descriptions (write in English or Persian) on how the variable has been changed and why`
 
@@ -128,7 +180,7 @@ Student No. of member 2: `97105782`
     - [ ] `FILL HERE with screenshot of output`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4ODIxMTM4MSwtMzg2NjM2OTg1LDkxMj
+eyJoaXN0b3J5IjpbLTQwMDA3MTczMywtMzg2NjM2OTg1LDkxMj
 A0NzEzMywxMjg5NzIyOTUxLDE0NzExODAyNDIsLTE0NDk5MTQw
 MzcsMTA2Nzg0OTUyMiwtNjI2MTE1MzI5LC05Nzg3NjMwNzQsLT
 E5NjM5MTI5MTIsMTcwMTYwMzkwMywxNzE3NDM2NDg5LDEwODYx
