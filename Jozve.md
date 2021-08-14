@@ -204,9 +204,47 @@ Student No. of member 2: `97105782`
 ### Section 7.4.2
 - [x] Multiple threads    
     - [x] code
-    ```
+	    ```
+		#include <stdio.h>
+		#include <stdlib.h>
+		#include <pthread.h>
+		#include <unistd.h>
+		#include <errno.h>
 
-	```
+		#ifndef NUM_THREADS
+		#define NUM_THREADS 9
+		#endif
+
+		void *printHello(void *threadid) {
+		    long tid;
+		    tid = (long)threadid;
+		    printf("Hello world from thread %ld, pthread ID - %lu\n", tid, pthread_self());
+		    return NULL;
+		}
+
+
+		int main(int argc, char const *argv[]) {
+		    pthread_t threads[NUM_THREADS];
+		    int rc;
+		    long t;
+
+		    for (t = 0; t < NUM_THREADS; t++) {
+		        rc = pthread_create(&threads[t], NULL, printHello, (void *)t);
+		        if (rc) {
+		            printf("ERORR; return code from pthread_create() is %d\n", rc);
+		            exit(EXIT_FAILURE);
+		        }
+		    }
+
+		    int ret;
+		    for (t = 0; t < NUM_THREADS; t++) {
+		        void *retval;
+		        ret = pthread_join(threads[t], &retval);
+		    }
+		    pthread_exit(NULL);
+		}
+
+		```
     - [x] `FILL HERE with execution of code`
 
 ### Section 7.4.3
@@ -226,7 +264,7 @@ Student No. of member 2: `97105782`
     - [ ] `FILL HERE with screenshot of output`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4NTM5ODAxNCwtMTA0Njk2MDI2MCwtND
+eyJoaXN0b3J5IjpbLTM1MjMwNzg3MCwtMTA0Njk2MDI2MCwtND
 AwMDcxNzMzLC0zODY2MzY5ODUsOTEyMDQ3MTMzLDEyODk3MjI5
 NTEsMTQ3MTE4MDI0MiwtMTQ0OTkxNDAzNywxMDY3ODQ5NTIyLC
 02MjYxMTUzMjksLTk3ODc2MzA3NCwtMTk2MzkxMjkxMiwxNzAx
