@@ -197,12 +197,17 @@ Student No. of member 2: `97105782`
 		    return 0;
 		}
 		```
-    3. [ ] `[FILL HERE with screenshot of an execution of the code for n=(mean of team's student numbers)]`
+    3. [x] screenshot of an execution of the code for n=(mean of team's student numbers = 97103570)
+![1n](https://user-images.githubusercontent.com/45392657/129455035-7f5ce713-2950-4bd1-b2fd-cc6e64ec3577.png)
+
 
 ### Section 7.4.2
-- [ ] Multiple threads    
-    - [ ] `FILL HERE with screenshot of code`
-    - [ ] `FILL HERE with execution of code`
+- [x] Multiple threads    
+    - [x] code
+    ```
+
+	```
+    - [x] `FILL HERE with execution of code`
 
 ### Section 7.4.3
 - [ ] Compiling the code
@@ -221,11 +226,11 @@ Student No. of member 2: `97105782`
     - [ ] `FILL HERE with screenshot of output`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDY5NjAyNjAsLTQwMDA3MTczMywtMz
-g2NjM2OTg1LDkxMjA0NzEzMywxMjg5NzIyOTUxLDE0NzExODAy
-NDIsLTE0NDk5MTQwMzcsMTA2Nzg0OTUyMiwtNjI2MTE1MzI5LC
-05Nzg3NjMwNzQsLTE5NjM5MTI5MTIsMTcwMTYwMzkwMywxNzE3
-NDM2NDg5LDEwODYxNDc5NzYsMjE0MzcyMzcwOCw4NTU5NjE0MS
-wtNzM0OTg3ODM4LDQ4MzAxODA5NiwxODc4OTUwNzEyLDE0NDIw
-MDg3ODVdfQ==
+eyJoaXN0b3J5IjpbLTk4NTM5ODAxNCwtMTA0Njk2MDI2MCwtND
+AwMDcxNzMzLC0zODY2MzY5ODUsOTEyMDQ3MTMzLDEyODk3MjI5
+NTEsMTQ3MTE4MDI0MiwtMTQ0OTkxNDAzNywxMDY3ODQ5NTIyLC
+02MjYxMTUzMjksLTk3ODc2MzA3NCwtMTk2MzkxMjkxMiwxNzAx
+NjAzOTAzLDE3MTc0MzY0ODksMTA4NjE0Nzk3NiwyMTQzNzIzNz
+A4LDg1NTk2MTQxLC03MzQ5ODc4MzgsNDgzMDE4MDk2LDE4Nzg5
+NTA3MTJdfQ==
 -->
