@@ -257,6 +257,52 @@ Student No. of member 2: `97105782`
 
 - [x] global_param
     - [x]  code
+	    ```
+	    #include <stdio.h>
+		#include <stdlib.h>
+		#include <pthread.h>
+		#include <unistd.h>
+		#include <errno.h>
+
+		#ifndef NUM_THREADS
+		#define NUM_THREADS 2
+		#endif
+
+		int global_param;
+
+		void kid(void* param) {
+			int local_param;
+			printf("Thread %d, pid %d, addresses: &global: %X, &local: &X \n", 
+			         pthread_self(), getpid(), &global_param , &local_param);
+			global_param++;
+			printf("In Thread %d, incremented global parameter=%d\n", 
+			          pthread_self(), global_param);
+			pthread_exit(0);
+		}
+
+
+		int main(int argc, char const *argv[]) {
+		    pthread_t threads[NUM_THREADS];
+		    int rc;
+		    long t;
+
+		    for (t = 0; t < NUM_THREADS; t++) {
+		        rc = pthread_create(&threads[t], NULL, &kid, NULL);
+		        if (rc) {
+		            printf("ERORR; return code from pthread_create() is %d\n", rc);
+		            exit(EXIT_FAILURE);
+		        }
+		    }
+
+		    int ret;
+		    for (t = 0; t < NUM_THREADS; t++) {
+		        void *retval;
+		        ret = pthread_join(threads[t], &retval);
+		    }
+		    printf("the final value of global_param: %d\n", global_param);
+		    pthread_exit(NULL);
+		}
+		```
     - [ ] `FILL HERE with screenshot of output`
 
 - [ ] Forking
@@ -268,11 +314,11 @@ Student No. of member 2: `97105782`
     - [ ] `FILL HERE with screenshot of output`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5ODc0Njg0NywtMzUyMzA3ODcwLC0xMD
-Q2OTYwMjYwLC00MDAwNzE3MzMsLTM4NjYzNjk4NSw5MTIwNDcx
-MzMsMTI4OTcyMjk1MSwxNDcxMTgwMjQyLC0xNDQ5OTE0MDM3LD
-EwNjc4NDk1MjIsLTYyNjExNTMyOSwtOTc4NzYzMDc0LC0xOTYz
-OTEyOTEyLDE3MDE2MDM5MDMsMTcxNzQzNjQ4OSwxMDg2MTQ3OT
-c2LDIxNDM3MjM3MDgsODU1OTYxNDEsLTczNDk4NzgzOCw0ODMw
-MTgwOTZdfQ==
+eyJoaXN0b3J5IjpbNzI0MDgyOTAzLC0zNTIzMDc4NzAsLTEwND
+Y5NjAyNjAsLTQwMDA3MTczMywtMzg2NjM2OTg1LDkxMjA0NzEz
+MywxMjg5NzIyOTUxLDE0NzExODAyNDIsLTE0NDk5MTQwMzcsMT
+A2Nzg0OTUyMiwtNjI2MTE1MzI5LC05Nzg3NjMwNzQsLTE5NjM5
+MTI5MTIsMTcwMTYwMzkwMywxNzE3NDM2NDg5LDEwODYxNDc5Nz
+YsMjE0MzcyMzcwOCw4NTU5NjE0MSwtNzM0OTg3ODM4LDQ4MzAx
+ODA5Nl19
 -->
