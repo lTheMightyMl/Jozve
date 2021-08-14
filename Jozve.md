@@ -1,4 +1,5 @@
 
+
 Team Name: `97101359-97105782`
 
 Student Name of member 1: `Mohammad Sepehr Pourghannad`
@@ -91,11 +92,13 @@ Student No. of member 2: `97105782`
 		    return 0;
 		}
 	    ```
-    - [ ] `FILL HERE with execution of code`
-    - [ ] `FILL HERE with your descriptions (write in English or Persian)`
+    - [x]  screenshot of execution:
+![thread-id](https://user-images.githubusercontent.com/45392657/129453116-53c4a483-5024-457e-a45a-5fa70fb77603.png)
+    - [x] your descriptions (write in English or Persian)
+    At the beginning of the code a new thread is created with the function of `printHello` in which thread id is printed. Then the main thread wait until the new thread ends and then print its own thread id.
 
-- [ ]  Shared variables
-    - [ ] `FILL HERE with screenshot of codes`
+- [x]  Shared variables
+    - [ ] `FILL HERE 
     - [ ]  `FILL HERE with screenshot of output`
     - [ ]  `FILL HERE with your descriptions (write in English or Persian) on how the variable has been changed and why`
 
@@ -125,11 +128,11 @@ Student No. of member 2: `97105782`
     - [ ] `FILL HERE with screenshot of output`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4NjYzNjk4NSw5MTIwNDcxMzMsMTI4OT
-cyMjk1MSwxNDcxMTgwMjQyLC0xNDQ5OTE0MDM3LDEwNjc4NDk1
-MjIsLTYyNjExNTMyOSwtOTc4NzYzMDc0LC0xOTYzOTEyOTEyLD
-E3MDE2MDM5MDMsMTcxNzQzNjQ4OSwxMDg2MTQ3OTc2LDIxNDM3
-MjM3MDgsODU1OTYxNDEsLTczNDk4NzgzOCw0ODMwMTgwOTYsMT
-g3ODk1MDcxMiwxNDQyMDA4Nzg1LDE2Nzg0MzY5NzYsMTQxODgw
-OTg4NV19
+eyJoaXN0b3J5IjpbMTM4ODIxMTM4MSwtMzg2NjM2OTg1LDkxMj
+A0NzEzMywxMjg5NzIyOTUxLDE0NzExODAyNDIsLTE0NDk5MTQw
+MzcsMTA2Nzg0OTUyMiwtNjI2MTE1MzI5LC05Nzg3NjMwNzQsLT
+E5NjM5MTI5MTIsMTcwMTYwMzkwMywxNzE3NDM2NDg5LDEwODYx
+NDc5NzYsMjE0MzcyMzcwOCw4NTU5NjE0MSwtNzM0OTg3ODM4LD
+Q4MzAxODA5NiwxODc4OTUwNzEyLDE0NDIwMDg3ODUsMTY3ODQz
+Njk3Nl19
 -->
