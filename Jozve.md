@@ -1,5 +1,6 @@
 
 
+
 Team Name: `97101359-97105782`
 
 Student Name of member 1: `Mohammad Sepehr Pourghannad`
@@ -151,8 +152,10 @@ Student No. of member 2: `97105782`
 		    return 0;
 		}
 	    ```
-    - [ ]  `FILL HERE with screenshot of output`
-    - [ ]  `FILL HERE with your descriptions (write in English or Persian) on how the variable has been changed and why`
+    - [x] screenshot of output
+![share-mem-thread](https://user-images.githubusercontent.com/45392657/129453357-d4c0ca25-f8d3-469b-ba40-ee1f9532fddc.png)
+    - [x]   your descriptions (write in English or Persian) on how the variable has been changed and why
+    at first the `oslab` variable is define in the outer most scope which is global and initialized to `0`. then in the new thread its value is changed to `100`, after finishing the new thread, in the main thread first we directly print the `oslab` and as it can be seen the value is `100`. This shows us that the `oslab` is share between the threads, otherwise the result would be `0`. Finally its value is changed to the `200` and again the change can be easily seen. 
 
 - [ ] Sum of 2 to n
     1. [ ] `[FILL HERE with screenshot of code]`
@@ -180,11 +183,11 @@ Student No. of member 2: `97105782`
     - [ ] `FILL HERE with screenshot of output`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwMDA3MTczMywtMzg2NjM2OTg1LDkxMj
-A0NzEzMywxMjg5NzIyOTUxLDE0NzExODAyNDIsLTE0NDk5MTQw
-MzcsMTA2Nzg0OTUyMiwtNjI2MTE1MzI5LC05Nzg3NjMwNzQsLT
-E5NjM5MTI5MTIsMTcwMTYwMzkwMywxNzE3NDM2NDg5LDEwODYx
-NDc5NzYsMjE0MzcyMzcwOCw4NTU5NjE0MSwtNzM0OTg3ODM4LD
-Q4MzAxODA5NiwxODc4OTUwNzEyLDE0NDIwMDg3ODUsMTY3ODQz
-Njk3Nl19
+eyJoaXN0b3J5IjpbLTc0MzE2OTU0MCwtNDAwMDcxNzMzLC0zOD
+Y2MzY5ODUsOTEyMDQ3MTMzLDEyODk3MjI5NTEsMTQ3MTE4MDI0
+MiwtMTQ0OTkxNDAzNywxMDY3ODQ5NTIyLC02MjYxMTUzMjksLT
+k3ODc2MzA3NCwtMTk2MzkxMjkxMiwxNzAxNjAzOTAzLDE3MTc0
+MzY0ODksMTA4NjE0Nzk3NiwyMTQzNzIzNzA4LDg1NTk2MTQxLC
+03MzQ5ODc4MzgsNDgzMDE4MDk2LDE4Nzg5NTA3MTIsMTQ0MjAw
+ODc4NV19
 -->
