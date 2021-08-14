@@ -157,9 +157,47 @@ Student No. of member 2: `97105782`
     - [x]   your descriptions (write in English or Persian) on how the variable has been changed and why
     at first the `oslab` variable is define in the outer most scope which is global and initialized to `0`. then in the new thread its value is changed to `100`, after finishing the new thread, in the main thread first we directly print the `oslab` and as it can be seen the value is `100`. This shows us that the `oslab` is share between the threads, otherwise the result would be `0`. Finally its value is changed to the `200` and again the change can be easily seen. 
 
-- [ ] Sum of 2 to n
-    1. [ ] `[FILL HERE with screenshot of code]`
-    1. [ ] `[FILL HERE with screenshot of an execution of the code for n=(mean of team's student numbers)]`
+- [x] Sum of 2 to n
+    1. [x] code
+	    ```
+		#include <stdio.h>
+		#include <pthread.h>
+		  
+		void *printHello(void *num) {
+			int number = *((int *) num);
+			int sum = 0;
+			for (int i=2; i <= number; i++) {
+				sum += i;
+			}
+			printf("the sum: %d\n", sum);
+		}
+
+		int main()
+		{
+		    int inp;
+		    scanf("%d", &inp);
+		    /*creating thread id*/
+		    pthread_t id;
+		    pthread_attr_t attr;
+		    pthread_attr_init(&attr);
+		    int ret;
+		    /*creating thread*/
+		    ret = pthread_create (&id, &attr, &printHello, &inp);
+		    if(ret==0){
+		        printf("Thread created successfully.\n");
+		    }
+		    else{
+		        printf("Thread not created.\n");
+		        return 0; /*return from main*/
+		    }
+		    
+		    void *retval;
+		    ret = pthread_join(id, &retval);     
+		    pthread_exit(0);
+		    return 0;
+		}
+		```
+    3. [ ] `[FILL HERE with screenshot of an execution of the code for n=(mean of team's student numbers)]`
 
 ### Section 7.4.2
 - [ ] Multiple threads    
@@ -183,11 +221,11 @@ Student No. of member 2: `97105782`
     - [ ] `FILL HERE with screenshot of output`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0MzE2OTU0MCwtNDAwMDcxNzMzLC0zOD
-Y2MzY5ODUsOTEyMDQ3MTMzLDEyODk3MjI5NTEsMTQ3MTE4MDI0
-MiwtMTQ0OTkxNDAzNywxMDY3ODQ5NTIyLC02MjYxMTUzMjksLT
-k3ODc2MzA3NCwtMTk2MzkxMjkxMiwxNzAxNjAzOTAzLDE3MTc0
-MzY0ODksMTA4NjE0Nzk3NiwyMTQzNzIzNzA4LDg1NTk2MTQxLC
-03MzQ5ODc4MzgsNDgzMDE4MDk2LDE4Nzg5NTA3MTIsMTQ0MjAw
-ODc4NV19
+eyJoaXN0b3J5IjpbLTEwNDY5NjAyNjAsLTQwMDA3MTczMywtMz
+g2NjM2OTg1LDkxMjA0NzEzMywxMjg5NzIyOTUxLDE0NzExODAy
+NDIsLTE0NDk5MTQwMzcsMTA2Nzg0OTUyMiwtNjI2MTE1MzI5LC
+05Nzg3NjMwNzQsLTE5NjM5MTI5MTIsMTcwMTYwMzkwMywxNzE3
+NDM2NDg5LDEwODYxNDc5NzYsMjE0MzcyMzcwOCw4NTU5NjE0MS
+wtNzM0OTg3ODM4LDQ4MzAxODA5NiwxODc4OTUwNzEyLDE0NDIw
+MDg3ODVdfQ==
 -->
