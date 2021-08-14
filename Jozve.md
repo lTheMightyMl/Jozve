@@ -2,6 +2,7 @@
 
 
 
+
 Team Name: `97101359-97105782`
 
 Student Name of member 1: `Mohammad Sepehr Pourghannad`
@@ -303,9 +304,10 @@ Student No. of member 2: `97105782`
 		    pthread_exit(NULL);
 		}
 		```
-    - [ ] `FILL HERE with screenshot of output`
+    - [x]  screenshot of output
+![thread-global-inc](https://user-images.githubusercontent.com/45392657/129455474-b7d8b7ff-5c62-4247-abd3-b41832d171a3.png)
 
-- [ ] Forking
+- [x] Forking
     - [ ] `FILL HERE with screenshot of code`
     - [ ] `FILL HERE with screenshot of output`
 ### Section 7.4.4
@@ -314,11 +316,11 @@ Student No. of member 2: `97105782`
     - [ ] `FILL HERE with screenshot of output`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzI0MDgyOTAzLC0zNTIzMDc4NzAsLTEwND
-Y5NjAyNjAsLTQwMDA3MTczMywtMzg2NjM2OTg1LDkxMjA0NzEz
-MywxMjg5NzIyOTUxLDE0NzExODAyNDIsLTE0NDk5MTQwMzcsMT
-A2Nzg0OTUyMiwtNjI2MTE1MzI5LC05Nzg3NjMwNzQsLTE5NjM5
-MTI5MTIsMTcwMTYwMzkwMywxNzE3NDM2NDg5LDEwODYxNDc5Nz
-YsMjE0MzcyMzcwOCw4NTU5NjE0MSwtNzM0OTg3ODM4LDQ4MzAx
-ODA5Nl19
+eyJoaXN0b3J5IjpbLTE2OTMwMzM0MDgsNzI0MDgyOTAzLC0zNT
+IzMDc4NzAsLTEwNDY5NjAyNjAsLTQwMDA3MTczMywtMzg2NjM2
+OTg1LDkxMjA0NzEzMywxMjg5NzIyOTUxLDE0NzExODAyNDIsLT
+E0NDk5MTQwMzcsMTA2Nzg0OTUyMiwtNjI2MTE1MzI5LC05Nzg3
+NjMwNzQsLTE5NjM5MTI5MTIsMTcwMTYwMzkwMywxNzE3NDM2ND
+g5LDEwODYxNDc5NzYsMjE0MzcyMzcwOCw4NTU5NjE0MSwtNzM0
+OTg3ODM4XX0=
 -->
